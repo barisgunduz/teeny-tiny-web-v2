@@ -320,5 +320,1281 @@ export const roadmaps: Roadmap[] = [
         status: "advanced"
       }
     ]
-  }
+  },
+  {
+    id: "roadmap-mobile-developer",
+    title: "Mobile Developer",
+    slug: "mobile-developer",
+    description: "Build a clear path through native concepts, app architecture, and mobile shipping workflows.",
+    steps: [
+      {
+        id: "mobile-developer-1",
+        title: "Roadmap outline in progress",
+        description: "This roadmap has been added to the library and a full step-by-step path will be published here soon.",
+        resources: ["https://example.com/roadmaps/mobile-developer"],
+        status: "beginner"
+      },
+      {
+        id: "mobile-developer-2",
+        title: "Detailed learning path coming soon",
+        description: "Future updates will expand this placeholder into a complete sequence with curated resources and progression stages.",
+        resources: ["https://example.com/roadmaps/mobile-developer/resources"],
+        status: "intermediate"
+      }
+    ]
+  },
+  {
+    id: "roadmap-data-engineering",
+    title: "Data Engineering",
+    slug: "data-engineering",
+    description: "Learn pipelines, warehousing, orchestration, and the systems behind production data workflows.",
+    steps: [
+      {
+        id: "data-engineering-1",
+        title: "Roadmap outline in progress",
+        description: "This roadmap has been added to the library and a full step-by-step path will be published here soon.",
+        resources: ["https://example.com/roadmaps/data-engineering"],
+        status: "beginner"
+      },
+      {
+        id: "data-engineering-2",
+        title: "Detailed learning path coming soon",
+        description: "Future updates will expand this placeholder into a complete sequence with curated resources and progression stages.",
+        resources: ["https://example.com/roadmaps/data-engineering/resources"],
+        status: "intermediate"
+      }
+    ]
+  },
+  {
+    id: "roadmap-cybersecurity",
+    title: "Cybersecurity",
+    slug: "cybersecurity",
+    description: "Work through modern security concepts, defensive practices, and foundational cyber workflows.",
+    steps: [
+      {
+        id: "cybersecurity-1",
+        title: "Roadmap outline in progress",
+        description: "This roadmap has been added to the library and a full step-by-step path will be published here soon.",
+        resources: ["https://example.com/roadmaps/cybersecurity"],
+        status: "beginner"
+      },
+      {
+        id: "cybersecurity-2",
+        title: "Detailed learning path coming soon",
+        description: "Future updates will expand this placeholder into a complete sequence with curated resources and progression stages.",
+        resources: ["https://example.com/roadmaps/cybersecurity/resources"],
+        status: "intermediate"
+      }
+    ]
+  },
+  {
+    id: "roadmap-react",
+    title: "React",
+    slug: "react",
+    description: "Learn React from component basics through state, rendering, testing, and production patterns.",
+    steps: [
+      {
+        id: "react-1",
+        title: "Roadmap outline in progress",
+        description: "This roadmap has been added to the library and a full step-by-step path will be published here soon.",
+        resources: ["https://example.com/roadmaps/react"],
+        status: "beginner"
+      },
+      {
+        id: "react-2",
+        title: "Detailed learning path coming soon",
+        description: "Future updates will expand this placeholder into a complete sequence with curated resources and progression stages.",
+        resources: ["https://example.com/roadmaps/react/resources"],
+        status: "intermediate"
+      }
+    ]
+  },
+  {
+    id: "roadmap-nextjs",
+    title: "Next.js",
+    slug: "nextjs",
+    description: "Follow a focused learning path for routing, data fetching, rendering, and shipping apps with Next.js.",
+    steps: [
+      {
+        id: "nextjs-1",
+        title: "Roadmap outline in progress",
+        description: "This roadmap has been added to the library and a full step-by-step path will be published here soon.",
+        resources: ["https://example.com/roadmaps/nextjs"],
+        status: "beginner"
+      },
+      {
+        id: "nextjs-2",
+        title: "Detailed learning path coming soon",
+        description: "Future updates will expand this placeholder into a complete sequence with curated resources and progression stages.",
+        resources: ["https://example.com/roadmaps/nextjs/resources"],
+        status: "intermediate"
+      }
+    ]
+  },
+  {
+    id: "roadmap-vue",
+    title: "Vue",
+    slug: "vue",
+    description: "Build up from Vue fundamentals to components, state, routing, and app architecture.",
+    steps: [
+      {
+        id: "vue-1",
+        title: "Roadmap outline in progress",
+        description: "This roadmap has been added to the library and a full step-by-step path will be published here soon.",
+        resources: ["https://example.com/roadmaps/vue"],
+        status: "beginner"
+      },
+      {
+        id: "vue-2",
+        title: "Detailed learning path coming soon",
+        description: "Future updates will expand this placeholder into a complete sequence with curated resources and progression stages.",
+        resources: ["https://example.com/roadmaps/vue/resources"],
+        status: "intermediate"
+      }
+    ]
+  },
+  {
+    id: "roadmap-angular",
+    title: "Angular",
+    slug: "angular",
+    description: "Learn Angular modules, components, services, forms, and enterprise app structure.",
+    steps: [
+      {
+        id: "angular-1",
+        title: "Roadmap outline in progress",
+        description: "This roadmap has been added to the library and a full step-by-step path will be published here soon.",
+        resources: ["https://example.com/roadmaps/angular"],
+        status: "beginner"
+      },
+      {
+        id: "angular-2",
+        title: "Detailed learning path coming soon",
+        description: "Future updates will expand this placeholder into a complete sequence with curated resources and progression stages.",
+        resources: ["https://example.com/roadmaps/angular/resources"],
+        status: "intermediate"
+      }
+    ]
+  },
+  {
+    id: "roadmap-react-native",
+    title: "React Native",
+    slug: "react-native",
+    description: "Learn cross-platform mobile development with React Native from setup to shipping.",
+    steps: [
+      {
+        id: "react-native-1",
+        title: "Roadmap outline in progress",
+        description: "This roadmap has been added to the library and a full step-by-step path will be published here soon.",
+        resources: ["https://example.com/roadmaps/react-native"],
+        status: "beginner"
+      },
+      {
+        id: "react-native-2",
+        title: "Detailed learning path coming soon",
+        description: "Future updates will expand this placeholder into a complete sequence with curated resources and progression stages.",
+        resources: ["https://example.com/roadmaps/react-native/resources"],
+        status: "intermediate"
+      }
+    ]
+  },
+  {
+    id: "roadmap-flutter",
+    title: "Flutter",
+    slug: "flutter",
+    description: "Build a roadmap for widgets, app layout, state handling, and Flutter delivery.",
+    steps: [
+      {
+        id: "flutter-1",
+        title: "Roadmap outline in progress",
+        description: "This roadmap has been added to the library and a full step-by-step path will be published here soon.",
+        resources: ["https://example.com/roadmaps/flutter"],
+        status: "beginner"
+      },
+      {
+        id: "flutter-2",
+        title: "Detailed learning path coming soon",
+        description: "Future updates will expand this placeholder into a complete sequence with curated resources and progression stages.",
+        resources: ["https://example.com/roadmaps/flutter/resources"],
+        status: "intermediate"
+      }
+    ]
+  },
+  {
+    id: "roadmap-api-developer",
+    title: "API Developer",
+    slug: "api-developer",
+    description: "Focus on API design, contracts, auth, versioning, observability, and reliability.",
+    steps: [
+      {
+        id: "api-developer-1",
+        title: "Roadmap outline in progress",
+        description: "This roadmap has been added to the library and a full step-by-step path will be published here soon.",
+        resources: ["https://example.com/roadmaps/api-developer"],
+        status: "beginner"
+      },
+      {
+        id: "api-developer-2",
+        title: "Detailed learning path coming soon",
+        description: "Future updates will expand this placeholder into a complete sequence with curated resources and progression stages.",
+        resources: ["https://example.com/roadmaps/api-developer/resources"],
+        status: "intermediate"
+      }
+    ]
+  },
+  {
+    id: "roadmap-nodejs-backend",
+    title: "Node.js Backend",
+    slug: "nodejs-backend",
+    description: "Learn backend development with Node.js, services, APIs, data access, and deployment.",
+    steps: [
+      {
+        id: "nodejs-backend-1",
+        title: "Roadmap outline in progress",
+        description: "This roadmap has been added to the library and a full step-by-step path will be published here soon.",
+        resources: ["https://example.com/roadmaps/nodejs-backend"],
+        status: "beginner"
+      },
+      {
+        id: "nodejs-backend-2",
+        title: "Detailed learning path coming soon",
+        description: "Future updates will expand this placeholder into a complete sequence with curated resources and progression stages.",
+        resources: ["https://example.com/roadmaps/nodejs-backend/resources"],
+        status: "intermediate"
+      }
+    ]
+  },
+  {
+    id: "roadmap-python-backend",
+    title: "Python Backend",
+    slug: "python-backend",
+    description: "Build Python backend skills across APIs, services, databases, and async workflows.",
+    steps: [
+      {
+        id: "python-backend-1",
+        title: "Roadmap outline in progress",
+        description: "This roadmap has been added to the library and a full step-by-step path will be published here soon.",
+        resources: ["https://example.com/roadmaps/python-backend"],
+        status: "beginner"
+      },
+      {
+        id: "python-backend-2",
+        title: "Detailed learning path coming soon",
+        description: "Future updates will expand this placeholder into a complete sequence with curated resources and progression stages.",
+        resources: ["https://example.com/roadmaps/python-backend/resources"],
+        status: "intermediate"
+      }
+    ]
+  },
+  {
+    id: "roadmap-java-backend",
+    title: "Java Backend",
+    slug: "java-backend",
+    description: "Follow a backend path for Java services, frameworks, APIs, and production architecture.",
+    steps: [
+      {
+        id: "java-backend-1",
+        title: "Roadmap outline in progress",
+        description: "This roadmap has been added to the library and a full step-by-step path will be published here soon.",
+        resources: ["https://example.com/roadmaps/java-backend"],
+        status: "beginner"
+      },
+      {
+        id: "java-backend-2",
+        title: "Detailed learning path coming soon",
+        description: "Future updates will expand this placeholder into a complete sequence with curated resources and progression stages.",
+        resources: ["https://example.com/roadmaps/java-backend/resources"],
+        status: "intermediate"
+      }
+    ]
+  },
+  {
+    id: "roadmap-dotnet-backend",
+    title: ".NET Backend",
+    slug: "dotnet-backend",
+    description: "Learn .NET backend patterns for APIs, data access, architecture, and deployment.",
+    steps: [
+      {
+        id: "dotnet-backend-1",
+        title: "Roadmap outline in progress",
+        description: "This roadmap has been added to the library and a full step-by-step path will be published here soon.",
+        resources: ["https://example.com/roadmaps/dotnet-backend"],
+        status: "beginner"
+      },
+      {
+        id: "dotnet-backend-2",
+        title: "Detailed learning path coming soon",
+        description: "Future updates will expand this placeholder into a complete sequence with curated resources and progression stages.",
+        resources: ["https://example.com/roadmaps/dotnet-backend/resources"],
+        status: "intermediate"
+      }
+    ]
+  },
+  {
+    id: "roadmap-go-backend",
+    title: "Go Backend",
+    slug: "go-backend",
+    description: "Build backend systems in Go with services, concurrency, APIs, and production tooling.",
+    steps: [
+      {
+        id: "go-backend-1",
+        title: "Roadmap outline in progress",
+        description: "This roadmap has been added to the library and a full step-by-step path will be published here soon.",
+        resources: ["https://example.com/roadmaps/go-backend"],
+        status: "beginner"
+      },
+      {
+        id: "go-backend-2",
+        title: "Detailed learning path coming soon",
+        description: "Future updates will expand this placeholder into a complete sequence with curated resources and progression stages.",
+        resources: ["https://example.com/roadmaps/go-backend/resources"],
+        status: "intermediate"
+      }
+    ]
+  },
+  {
+    id: "roadmap-microservices",
+    title: "Microservices",
+    slug: "microservices",
+    description: "Understand service boundaries, messaging, contracts, resilience, and distributed systems tradeoffs.",
+    steps: [
+      {
+        id: "microservices-1",
+        title: "Roadmap outline in progress",
+        description: "This roadmap has been added to the library and a full step-by-step path will be published here soon.",
+        resources: ["https://example.com/roadmaps/microservices"],
+        status: "beginner"
+      },
+      {
+        id: "microservices-2",
+        title: "Detailed learning path coming soon",
+        description: "Future updates will expand this placeholder into a complete sequence with curated resources and progression stages.",
+        resources: ["https://example.com/roadmaps/microservices/resources"],
+        status: "intermediate"
+      }
+    ]
+  },
+  {
+    id: "roadmap-database-engineer",
+    title: "Database Engineer",
+    slug: "database-engineer",
+    description: "Focus on schema design, performance, indexing, replication, and database operations.",
+    steps: [
+      {
+        id: "database-engineer-1",
+        title: "Roadmap outline in progress",
+        description: "This roadmap has been added to the library and a full step-by-step path will be published here soon.",
+        resources: ["https://example.com/roadmaps/database-engineer"],
+        status: "beginner"
+      },
+      {
+        id: "database-engineer-2",
+        title: "Detailed learning path coming soon",
+        description: "Future updates will expand this placeholder into a complete sequence with curated resources and progression stages.",
+        resources: ["https://example.com/roadmaps/database-engineer/resources"],
+        status: "intermediate"
+      }
+    ]
+  },
+  {
+    id: "roadmap-software-architect",
+    title: "Software Architect",
+    slug: "software-architect",
+    description: "Study systems thinking, tradeoffs, patterns, reliability, and large-scale technical design.",
+    steps: [
+      {
+        id: "software-architect-1",
+        title: "Roadmap outline in progress",
+        description: "This roadmap has been added to the library and a full step-by-step path will be published here soon.",
+        resources: ["https://example.com/roadmaps/software-architect"],
+        status: "beginner"
+      },
+      {
+        id: "software-architect-2",
+        title: "Detailed learning path coming soon",
+        description: "Future updates will expand this placeholder into a complete sequence with curated resources and progression stages.",
+        resources: ["https://example.com/roadmaps/software-architect/resources"],
+        status: "intermediate"
+      }
+    ]
+  },
+  {
+    id: "roadmap-kubernetes",
+    title: "Kubernetes",
+    slug: "kubernetes",
+    description: "Learn Kubernetes concepts, workloads, networking, storage, operations, and production readiness.",
+    steps: [
+      {
+        id: "kubernetes-1",
+        title: "Roadmap outline in progress",
+        description: "This roadmap has been added to the library and a full step-by-step path will be published here soon.",
+        resources: ["https://example.com/roadmaps/kubernetes"],
+        status: "beginner"
+      },
+      {
+        id: "kubernetes-2",
+        title: "Detailed learning path coming soon",
+        description: "Future updates will expand this placeholder into a complete sequence with curated resources and progression stages.",
+        resources: ["https://example.com/roadmaps/kubernetes/resources"],
+        status: "intermediate"
+      }
+    ]
+  },
+  {
+    id: "roadmap-aws",
+    title: "AWS",
+    slug: "aws",
+    description: "Build cloud foundations across AWS services, networking, IAM, deployment, and operations.",
+    steps: [
+      {
+        id: "aws-1",
+        title: "Roadmap outline in progress",
+        description: "This roadmap has been added to the library and a full step-by-step path will be published here soon.",
+        resources: ["https://example.com/roadmaps/aws"],
+        status: "beginner"
+      },
+      {
+        id: "aws-2",
+        title: "Detailed learning path coming soon",
+        description: "Future updates will expand this placeholder into a complete sequence with curated resources and progression stages.",
+        resources: ["https://example.com/roadmaps/aws/resources"],
+        status: "intermediate"
+      }
+    ]
+  },
+  {
+    id: "roadmap-azure",
+    title: "Azure",
+    slug: "azure",
+    description: "Learn Azure services, identity, deployment patterns, and platform operations.",
+    steps: [
+      {
+        id: "azure-1",
+        title: "Roadmap outline in progress",
+        description: "This roadmap has been added to the library and a full step-by-step path will be published here soon.",
+        resources: ["https://example.com/roadmaps/azure"],
+        status: "beginner"
+      },
+      {
+        id: "azure-2",
+        title: "Detailed learning path coming soon",
+        description: "Future updates will expand this placeholder into a complete sequence with curated resources and progression stages.",
+        resources: ["https://example.com/roadmaps/azure/resources"],
+        status: "intermediate"
+      }
+    ]
+  },
+  {
+    id: "roadmap-gcp",
+    title: "GCP",
+    slug: "gcp",
+    description: "Follow a Google Cloud roadmap across compute, storage, networking, and managed services.",
+    steps: [
+      {
+        id: "gcp-1",
+        title: "Roadmap outline in progress",
+        description: "This roadmap has been added to the library and a full step-by-step path will be published here soon.",
+        resources: ["https://example.com/roadmaps/gcp"],
+        status: "beginner"
+      },
+      {
+        id: "gcp-2",
+        title: "Detailed learning path coming soon",
+        description: "Future updates will expand this placeholder into a complete sequence with curated resources and progression stages.",
+        resources: ["https://example.com/roadmaps/gcp/resources"],
+        status: "intermediate"
+      }
+    ]
+  },
+  {
+    id: "roadmap-sre",
+    title: "SRE",
+    slug: "sre",
+    description: "Focus on reliability, observability, incident response, SLIs, SLOs, and production health.",
+    steps: [
+      {
+        id: "sre-1",
+        title: "Roadmap outline in progress",
+        description: "This roadmap has been added to the library and a full step-by-step path will be published here soon.",
+        resources: ["https://example.com/roadmaps/sre"],
+        status: "beginner"
+      },
+      {
+        id: "sre-2",
+        title: "Detailed learning path coming soon",
+        description: "Future updates will expand this placeholder into a complete sequence with curated resources and progression stages.",
+        resources: ["https://example.com/roadmaps/sre/resources"],
+        status: "intermediate"
+      }
+    ]
+  },
+  {
+    id: "roadmap-platform-engineer",
+    title: "Platform Engineer",
+    slug: "platform-engineer",
+    description: "Build internal platform skills for developer experience, infrastructure, and service enablement.",
+    steps: [
+      {
+        id: "platform-engineer-1",
+        title: "Roadmap outline in progress",
+        description: "This roadmap has been added to the library and a full step-by-step path will be published here soon.",
+        resources: ["https://example.com/roadmaps/platform-engineer"],
+        status: "beginner"
+      },
+      {
+        id: "platform-engineer-2",
+        title: "Detailed learning path coming soon",
+        description: "Future updates will expand this placeholder into a complete sequence with curated resources and progression stages.",
+        resources: ["https://example.com/roadmaps/platform-engineer/resources"],
+        status: "intermediate"
+      }
+    ]
+  },
+  {
+    id: "roadmap-cloud-security",
+    title: "Cloud Security",
+    slug: "cloud-security",
+    description: "Learn cloud-native security concepts across IAM, networks, secrets, and posture management.",
+    steps: [
+      {
+        id: "cloud-security-1",
+        title: "Roadmap outline in progress",
+        description: "This roadmap has been added to the library and a full step-by-step path will be published here soon.",
+        resources: ["https://example.com/roadmaps/cloud-security"],
+        status: "beginner"
+      },
+      {
+        id: "cloud-security-2",
+        title: "Detailed learning path coming soon",
+        description: "Future updates will expand this placeholder into a complete sequence with curated resources and progression stages.",
+        resources: ["https://example.com/roadmaps/cloud-security/resources"],
+        status: "intermediate"
+      }
+    ]
+  },
+  {
+    id: "roadmap-networking-engineer",
+    title: "Networking Engineer",
+    slug: "networking-engineer",
+    description: "Develop networking fundamentals across routing, switching, addressing, DNS, and troubleshooting.",
+    steps: [
+      {
+        id: "networking-engineer-1",
+        title: "Roadmap outline in progress",
+        description: "This roadmap has been added to the library and a full step-by-step path will be published here soon.",
+        resources: ["https://example.com/roadmaps/networking-engineer"],
+        status: "beginner"
+      },
+      {
+        id: "networking-engineer-2",
+        title: "Detailed learning path coming soon",
+        description: "Future updates will expand this placeholder into a complete sequence with curated resources and progression stages.",
+        resources: ["https://example.com/roadmaps/networking-engineer/resources"],
+        status: "intermediate"
+      }
+    ]
+  },
+  {
+    id: "roadmap-linux-administrator",
+    title: "Linux Administrator",
+    slug: "linux-administrator",
+    description: "Learn Linux administration, services, permissions, logs, networking, and system operations.",
+    steps: [
+      {
+        id: "linux-administrator-1",
+        title: "Roadmap outline in progress",
+        description: "This roadmap has been added to the library and a full step-by-step path will be published here soon.",
+        resources: ["https://example.com/roadmaps/linux-administrator"],
+        status: "beginner"
+      },
+      {
+        id: "linux-administrator-2",
+        title: "Detailed learning path coming soon",
+        description: "Future updates will expand this placeholder into a complete sequence with curated resources and progression stages.",
+        resources: ["https://example.com/roadmaps/linux-administrator/resources"],
+        status: "intermediate"
+      }
+    ]
+  },
+  {
+    id: "roadmap-data-analyst",
+    title: "Data Analyst",
+    slug: "data-analyst",
+    description: "Build analysis skills around SQL, spreadsheets, dashboards, metrics, and storytelling.",
+    steps: [
+      {
+        id: "data-analyst-1",
+        title: "Roadmap outline in progress",
+        description: "This roadmap has been added to the library and a full step-by-step path will be published here soon.",
+        resources: ["https://example.com/roadmaps/data-analyst"],
+        status: "beginner"
+      },
+      {
+        id: "data-analyst-2",
+        title: "Detailed learning path coming soon",
+        description: "Future updates will expand this placeholder into a complete sequence with curated resources and progression stages.",
+        resources: ["https://example.com/roadmaps/data-analyst/resources"],
+        status: "intermediate"
+      }
+    ]
+  },
+  {
+    id: "roadmap-data-scientist",
+    title: "Data Scientist",
+    slug: "data-scientist",
+    description: "Learn statistics, modeling, experimentation, feature work, and practical data science workflows.",
+    steps: [
+      {
+        id: "data-scientist-1",
+        title: "Roadmap outline in progress",
+        description: "This roadmap has been added to the library and a full step-by-step path will be published here soon.",
+        resources: ["https://example.com/roadmaps/data-scientist"],
+        status: "beginner"
+      },
+      {
+        id: "data-scientist-2",
+        title: "Detailed learning path coming soon",
+        description: "Future updates will expand this placeholder into a complete sequence with curated resources and progression stages.",
+        resources: ["https://example.com/roadmaps/data-scientist/resources"],
+        status: "intermediate"
+      }
+    ]
+  },
+  {
+    id: "roadmap-machine-learning-engineer",
+    title: "Machine Learning Engineer",
+    slug: "machine-learning-engineer",
+    description: "Focus on ML systems, training pipelines, serving, evaluation, and production model workflows.",
+    steps: [
+      {
+        id: "machine-learning-engineer-1",
+        title: "Roadmap outline in progress",
+        description: "This roadmap has been added to the library and a full step-by-step path will be published here soon.",
+        resources: ["https://example.com/roadmaps/machine-learning-engineer"],
+        status: "beginner"
+      },
+      {
+        id: "machine-learning-engineer-2",
+        title: "Detailed learning path coming soon",
+        description: "Future updates will expand this placeholder into a complete sequence with curated resources and progression stages.",
+        resources: ["https://example.com/roadmaps/machine-learning-engineer/resources"],
+        status: "intermediate"
+      }
+    ]
+  },
+  {
+    id: "roadmap-mlops",
+    title: "MLOps",
+    slug: "mlops",
+    description: "Learn how to operate machine learning systems with automation, tracking, deployment, and monitoring.",
+    steps: [
+      {
+        id: "mlops-1",
+        title: "Roadmap outline in progress",
+        description: "This roadmap has been added to the library and a full step-by-step path will be published here soon.",
+        resources: ["https://example.com/roadmaps/mlops"],
+        status: "beginner"
+      },
+      {
+        id: "mlops-2",
+        title: "Detailed learning path coming soon",
+        description: "Future updates will expand this placeholder into a complete sequence with curated resources and progression stages.",
+        resources: ["https://example.com/roadmaps/mlops/resources"],
+        status: "intermediate"
+      }
+    ]
+  },
+  {
+    id: "roadmap-llm-engineer",
+    title: "LLM Engineer",
+    slug: "llm-engineer",
+    description: "Build a roadmap for prompts, retrieval, agents, evaluation, and LLM-powered product systems.",
+    steps: [
+      {
+        id: "llm-engineer-1",
+        title: "Roadmap outline in progress",
+        description: "This roadmap has been added to the library and a full step-by-step path will be published here soon.",
+        resources: ["https://example.com/roadmaps/llm-engineer"],
+        status: "beginner"
+      },
+      {
+        id: "llm-engineer-2",
+        title: "Detailed learning path coming soon",
+        description: "Future updates will expand this placeholder into a complete sequence with curated resources and progression stages.",
+        resources: ["https://example.com/roadmaps/llm-engineer/resources"],
+        status: "intermediate"
+      }
+    ]
+  },
+  {
+    id: "roadmap-prompt-engineer",
+    title: "Prompt Engineer",
+    slug: "prompt-engineer",
+    description: "Learn prompt design, examples, role framing, evaluation, and workflow integration.",
+    steps: [
+      {
+        id: "prompt-engineer-1",
+        title: "Roadmap outline in progress",
+        description: "This roadmap has been added to the library and a full step-by-step path will be published here soon.",
+        resources: ["https://example.com/roadmaps/prompt-engineer"],
+        status: "beginner"
+      },
+      {
+        id: "prompt-engineer-2",
+        title: "Detailed learning path coming soon",
+        description: "Future updates will expand this placeholder into a complete sequence with curated resources and progression stages.",
+        resources: ["https://example.com/roadmaps/prompt-engineer/resources"],
+        status: "intermediate"
+      }
+    ]
+  },
+  {
+    id: "roadmap-ai-product-builder",
+    title: "AI Product Builder",
+    slug: "ai-product-builder",
+    description: "Focus on shipping AI products by combining UX, orchestration, prompts, and product thinking.",
+    steps: [
+      {
+        id: "ai-product-builder-1",
+        title: "Roadmap outline in progress",
+        description: "This roadmap has been added to the library and a full step-by-step path will be published here soon.",
+        resources: ["https://example.com/roadmaps/ai-product-builder"],
+        status: "beginner"
+      },
+      {
+        id: "ai-product-builder-2",
+        title: "Detailed learning path coming soon",
+        description: "Future updates will expand this placeholder into a complete sequence with curated resources and progression stages.",
+        resources: ["https://example.com/roadmaps/ai-product-builder/resources"],
+        status: "intermediate"
+      }
+    ]
+  },
+  {
+    id: "roadmap-cybersecurity-beginner",
+    title: "Cybersecurity Beginner",
+    slug: "cybersecurity-beginner",
+    description: "Start learning cybersecurity with a beginner-first path through core concepts and safety practices.",
+    steps: [
+      {
+        id: "cybersecurity-beginner-1",
+        title: "Roadmap outline in progress",
+        description: "This roadmap has been added to the library and a full step-by-step path will be published here soon.",
+        resources: ["https://example.com/roadmaps/cybersecurity-beginner"],
+        status: "beginner"
+      },
+      {
+        id: "cybersecurity-beginner-2",
+        title: "Detailed learning path coming soon",
+        description: "Future updates will expand this placeholder into a complete sequence with curated resources and progression stages.",
+        resources: ["https://example.com/roadmaps/cybersecurity-beginner/resources"],
+        status: "intermediate"
+      }
+    ]
+  },
+  {
+    id: "roadmap-web-application-security",
+    title: "Web Application Security",
+    slug: "web-application-security",
+    description: "Learn to secure web apps through auth, input safety, headers, abuse prevention, and testing.",
+    steps: [
+      {
+        id: "web-application-security-1",
+        title: "Roadmap outline in progress",
+        description: "This roadmap has been added to the library and a full step-by-step path will be published here soon.",
+        resources: ["https://example.com/roadmaps/web-application-security"],
+        status: "beginner"
+      },
+      {
+        id: "web-application-security-2",
+        title: "Detailed learning path coming soon",
+        description: "Future updates will expand this placeholder into a complete sequence with curated resources and progression stages.",
+        resources: ["https://example.com/roadmaps/web-application-security/resources"],
+        status: "intermediate"
+      }
+    ]
+  },
+  {
+    id: "roadmap-penetration-testing",
+    title: "Penetration Testing",
+    slug: "penetration-testing",
+    description: "Build offensive security knowledge around recon, enumeration, exploitation, and reporting.",
+    steps: [
+      {
+        id: "penetration-testing-1",
+        title: "Roadmap outline in progress",
+        description: "This roadmap has been added to the library and a full step-by-step path will be published here soon.",
+        resources: ["https://example.com/roadmaps/penetration-testing"],
+        status: "beginner"
+      },
+      {
+        id: "penetration-testing-2",
+        title: "Detailed learning path coming soon",
+        description: "Future updates will expand this placeholder into a complete sequence with curated resources and progression stages.",
+        resources: ["https://example.com/roadmaps/penetration-testing/resources"],
+        status: "intermediate"
+      }
+    ]
+  },
+  {
+    id: "roadmap-blue-team",
+    title: "Blue Team",
+    slug: "blue-team",
+    description: "Focus on defensive security workflows, monitoring, detection, and operational response.",
+    steps: [
+      {
+        id: "blue-team-1",
+        title: "Roadmap outline in progress",
+        description: "This roadmap has been added to the library and a full step-by-step path will be published here soon.",
+        resources: ["https://example.com/roadmaps/blue-team"],
+        status: "beginner"
+      },
+      {
+        id: "blue-team-2",
+        title: "Detailed learning path coming soon",
+        description: "Future updates will expand this placeholder into a complete sequence with curated resources and progression stages.",
+        resources: ["https://example.com/roadmaps/blue-team/resources"],
+        status: "intermediate"
+      }
+    ]
+  },
+  {
+    id: "roadmap-soc-analyst",
+    title: "SOC Analyst",
+    slug: "soc-analyst",
+    description: "Learn alert triage, incident investigation, logging, and detection workflows for SOC work.",
+    steps: [
+      {
+        id: "soc-analyst-1",
+        title: "Roadmap outline in progress",
+        description: "This roadmap has been added to the library and a full step-by-step path will be published here soon.",
+        resources: ["https://example.com/roadmaps/soc-analyst"],
+        status: "beginner"
+      },
+      {
+        id: "soc-analyst-2",
+        title: "Detailed learning path coming soon",
+        description: "Future updates will expand this placeholder into a complete sequence with curated resources and progression stages.",
+        resources: ["https://example.com/roadmaps/soc-analyst/resources"],
+        status: "intermediate"
+      }
+    ]
+  },
+  {
+    id: "roadmap-security-engineer",
+    title: "Security Engineer",
+    slug: "security-engineer",
+    description: "Build toward security engineering with systems, appsec, cloud, and automation practices.",
+    steps: [
+      {
+        id: "security-engineer-1",
+        title: "Roadmap outline in progress",
+        description: "This roadmap has been added to the library and a full step-by-step path will be published here soon.",
+        resources: ["https://example.com/roadmaps/security-engineer"],
+        status: "beginner"
+      },
+      {
+        id: "security-engineer-2",
+        title: "Detailed learning path coming soon",
+        description: "Future updates will expand this placeholder into a complete sequence with curated resources and progression stages.",
+        resources: ["https://example.com/roadmaps/security-engineer/resources"],
+        status: "intermediate"
+      }
+    ]
+  },
+  {
+    id: "roadmap-iam",
+    title: "IAM",
+    slug: "iam",
+    description: "Learn identity and access management concepts, policies, federation, roles, and governance.",
+    steps: [
+      {
+        id: "iam-1",
+        title: "Roadmap outline in progress",
+        description: "This roadmap has been added to the library and a full step-by-step path will be published here soon.",
+        resources: ["https://example.com/roadmaps/iam"],
+        status: "beginner"
+      },
+      {
+        id: "iam-2",
+        title: "Detailed learning path coming soon",
+        description: "Future updates will expand this placeholder into a complete sequence with curated resources and progression stages.",
+        resources: ["https://example.com/roadmaps/iam/resources"],
+        status: "intermediate"
+      }
+    ]
+  },
+  {
+    id: "roadmap-qa-engineer",
+    title: "QA Engineer",
+    slug: "qa-engineer",
+    description: "Build testing discipline through quality strategy, test design, coverage, and release confidence.",
+    steps: [
+      {
+        id: "qa-engineer-1",
+        title: "Roadmap outline in progress",
+        description: "This roadmap has been added to the library and a full step-by-step path will be published here soon.",
+        resources: ["https://example.com/roadmaps/qa-engineer"],
+        status: "beginner"
+      },
+      {
+        id: "qa-engineer-2",
+        title: "Detailed learning path coming soon",
+        description: "Future updates will expand this placeholder into a complete sequence with curated resources and progression stages.",
+        resources: ["https://example.com/roadmaps/qa-engineer/resources"],
+        status: "intermediate"
+      }
+    ]
+  },
+  {
+    id: "roadmap-test-automation",
+    title: "Test Automation",
+    slug: "test-automation",
+    description: "Learn how to automate quality workflows across UI, API, and regression testing.",
+    steps: [
+      {
+        id: "test-automation-1",
+        title: "Roadmap outline in progress",
+        description: "This roadmap has been added to the library and a full step-by-step path will be published here soon.",
+        resources: ["https://example.com/roadmaps/test-automation"],
+        status: "beginner"
+      },
+      {
+        id: "test-automation-2",
+        title: "Detailed learning path coming soon",
+        description: "Future updates will expand this placeholder into a complete sequence with curated resources and progression stages.",
+        resources: ["https://example.com/roadmaps/test-automation/resources"],
+        status: "intermediate"
+      }
+    ]
+  },
+  {
+    id: "roadmap-playwright-testing",
+    title: "Playwright Testing",
+    slug: "playwright-testing",
+    description: "Build end-to-end testing skills using Playwright for automation, assertions, and CI integration.",
+    steps: [
+      {
+        id: "playwright-testing-1",
+        title: "Roadmap outline in progress",
+        description: "This roadmap has been added to the library and a full step-by-step path will be published here soon.",
+        resources: ["https://example.com/roadmaps/playwright-testing"],
+        status: "beginner"
+      },
+      {
+        id: "playwright-testing-2",
+        title: "Detailed learning path coming soon",
+        description: "Future updates will expand this placeholder into a complete sequence with curated resources and progression stages.",
+        resources: ["https://example.com/roadmaps/playwright-testing/resources"],
+        status: "intermediate"
+      }
+    ]
+  },
+  {
+    id: "roadmap-performance-testing",
+    title: "Performance Testing",
+    slug: "performance-testing",
+    description: "Learn load, stress, and performance-testing workflows for systems and APIs.",
+    steps: [
+      {
+        id: "performance-testing-1",
+        title: "Roadmap outline in progress",
+        description: "This roadmap has been added to the library and a full step-by-step path will be published here soon.",
+        resources: ["https://example.com/roadmaps/performance-testing"],
+        status: "beginner"
+      },
+      {
+        id: "performance-testing-2",
+        title: "Detailed learning path coming soon",
+        description: "Future updates will expand this placeholder into a complete sequence with curated resources and progression stages.",
+        resources: ["https://example.com/roadmaps/performance-testing/resources"],
+        status: "intermediate"
+      }
+    ]
+  },
+  {
+    id: "roadmap-reliability-engineering",
+    title: "Reliability Engineering",
+    slug: "reliability-engineering",
+    description: "Focus on reliability, failure handling, operational excellence, and resilient system design.",
+    steps: [
+      {
+        id: "reliability-engineering-1",
+        title: "Roadmap outline in progress",
+        description: "This roadmap has been added to the library and a full step-by-step path will be published here soon.",
+        resources: ["https://example.com/roadmaps/reliability-engineering"],
+        status: "beginner"
+      },
+      {
+        id: "reliability-engineering-2",
+        title: "Detailed learning path coming soon",
+        description: "Future updates will expand this placeholder into a complete sequence with curated resources and progression stages.",
+        resources: ["https://example.com/roadmaps/reliability-engineering/resources"],
+        status: "intermediate"
+      }
+    ]
+  },
+  {
+    id: "roadmap-ui-designer",
+    title: "UI Designer",
+    slug: "ui-designer",
+    description: "Learn visual hierarchy, layout, typography, components, and polished interface design.",
+    steps: [
+      {
+        id: "ui-designer-1",
+        title: "Roadmap outline in progress",
+        description: "This roadmap has been added to the library and a full step-by-step path will be published here soon.",
+        resources: ["https://example.com/roadmaps/ui-designer"],
+        status: "beginner"
+      },
+      {
+        id: "ui-designer-2",
+        title: "Detailed learning path coming soon",
+        description: "Future updates will expand this placeholder into a complete sequence with curated resources and progression stages.",
+        resources: ["https://example.com/roadmaps/ui-designer/resources"],
+        status: "intermediate"
+      }
+    ]
+  },
+  {
+    id: "roadmap-ux-designer",
+    title: "UX Designer",
+    slug: "ux-designer",
+    description: "Build user experience skills around research, flows, usability, and interaction design.",
+    steps: [
+      {
+        id: "ux-designer-1",
+        title: "Roadmap outline in progress",
+        description: "This roadmap has been added to the library and a full step-by-step path will be published here soon.",
+        resources: ["https://example.com/roadmaps/ux-designer"],
+        status: "beginner"
+      },
+      {
+        id: "ux-designer-2",
+        title: "Detailed learning path coming soon",
+        description: "Future updates will expand this placeholder into a complete sequence with curated resources and progression stages.",
+        resources: ["https://example.com/roadmaps/ux-designer/resources"],
+        status: "intermediate"
+      }
+    ]
+  },
+  {
+    id: "roadmap-product-designer",
+    title: "Product Designer",
+    slug: "product-designer",
+    description: "Combine UX, UI, product thinking, and systems design into a practical design roadmap.",
+    steps: [
+      {
+        id: "product-designer-1",
+        title: "Roadmap outline in progress",
+        description: "This roadmap has been added to the library and a full step-by-step path will be published here soon.",
+        resources: ["https://example.com/roadmaps/product-designer"],
+        status: "beginner"
+      },
+      {
+        id: "product-designer-2",
+        title: "Detailed learning path coming soon",
+        description: "Future updates will expand this placeholder into a complete sequence with curated resources and progression stages.",
+        resources: ["https://example.com/roadmaps/product-designer/resources"],
+        status: "intermediate"
+      }
+    ]
+  },
+  {
+    id: "roadmap-design-systems",
+    title: "Design Systems",
+    slug: "design-systems",
+    description: "Learn the structure, governance, tokens, components, and adoption patterns behind design systems.",
+    steps: [
+      {
+        id: "design-systems-1",
+        title: "Roadmap outline in progress",
+        description: "This roadmap has been added to the library and a full step-by-step path will be published here soon.",
+        resources: ["https://example.com/roadmaps/design-systems"],
+        status: "beginner"
+      },
+      {
+        id: "design-systems-2",
+        title: "Detailed learning path coming soon",
+        description: "Future updates will expand this placeholder into a complete sequence with curated resources and progression stages.",
+        resources: ["https://example.com/roadmaps/design-systems/resources"],
+        status: "intermediate"
+      }
+    ]
+  },
+  {
+    id: "roadmap-product-manager",
+    title: "Product Manager",
+    slug: "product-manager",
+    description: "Follow a product path through discovery, prioritization, delivery, communication, and metrics.",
+    steps: [
+      {
+        id: "product-manager-1",
+        title: "Roadmap outline in progress",
+        description: "This roadmap has been added to the library and a full step-by-step path will be published here soon.",
+        resources: ["https://example.com/roadmaps/product-manager"],
+        status: "beginner"
+      },
+      {
+        id: "product-manager-2",
+        title: "Detailed learning path coming soon",
+        description: "Future updates will expand this placeholder into a complete sequence with curated resources and progression stages.",
+        resources: ["https://example.com/roadmaps/product-manager/resources"],
+        status: "intermediate"
+      }
+    ]
+  },
+  {
+    id: "roadmap-technical-writer",
+    title: "Technical Writer",
+    slug: "technical-writer",
+    description: "Build technical writing skills for docs, onboarding, reference content, and product communication.",
+    steps: [
+      {
+        id: "technical-writer-1",
+        title: "Roadmap outline in progress",
+        description: "This roadmap has been added to the library and a full step-by-step path will be published here soon.",
+        resources: ["https://example.com/roadmaps/technical-writer"],
+        status: "beginner"
+      },
+      {
+        id: "technical-writer-2",
+        title: "Detailed learning path coming soon",
+        description: "Future updates will expand this placeholder into a complete sequence with curated resources and progression stages.",
+        resources: ["https://example.com/roadmaps/technical-writer/resources"],
+        status: "intermediate"
+      }
+    ]
+  },
+  {
+    id: "roadmap-computer-science-fundamentals",
+    title: "Computer Science Fundamentals",
+    slug: "computer-science-fundamentals",
+    description: "Study algorithms, data structures, complexity, systems, and core programming concepts.",
+    steps: [
+      {
+        id: "computer-science-fundamentals-1",
+        title: "Roadmap outline in progress",
+        description: "This roadmap has been added to the library and a full step-by-step path will be published here soon.",
+        resources: ["https://example.com/roadmaps/computer-science-fundamentals"],
+        status: "beginner"
+      },
+      {
+        id: "computer-science-fundamentals-2",
+        title: "Detailed learning path coming soon",
+        description: "Future updates will expand this placeholder into a complete sequence with curated resources and progression stages.",
+        resources: ["https://example.com/roadmaps/computer-science-fundamentals/resources"],
+        status: "intermediate"
+      }
+    ]
+  },
+  {
+    id: "roadmap-open-source-contributor",
+    title: "Open Source Contributor",
+    slug: "open-source-contributor",
+    description: "Learn how to navigate codebases, contribute cleanly, collaborate, and build an OSS track record.",
+    steps: [
+      {
+        id: "open-source-contributor-1",
+        title: "Roadmap outline in progress",
+        description: "This roadmap has been added to the library and a full step-by-step path will be published here soon.",
+        resources: ["https://example.com/roadmaps/open-source-contributor"],
+        status: "beginner"
+      },
+      {
+        id: "open-source-contributor-2",
+        title: "Detailed learning path coming soon",
+        description: "Future updates will expand this placeholder into a complete sequence with curated resources and progression stages.",
+        resources: ["https://example.com/roadmaps/open-source-contributor/resources"],
+        status: "intermediate"
+      }
+    ]
+  },
+  {
+    id: "roadmap-freelance-developer",
+    title: "Freelance Developer",
+    slug: "freelance-developer",
+    description: "Build a roadmap for freelance delivery, client communication, scoping, and professional systems.",
+    steps: [
+      {
+        id: "freelance-developer-1",
+        title: "Roadmap outline in progress",
+        description: "This roadmap has been added to the library and a full step-by-step path will be published here soon.",
+        resources: ["https://example.com/roadmaps/freelance-developer"],
+        status: "beginner"
+      },
+      {
+        id: "freelance-developer-2",
+        title: "Detailed learning path coming soon",
+        description: "Future updates will expand this placeholder into a complete sequence with curated resources and progression stages.",
+        resources: ["https://example.com/roadmaps/freelance-developer/resources"],
+        status: "intermediate"
+      }
+    ]
+  },
+  {
+    id: "roadmap-indie-hacker",
+    title: "Indie Hacker",
+    slug: "indie-hacker",
+    description: "Learn to design, build, launch, validate, and iterate on solo software products.",
+    steps: [
+      {
+        id: "indie-hacker-1",
+        title: "Roadmap outline in progress",
+        description: "This roadmap has been added to the library and a full step-by-step path will be published here soon.",
+        resources: ["https://example.com/roadmaps/indie-hacker"],
+        status: "beginner"
+      },
+      {
+        id: "indie-hacker-2",
+        title: "Detailed learning path coming soon",
+        description: "Future updates will expand this placeholder into a complete sequence with curated resources and progression stages.",
+        resources: ["https://example.com/roadmaps/indie-hacker/resources"],
+        status: "intermediate"
+      }
+    ]
+  },
+  {
+    id: "roadmap-startup-cto",
+    title: "Startup CTO",
+    slug: "startup-cto",
+    description: "Build leadership, architecture, hiring, delivery, and scaling judgment for startup technical leadership.",
+    steps: [
+      {
+        id: "startup-cto-1",
+        title: "Roadmap outline in progress",
+        description: "This roadmap has been added to the library and a full step-by-step path will be published here soon.",
+        resources: ["https://example.com/roadmaps/startup-cto"],
+        status: "beginner"
+      },
+      {
+        id: "startup-cto-2",
+        title: "Detailed learning path coming soon",
+        description: "Future updates will expand this placeholder into a complete sequence with curated resources and progression stages.",
+        resources: ["https://example.com/roadmaps/startup-cto/resources"],
+        status: "intermediate"
+      }
+    ]
+  },
+  {
+    id: "roadmap-junior-to-senior-developer",
+    title: "Junior-to-Senior Developer",
+    slug: "junior-to-senior-developer",
+    description: "Develop the habits, technical depth, communication, and ownership needed to grow as an engineer.",
+    steps: [
+      {
+        id: "junior-to-senior-developer-1",
+        title: "Roadmap outline in progress",
+        description: "This roadmap has been added to the library and a full step-by-step path will be published here soon.",
+        resources: ["https://example.com/roadmaps/junior-to-senior-developer"],
+        status: "beginner"
+      },
+      {
+        id: "junior-to-senior-developer-2",
+        title: "Detailed learning path coming soon",
+        description: "Future updates will expand this placeholder into a complete sequence with curated resources and progression stages.",
+        resources: ["https://example.com/roadmaps/junior-to-senior-developer/resources"],
+        status: "intermediate"
+      }
+    ]
+  },
 ];

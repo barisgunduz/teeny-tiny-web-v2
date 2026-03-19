@@ -284,24 +284,120 @@ export const categoryLandingContent: Record<Category["slug"], CategoryLandingCon
   },
   roadmaps: {
     eyebrow: "Learning Paths",
-    title: "Step-by-step tracks for web, platform, and AI-focused learning",
+    title: "Step-by-step tracks for engineering, design, data, product, infrastructure, and career growth",
     description:
-      "Each roadmap breaks a large discipline into clear, sequential steps with difficulty labels and placeholder resources so you can turn a broad topic into a plan.",
+      "Each roadmap turns a broad topic into an actionable learning path. Some are already fully written, and newer additions currently use placeholder pages until their detailed steps are filled in.",
     sections: [
       {
-        title: "Web Tracks",
-        description: "Start here if you want to build interfaces, services, or both.",
-        slugs: ["frontend-developer-roadmap", "backend-developer-roadmap", "fullstack-roadmap"]
+        title: "Web & App Development",
+        description: "Frontend, frameworks, mobile, and API-focused learning tracks.",
+        slugs: [
+          "frontend-developer-roadmap",
+          "fullstack-roadmap",
+          "react-roadmap",
+          "nextjs-roadmap",
+          "vue-roadmap",
+          "angular-roadmap",
+          "mobile-developer-roadmap",
+          "react-native-roadmap",
+          "flutter-roadmap",
+          "api-developer-roadmap"
+        ]
       },
       {
-        title: "Platform & Operations",
-        description: "Infrastructure-oriented paths for release pipelines, cloud basics, and security posture.",
-        slugs: ["devops-roadmap", "cybersecurity-roadmap"]
+        title: "Backend & Platform",
+        description: "Service architecture, backend stacks, databases, and systems design tracks.",
+        slugs: [
+          "backend-developer-roadmap",
+          "nodejs-backend-roadmap",
+          "python-backend-roadmap",
+          "java-backend-roadmap",
+          "dotnet-backend-roadmap",
+          "go-backend-roadmap",
+          "microservices-roadmap",
+          "database-engineer-roadmap",
+          "software-architect-roadmap"
+        ]
       },
       {
-        title: "Specialized Paths",
-        description: "Broader skill tracks for mobile products, data systems, and applied ML basics.",
-        slugs: ["ai-ml-basics-roadmap", "mobile-developer-roadmap", "data-engineering-roadmap"]
+        title: "DevOps, Cloud & Infra",
+        description: "Infrastructure, platform, reliability, orchestration, and cloud-oriented tracks.",
+        slugs: [
+          "devops-roadmap",
+          "kubernetes-roadmap",
+          "aws-roadmap",
+          "azure-roadmap",
+          "gcp-roadmap",
+          "sre-roadmap",
+          "platform-engineer-roadmap",
+          "cloud-security-roadmap",
+          "networking-engineer-roadmap",
+          "linux-administrator-roadmap"
+        ]
+      },
+      {
+        title: "Data & AI",
+        description: "Data systems, analytics, ML, LLMs, and AI product-building tracks.",
+        slugs: [
+          "ai-ml-basics-roadmap",
+          "data-engineering-roadmap",
+          "data-analyst-roadmap",
+          "data-scientist-roadmap",
+          "machine-learning-engineer-roadmap",
+          "mlops-roadmap",
+          "llm-engineer-roadmap",
+          "prompt-engineer-roadmap",
+          "ai-product-builder-roadmap"
+        ]
+      },
+      {
+        title: "Security",
+        description: "Foundational and specialized security learning paths for modern software teams.",
+        slugs: [
+          "cybersecurity-roadmap",
+          "cybersecurity-beginner-roadmap",
+          "web-application-security-roadmap",
+          "penetration-testing-roadmap",
+          "blue-team-roadmap",
+          "soc-analyst-roadmap",
+          "security-engineer-roadmap",
+          "iam-roadmap"
+        ]
+      },
+      {
+        title: "Testing & Quality",
+        description: "Roadmaps for QA, automation, performance, and engineering reliability.",
+        slugs: [
+          "qa-engineer-roadmap",
+          "test-automation-roadmap",
+          "playwright-testing-roadmap",
+          "performance-testing-roadmap",
+          "reliability-engineering-roadmap"
+        ]
+      },
+      {
+        title: "Design & Product",
+        description: "Roadmaps for visual design, UX, systems design, and product work.",
+        slugs: [
+          "ui-designer-roadmap",
+          "ux-designer-roadmap",
+          "product-designer-roadmap",
+          "design-systems-roadmap",
+          "product-manager-roadmap",
+          "technical-writer-roadmap"
+        ]
+      },
+      {
+        title: "Career & Foundational",
+        description: "Foundations, career growth, open source, freelancing, and leadership paths.",
+        slugs: [
+          "computer-science-fundamentals-roadmap",
+          "open-source-contributor-roadmap",
+          "freelance-developer-roadmap",
+          "indie-hacker-roadmap",
+          "startup-cto-roadmap",
+          "junior-to-senior-developer-roadmap"
+        ]
       }
     ]
   },

@@ -1409,6 +1409,529 @@ export const tools: Tool[] = [
   },
 
   {
+    id: "tool-mobile-developer-roadmap",
+    name: "Mobile Developer Roadmap",
+    description: "Build a clear path through native concepts, app architecture, and mobile shipping workflows.",
+    category: "roadmaps",
+    tags: ["roadmap", "learning", "career"],
+    slug: "mobile-developer-roadmap",
+    icon: "Smartphone"
+  },
+  {
+    id: "tool-data-engineering-roadmap",
+    name: "Data Engineering Roadmap",
+    description: "Learn pipelines, warehousing, orchestration, and the systems behind production data workflows.",
+    category: "roadmaps",
+    tags: ["roadmap", "learning", "career"],
+    slug: "data-engineering-roadmap",
+    icon: "DatabaseBackup"
+  },
+  {
+    id: "tool-cybersecurity-roadmap",
+    name: "Cybersecurity Roadmap",
+    description: "Work through modern security concepts, defensive practices, and foundational cyber workflows.",
+    category: "roadmaps",
+    tags: ["roadmap", "learning", "career"],
+    slug: "cybersecurity-roadmap",
+    icon: "Shield"
+  },
+  {
+    id: "tool-react-roadmap",
+    name: "React Roadmap",
+    description: "Learn React from component basics through state, rendering, testing, and production patterns.",
+    category: "roadmaps",
+    tags: ["roadmap", "learning", "career"],
+    slug: "react-roadmap",
+    icon: "Atom"
+  },
+  {
+    id: "tool-nextjs-roadmap",
+    name: "Next.js Roadmap",
+    description: "Follow a focused learning path for routing, data fetching, rendering, and shipping apps with Next.js.",
+    category: "roadmaps",
+    tags: ["roadmap", "learning", "career"],
+    slug: "nextjs-roadmap",
+    icon: "Rocket"
+  },
+  {
+    id: "tool-vue-roadmap",
+    name: "Vue Roadmap",
+    description: "Build up from Vue fundamentals to components, state, routing, and app architecture.",
+    category: "roadmaps",
+    tags: ["roadmap", "learning", "career"],
+    slug: "vue-roadmap",
+    icon: "Triangle"
+  },
+  {
+    id: "tool-angular-roadmap",
+    name: "Angular Roadmap",
+    description: "Learn Angular modules, components, services, forms, and enterprise app structure.",
+    category: "roadmaps",
+    tags: ["roadmap", "learning", "career"],
+    slug: "angular-roadmap",
+    icon: "Hexagon"
+  },
+  {
+    id: "tool-react-native-roadmap",
+    name: "React Native Roadmap",
+    description: "Learn cross-platform mobile development with React Native from setup to shipping.",
+    category: "roadmaps",
+    tags: ["roadmap", "learning", "career"],
+    slug: "react-native-roadmap",
+    icon: "SmartphoneCharging"
+  },
+  {
+    id: "tool-flutter-roadmap",
+    name: "Flutter Roadmap",
+    description: "Build a roadmap for widgets, app layout, state handling, and Flutter delivery.",
+    category: "roadmaps",
+    tags: ["roadmap", "learning", "career"],
+    slug: "flutter-roadmap",
+    icon: "PanelsTopLeft"
+  },
+  {
+    id: "tool-api-developer-roadmap",
+    name: "API Developer Roadmap",
+    description: "Focus on API design, contracts, auth, versioning, observability, and reliability.",
+    category: "roadmaps",
+    tags: ["roadmap", "learning", "career"],
+    slug: "api-developer-roadmap",
+    icon: "Waypoints"
+  },
+  {
+    id: "tool-nodejs-backend-roadmap",
+    name: "Node.js Backend Roadmap",
+    description: "Learn backend development with Node.js, services, APIs, data access, and deployment.",
+    category: "roadmaps",
+    tags: ["roadmap", "learning", "career"],
+    slug: "nodejs-backend-roadmap",
+    icon: "SquareTerminal"
+  },
+  {
+    id: "tool-python-backend-roadmap",
+    name: "Python Backend Roadmap",
+    description: "Build Python backend skills across APIs, services, databases, and async workflows.",
+    category: "roadmaps",
+    tags: ["roadmap", "learning", "career"],
+    slug: "python-backend-roadmap",
+    icon: "Bug"
+  },
+  {
+    id: "tool-java-backend-roadmap",
+    name: "Java Backend Roadmap",
+    description: "Follow a backend path for Java services, frameworks, APIs, and production architecture.",
+    category: "roadmaps",
+    tags: ["roadmap", "learning", "career"],
+    slug: "java-backend-roadmap",
+    icon: "Coffee"
+  },
+  {
+    id: "tool-dotnet-backend-roadmap",
+    name: ".NET Backend Roadmap",
+    description: "Learn .NET backend patterns for APIs, data access, architecture, and deployment.",
+    category: "roadmaps",
+    tags: ["roadmap", "learning", "career"],
+    slug: "dotnet-backend-roadmap",
+    icon: "Hash"
+  },
+  {
+    id: "tool-go-backend-roadmap",
+    name: "Go Backend Roadmap",
+    description: "Build backend systems in Go with services, concurrency, APIs, and production tooling.",
+    category: "roadmaps",
+    tags: ["roadmap", "learning", "career"],
+    slug: "go-backend-roadmap",
+    icon: "ArrowRight"
+  },
+  {
+    id: "tool-microservices-roadmap",
+    name: "Microservices Roadmap",
+    description: "Understand service boundaries, messaging, contracts, resilience, and distributed systems tradeoffs.",
+    category: "roadmaps",
+    tags: ["roadmap", "learning", "career"],
+    slug: "microservices-roadmap",
+    icon: "Network"
+  },
+  {
+    id: "tool-database-engineer-roadmap",
+    name: "Database Engineer Roadmap",
+    description: "Focus on schema design, performance, indexing, replication, and database operations.",
+    category: "roadmaps",
+    tags: ["roadmap", "learning", "career"],
+    slug: "database-engineer-roadmap",
+    icon: "Database"
+  },
+  {
+    id: "tool-software-architect-roadmap",
+    name: "Software Architect Roadmap",
+    description: "Study systems thinking, tradeoffs, patterns, reliability, and large-scale technical design.",
+    category: "roadmaps",
+    tags: ["roadmap", "learning", "career"],
+    slug: "software-architect-roadmap",
+    icon: "Blocks"
+  },
+  {
+    id: "tool-kubernetes-roadmap",
+    name: "Kubernetes Roadmap",
+    description: "Learn Kubernetes concepts, workloads, networking, storage, operations, and production readiness.",
+    category: "roadmaps",
+    tags: ["roadmap", "learning", "career"],
+    slug: "kubernetes-roadmap",
+    icon: "Box"
+  },
+  {
+    id: "tool-aws-roadmap",
+    name: "AWS Roadmap",
+    description: "Build cloud foundations across AWS services, networking, IAM, deployment, and operations.",
+    category: "roadmaps",
+    tags: ["roadmap", "learning", "career"],
+    slug: "aws-roadmap",
+    icon: "Cloud"
+  },
+  {
+    id: "tool-azure-roadmap",
+    name: "Azure Roadmap",
+    description: "Learn Azure services, identity, deployment patterns, and platform operations.",
+    category: "roadmaps",
+    tags: ["roadmap", "learning", "career"],
+    slug: "azure-roadmap",
+    icon: "CloudCog"
+  },
+  {
+    id: "tool-gcp-roadmap",
+    name: "GCP Roadmap",
+    description: "Follow a Google Cloud roadmap across compute, storage, networking, and managed services.",
+    category: "roadmaps",
+    tags: ["roadmap", "learning", "career"],
+    slug: "gcp-roadmap",
+    icon: "CloudLightning"
+  },
+  {
+    id: "tool-sre-roadmap",
+    name: "SRE Roadmap",
+    description: "Focus on reliability, observability, incident response, SLIs, SLOs, and production health.",
+    category: "roadmaps",
+    tags: ["roadmap", "learning", "career"],
+    slug: "sre-roadmap",
+    icon: "Activity"
+  },
+  {
+    id: "tool-platform-engineer-roadmap",
+    name: "Platform Engineer Roadmap",
+    description: "Build internal platform skills for developer experience, infrastructure, and service enablement.",
+    category: "roadmaps",
+    tags: ["roadmap", "learning", "career"],
+    slug: "platform-engineer-roadmap",
+    icon: "ServerCog"
+  },
+  {
+    id: "tool-cloud-security-roadmap",
+    name: "Cloud Security Roadmap",
+    description: "Learn cloud-native security concepts across IAM, networks, secrets, and posture management.",
+    category: "roadmaps",
+    tags: ["roadmap", "learning", "career"],
+    slug: "cloud-security-roadmap",
+    icon: "ShieldCheck"
+  },
+  {
+    id: "tool-networking-engineer-roadmap",
+    name: "Networking Engineer Roadmap",
+    description: "Develop networking fundamentals across routing, switching, addressing, DNS, and troubleshooting.",
+    category: "roadmaps",
+    tags: ["roadmap", "learning", "career"],
+    slug: "networking-engineer-roadmap",
+    icon: "Cable"
+  },
+  {
+    id: "tool-linux-administrator-roadmap",
+    name: "Linux Administrator Roadmap",
+    description: "Learn Linux administration, services, permissions, logs, networking, and system operations.",
+    category: "roadmaps",
+    tags: ["roadmap", "learning", "career"],
+    slug: "linux-administrator-roadmap",
+    icon: "TerminalSquare"
+  },
+  {
+    id: "tool-data-analyst-roadmap",
+    name: "Data Analyst Roadmap",
+    description: "Build analysis skills around SQL, spreadsheets, dashboards, metrics, and storytelling.",
+    category: "roadmaps",
+    tags: ["roadmap", "learning", "career"],
+    slug: "data-analyst-roadmap",
+    icon: "ChartColumn"
+  },
+  {
+    id: "tool-data-scientist-roadmap",
+    name: "Data Scientist Roadmap",
+    description: "Learn statistics, modeling, experimentation, feature work, and practical data science workflows.",
+    category: "roadmaps",
+    tags: ["roadmap", "learning", "career"],
+    slug: "data-scientist-roadmap",
+    icon: "Microscope"
+  },
+  {
+    id: "tool-machine-learning-engineer-roadmap",
+    name: "Machine Learning Engineer Roadmap",
+    description: "Focus on ML systems, training pipelines, serving, evaluation, and production model workflows.",
+    category: "roadmaps",
+    tags: ["roadmap", "learning", "career"],
+    slug: "machine-learning-engineer-roadmap",
+    icon: "BrainCircuit"
+  },
+  {
+    id: "tool-mlops-roadmap",
+    name: "MLOps Roadmap",
+    description: "Learn how to operate machine learning systems with automation, tracking, deployment, and monitoring.",
+    category: "roadmaps",
+    tags: ["roadmap", "learning", "career"],
+    slug: "mlops-roadmap",
+    icon: "GitBranchPlus"
+  },
+  {
+    id: "tool-llm-engineer-roadmap",
+    name: "LLM Engineer Roadmap",
+    description: "Build a roadmap for prompts, retrieval, agents, evaluation, and LLM-powered product systems.",
+    category: "roadmaps",
+    tags: ["roadmap", "learning", "career"],
+    slug: "llm-engineer-roadmap",
+    icon: "Sparkles"
+  },
+  {
+    id: "tool-prompt-engineer-roadmap",
+    name: "Prompt Engineer Roadmap",
+    description: "Learn prompt design, examples, role framing, evaluation, and workflow integration.",
+    category: "roadmaps",
+    tags: ["roadmap", "learning", "career"],
+    slug: "prompt-engineer-roadmap",
+    icon: "MessageSquareQuote"
+  },
+  {
+    id: "tool-ai-product-builder-roadmap",
+    name: "AI Product Builder Roadmap",
+    description: "Focus on shipping AI products by combining UX, orchestration, prompts, and product thinking.",
+    category: "roadmaps",
+    tags: ["roadmap", "learning", "career"],
+    slug: "ai-product-builder-roadmap",
+    icon: "Bot"
+  },
+  {
+    id: "tool-cybersecurity-beginner-roadmap",
+    name: "Cybersecurity Beginner Roadmap",
+    description: "Start learning cybersecurity with a beginner-first path through core concepts and safety practices.",
+    category: "roadmaps",
+    tags: ["roadmap", "learning", "career"],
+    slug: "cybersecurity-beginner-roadmap",
+    icon: "ShieldAlert"
+  },
+  {
+    id: "tool-web-application-security-roadmap",
+    name: "Web Application Security Roadmap",
+    description: "Learn to secure web apps through auth, input safety, headers, abuse prevention, and testing.",
+    category: "roadmaps",
+    tags: ["roadmap", "learning", "career"],
+    slug: "web-application-security-roadmap",
+    icon: "ShieldHalf"
+  },
+  {
+    id: "tool-penetration-testing-roadmap",
+    name: "Penetration Testing Roadmap",
+    description: "Build offensive security knowledge around recon, enumeration, exploitation, and reporting.",
+    category: "roadmaps",
+    tags: ["roadmap", "learning", "career"],
+    slug: "penetration-testing-roadmap",
+    icon: "SearchSlash"
+  },
+  {
+    id: "tool-blue-team-roadmap",
+    name: "Blue Team Roadmap",
+    description: "Focus on defensive security workflows, monitoring, detection, and operational response.",
+    category: "roadmaps",
+    tags: ["roadmap", "learning", "career"],
+    slug: "blue-team-roadmap",
+    icon: "ShieldPlus"
+  },
+  {
+    id: "tool-soc-analyst-roadmap",
+    name: "SOC Analyst Roadmap",
+    description: "Learn alert triage, incident investigation, logging, and detection workflows for SOC work.",
+    category: "roadmaps",
+    tags: ["roadmap", "learning", "career"],
+    slug: "soc-analyst-roadmap",
+    icon: "Radar"
+  },
+  {
+    id: "tool-security-engineer-roadmap",
+    name: "Security Engineer Roadmap",
+    description: "Build toward security engineering with systems, appsec, cloud, and automation practices.",
+    category: "roadmaps",
+    tags: ["roadmap", "learning", "career"],
+    slug: "security-engineer-roadmap",
+    icon: "Shield"
+  },
+  {
+    id: "tool-iam-roadmap",
+    name: "IAM Roadmap",
+    description: "Learn identity and access management concepts, policies, federation, roles, and governance.",
+    category: "roadmaps",
+    tags: ["roadmap", "learning", "career"],
+    slug: "iam-roadmap",
+    icon: "UsersRound"
+  },
+  {
+    id: "tool-qa-engineer-roadmap",
+    name: "QA Engineer Roadmap",
+    description: "Build testing discipline through quality strategy, test design, coverage, and release confidence.",
+    category: "roadmaps",
+    tags: ["roadmap", "learning", "career"],
+    slug: "qa-engineer-roadmap",
+    icon: "ClipboardCheck"
+  },
+  {
+    id: "tool-test-automation-roadmap",
+    name: "Test Automation Roadmap",
+    description: "Learn how to automate quality workflows across UI, API, and regression testing.",
+    category: "roadmaps",
+    tags: ["roadmap", "learning", "career"],
+    slug: "test-automation-roadmap",
+    icon: "TestTube2"
+  },
+  {
+    id: "tool-playwright-testing-roadmap",
+    name: "Playwright Testing Roadmap",
+    description: "Build end-to-end testing skills using Playwright for automation, assertions, and CI integration.",
+    category: "roadmaps",
+    tags: ["roadmap", "learning", "career"],
+    slug: "playwright-testing-roadmap",
+    icon: "MonitorPlay"
+  },
+  {
+    id: "tool-performance-testing-roadmap",
+    name: "Performance Testing Roadmap",
+    description: "Learn load, stress, and performance-testing workflows for systems and APIs.",
+    category: "roadmaps",
+    tags: ["roadmap", "learning", "career"],
+    slug: "performance-testing-roadmap",
+    icon: "Gauge"
+  },
+  {
+    id: "tool-reliability-engineering-roadmap",
+    name: "Reliability Engineering Roadmap",
+    description: "Focus on reliability, failure handling, operational excellence, and resilient system design.",
+    category: "roadmaps",
+    tags: ["roadmap", "learning", "career"],
+    slug: "reliability-engineering-roadmap",
+    icon: "HeartPulse"
+  },
+  {
+    id: "tool-ui-designer-roadmap",
+    name: "UI Designer Roadmap",
+    description: "Learn visual hierarchy, layout, typography, components, and polished interface design.",
+    category: "roadmaps",
+    tags: ["roadmap", "learning", "career"],
+    slug: "ui-designer-roadmap",
+    icon: "Palette"
+  },
+  {
+    id: "tool-ux-designer-roadmap",
+    name: "UX Designer Roadmap",
+    description: "Build user experience skills around research, flows, usability, and interaction design.",
+    category: "roadmaps",
+    tags: ["roadmap", "learning", "career"],
+    slug: "ux-designer-roadmap",
+    icon: "Users"
+  },
+  {
+    id: "tool-product-designer-roadmap",
+    name: "Product Designer Roadmap",
+    description: "Combine UX, UI, product thinking, and systems design into a practical design roadmap.",
+    category: "roadmaps",
+    tags: ["roadmap", "learning", "career"],
+    slug: "product-designer-roadmap",
+    icon: "PenTool"
+  },
+  {
+    id: "tool-design-systems-roadmap",
+    name: "Design Systems Roadmap",
+    description: "Learn the structure, governance, tokens, components, and adoption patterns behind design systems.",
+    category: "roadmaps",
+    tags: ["roadmap", "learning", "career"],
+    slug: "design-systems-roadmap",
+    icon: "Component"
+  },
+  {
+    id: "tool-product-manager-roadmap",
+    name: "Product Manager Roadmap",
+    description: "Follow a product path through discovery, prioritization, delivery, communication, and metrics.",
+    category: "roadmaps",
+    tags: ["roadmap", "learning", "career"],
+    slug: "product-manager-roadmap",
+    icon: "BriefcaseBusiness"
+  },
+  {
+    id: "tool-technical-writer-roadmap",
+    name: "Technical Writer Roadmap",
+    description: "Build technical writing skills for docs, onboarding, reference content, and product communication.",
+    category: "roadmaps",
+    tags: ["roadmap", "learning", "career"],
+    slug: "technical-writer-roadmap",
+    icon: "FilePenLine"
+  },
+  {
+    id: "tool-computer-science-fundamentals-roadmap",
+    name: "Computer Science Fundamentals Roadmap",
+    description: "Study algorithms, data structures, complexity, systems, and core programming concepts.",
+    category: "roadmaps",
+    tags: ["roadmap", "learning", "career"],
+    slug: "computer-science-fundamentals-roadmap",
+    icon: "BookOpen"
+  },
+  {
+    id: "tool-open-source-contributor-roadmap",
+    name: "Open Source Contributor Roadmap",
+    description: "Learn how to navigate codebases, contribute cleanly, collaborate, and build an OSS track record.",
+    category: "roadmaps",
+    tags: ["roadmap", "learning", "career"],
+    slug: "open-source-contributor-roadmap",
+    icon: "GitPullRequest"
+  },
+  {
+    id: "tool-freelance-developer-roadmap",
+    name: "Freelance Developer Roadmap",
+    description: "Build a roadmap for freelance delivery, client communication, scoping, and professional systems.",
+    category: "roadmaps",
+    tags: ["roadmap", "learning", "career"],
+    slug: "freelance-developer-roadmap",
+    icon: "BadgeDollarSign"
+  },
+  {
+    id: "tool-indie-hacker-roadmap",
+    name: "Indie Hacker Roadmap",
+    description: "Learn to design, build, launch, validate, and iterate on solo software products.",
+    category: "roadmaps",
+    tags: ["roadmap", "learning", "career"],
+    slug: "indie-hacker-roadmap",
+    icon: "Lightbulb"
+  },
+  {
+    id: "tool-startup-cto-roadmap",
+    name: "Startup CTO Roadmap",
+    description: "Build leadership, architecture, hiring, delivery, and scaling judgment for startup technical leadership.",
+    category: "roadmaps",
+    tags: ["roadmap", "learning", "career"],
+    slug: "startup-cto-roadmap",
+    icon: "Building2"
+  },
+  {
+    id: "tool-junior-to-senior-developer-roadmap",
+    name: "Junior-to-Senior Developer Roadmap",
+    description: "Develop the habits, technical depth, communication, and ownership needed to grow as an engineer.",
+    category: "roadmaps",
+    tags: ["roadmap", "learning", "career"],
+    slug: "junior-to-senior-developer-roadmap",
+    icon: "TrendingUp"
+  },
+
+  {
     id: "tool-system-prompt-builder",
     name: "System Prompt Builder",
     description: "Compose robust system messages with clear role, goals, rules, and output format.",
