@@ -16,24 +16,118 @@ type CategoryLandingContent = {
 export const categoryLandingContent: Record<Category["slug"], CategoryLandingContent> = {
   "dev-tools": {
     eyebrow: "Developer Utilities",
-    title: "Format, inspect, compare, and transform without leaving the browser",
+    title: "Format, inspect, compare, transform, validate, and generate without leaving the browser",
     description:
-      "This is the practical toolbox: parsers, encoders, IDs, timestamps, diffs, and validation helpers you reach for during day-to-day development.",
+      "This is the practical toolbox: formatters, encoders, parsers, generators, validators, security helpers, and comparison tools you reach for during day-to-day development.",
     sections: [
       {
-        title: "Formatting & Transforms",
-        description: "Clean up payloads and switch between common web-safe encodings.",
-        slugs: ["json-formatter", "base64-encoder-decoder", "url-encoder", "color-converter"]
+        title: "Formatters & Converters",
+        description: "Format markup, transform common developer data formats, and convert payloads without leaving the browser.",
+        slugs: [
+          "json-formatter",
+          "xml-formatter",
+          "yaml-formatter",
+          "toml-formatter",
+          "csv-to-json",
+          "json-to-csv",
+          "html-beautifier-minifier",
+          "css-beautifier-minifier",
+          "sql-formatter",
+          "markdown-html-preview",
+          "query-string-parser-builder",
+          "color-converter"
+        ]
       },
       {
-        title: "Identifiers & Time",
-        description: "Generate IDs and work with dates, Unix timestamps, and scheduling values.",
-        slugs: ["uuid-generator", "timestamp-converter"]
+        title: "Encoding & Decoding",
+        description: "Encode, decode, parse, and inspect common web, auth, and text payload formats.",
+        slugs: [
+          "base64-encoder-decoder",
+          "url-encoder",
+          "html-entity-encoder-decoder",
+          "jwt-decoder",
+          "jwt-generator",
+          "url-parser",
+          "hex-encoder-decoder",
+          "binary-decimal-hex-converter",
+          "unicode-escape-converter",
+          "asn1-pem-viewer",
+          "qr-code-generator-reader"
+        ]
+      },
+      {
+        title: "Generators",
+        description: "Generate IDs, secrets, snippets, payload examples, and development-friendly placeholders.",
+        slugs: [
+          "uuid-generator",
+          "nano-id-generator",
+          "password-generator",
+          "slug-generator",
+          "user-agent-generator",
+          "api-key-token-generator",
+          "lorem-code-snippet-generator",
+          "mock-rest-response-generator",
+          "openapi-example-generator"
+        ]
+      },
+      {
+        title: "Text & Diff Utilities",
+        description: "Compare, normalize, analyze, and clean text before it reaches your editor or app.",
+        slugs: [
+          "diff-checker",
+          "case-converter",
+          "whitespace-indent-visualizer",
+          "line-sorter-deduper",
+          "json-diff-viewer",
+          "text-statistics",
+          "find-replace-sandbox",
+          "markdown-diff-checker",
+          "clipboard-inspector"
+        ]
       },
       {
         title: "Validation & Inspection",
-        description: "Inspect auth payloads, test patterns, compare text, and generate checksums.",
-        slugs: ["jwt-decoder", "regex-tester", "hash-generator", "diff-checker"]
+        description: "Validate common inputs, inspect structures, and check versioning and header details.",
+        slugs: [
+          "regex-tester",
+          "json-schema-validator",
+          "email-validator",
+          "ip-domain-validator",
+          "semver-parser-checker",
+          "http-header-inspector",
+          "jwt-signature-checker",
+          "regex-library-cookbook",
+          "mime-type-lookup"
+        ]
+      },
+      {
+        title: "Time & Web Helpers",
+        description: "Work through dates, schedules, cookies, caches, HTTP behavior, and request scenarios.",
+        slugs: [
+          "timestamp-converter",
+          "timezone-converter",
+          "cron-parser",
+          "http-request-tester-mock-builder",
+          "cookie-parser",
+          "cache-header-calculator",
+          "cors-explainer-test-helper",
+          "http-methods-reference",
+          "status-header-comparison-tool"
+        ]
+      },
+      {
+        title: "Security-Oriented Dev Helpers",
+        description: "Handle signatures, auth helpers, policies, and certificate-related development tasks.",
+        slugs: [
+          "hash-generator",
+          "bcrypt-hash-verify",
+          "hmac-generator",
+          "csr-certificate-viewer",
+          "csp-policy-builder",
+          "basic-auth-header-generator",
+          "oauth-flow-cheat-helper",
+          "webhook-signature-tester"
+        ]
       }
     ]
   },

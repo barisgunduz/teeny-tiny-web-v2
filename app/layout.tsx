@@ -4,6 +4,7 @@ import { GeistSans } from "geist/font/sans";
 
 import { BackToTopButton } from "@/components/BackToTopButton";
 import { CommandPalette } from "@/components/CommandPalette";
+import { Footer } from "@/components/Footer";
 import { Navbar } from "@/components/Navbar";
 import { ThemeProvider } from "@/components/theme-provider";
 
@@ -32,19 +33,21 @@ export default function RootLayout({
     <html
       lang="en"
       suppressHydrationWarning
-      className={`${GeistSans.variable} ${GeistMono.variable} dark`}
-      style={{ backgroundColor: "#0a0a0a", colorScheme: "dark" }}
+      className={`${GeistSans.variable} ${GeistMono.variable}`}
     >
-      <body className="m-0 bg-[#0a0a0a] text-[#e4e4e7] antialiased">
+      <body className="m-0 antialiased">
         <ThemeProvider
           attribute="class"
           defaultTheme="dark"
           enableSystem={false}
           disableTransitionOnChange
         >
-          <Navbar />
-          <CommandPalette />
-          {children}
+          <div className="flex min-h-screen flex-col">
+            <Navbar />
+            <CommandPalette />
+            <div className="flex-1">{children}</div>
+            <Footer />
+          </div>
           <BackToTopButton />
         </ThemeProvider>
       </body>

@@ -27,6 +27,45 @@ const accentMap: Record<string, string> = {
   "text-pink-500": "#ec4899"
 };
 
+const sponsorLogos = [
+  {
+    name: "Next.js",
+    accent: "#ffffff",
+    Icon: LucideIcons.Triangle,
+    href: "#"
+  },
+  {
+    name: "Vercel",
+    accent: "#ffffff",
+    Icon: LucideIcons.Rocket,
+    href: "#"
+  },
+  {
+    name: "OpenAI",
+    accent: "#10a37f",
+    Icon: LucideIcons.Sparkles,
+    href: "#"
+  },
+  {
+    name: "Tailwind",
+    accent: "#38bdf8",
+    Icon: LucideIcons.Wind,
+    href: "#"
+  },
+  {
+    name: "GitHub",
+    accent: "#f5f5f5",
+    Icon: LucideIcons.Github,
+    href: "#"
+  },
+  {
+    name: "TypeScript",
+    accent: "#3178c6",
+    Icon: LucideIcons.FileCode2,
+    href: "#"
+  }
+] as const;
+
 function getIcon(name: string) {
   return iconMap[name] ?? FALLBACK_ICON;
 }
@@ -105,7 +144,7 @@ export default function HomePage() {
             </div>
             <div className="flex items-center justify-between gap-3 px-1 text-xs text-[#71717a] sm:text-sm">
               <span>Search by tool name, tag, or description</span>
-              <span className="font-mono">Press ⌘K to search anywhere</span>
+              <span className="font-mono">Press {"\u2318"}K to search anywhere</span>
             </div>
 
             {query.trim() ? (
@@ -231,14 +270,54 @@ export default function HomePage() {
               })}
             </div>
           </section>
-        </section>
 
-        <footer className="flex flex-col items-start justify-between gap-3 border-t border-[#27272a] py-6 text-sm text-[#71717a] sm:flex-row sm:items-center">
-          <p className="font-mono lowercase text-[#a1a1aa]">teeny tiny web</p>
-          <Link href="#" className="transition-colors hover:text-[#f5f5f5]">
-            GitHub
-          </Link>
-        </footer>
+          <section className="animate-in-up rounded-3xl border border-[#27272a] bg-[#111113] p-5 sm:p-6" style={{ animationDelay: "720ms" }}>
+            <div className="grid gap-8 lg:grid-cols-[minmax(0,1.2fr)_minmax(0,1fr)] lg:items-center">
+              <div>
+                <p className="font-mono text-xs uppercase tracking-[0.28em] text-[#71717a]">Sponsors</p>
+                <h2 className="mt-3 text-2xl font-semibold tracking-tight text-[#f5f5f5] sm:text-3xl">
+                  Help keep teeny tiny web fast, useful, and weirdly practical
+                </h2>
+                <p className="mt-3 max-w-2xl text-sm leading-7 text-[#8b8b93] sm:text-base">
+                  Sponsorship helps me keep building more browser tools, better references, cleaner UX, and more useful little corners of the web. If this project saves you time, helps your team, or just earns a permanent tab in your browser, consider backing it.
+                </p>
+                <div className="mt-6 flex flex-wrap items-center gap-3">
+                  <Link
+                    href="https://buymeacoffee.com/barisgunduz"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="inline-flex items-center gap-2 rounded-xl border border-[#22c55e]/30 bg-[#0f1a12] px-4 py-3 text-sm font-medium text-[#dcfce7] transition hover:border-[#22c55e] hover:bg-[#123019]"
+                  >
+                    <LucideIcons.Coffee className="h-4 w-4" />
+                    <span>Be a Sponsor</span>
+                  </Link>
+                  <span className="text-sm text-[#71717a]">Support via Buy Me a Coffee: barisgunduz</span>
+                </div>
+              </div>
+
+              <div className="grid grid-cols-2 gap-3 sm:grid-cols-3">
+                {sponsorLogos.map((sponsor) => {
+                  const SponsorIcon = sponsor.Icon;
+
+                  return (
+                    <Link
+                      key={sponsor.name}
+                      href={sponsor.href}
+                      className="group rounded-2xl border border-[#27272a] bg-[#0d0d0f] p-4 transition hover:-translate-y-1 hover:border-[#3f3f46]"
+                    >
+                      <div className="flex items-center gap-3 text-[#71717a] transition duration-300 group-hover:text-white" style={{ ["--sponsor-accent" as string]: sponsor.accent } as CSSProperties}>
+                        <SponsorIcon className="h-5 w-5 grayscale transition duration-300 group-hover:grayscale-0 group-hover:text-[var(--sponsor-accent)]" />
+                        <span className="text-sm font-medium text-[#a1a1aa] transition duration-300 group-hover:text-[var(--sponsor-accent)]">
+                          {sponsor.name}
+                        </span>
+                      </div>
+                    </Link>
+                  );
+                })}
+              </div>
+            </div>
+          </section>
+        </section>
       </div>
 
       <style jsx>{`

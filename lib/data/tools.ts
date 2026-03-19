@@ -94,6 +94,519 @@ export const tools: Tool[] = [
     slug: "diff-checker",
     icon: "GitCompare"
   },
+  {
+    id: "tool-xml-formatter",
+    name: "XML Formatter",
+    description: "Format, indent, and clean XML documents for easier reading and debugging.",
+    category: "dev-tools",
+    tags: ["xml", "formatter", "markup", "pretty-print"],
+    slug: "xml-formatter",
+    icon: "FileCode2"
+  },
+  {
+    id: "tool-yaml-formatter",
+    name: "YAML Formatter",
+    description: "Format YAML content with cleaner indentation for configs and deployment files.",
+    category: "dev-tools",
+    tags: ["yaml", "formatter", "config", "pretty-print"],
+    slug: "yaml-formatter",
+    icon: "FileText"
+  },
+  {
+    id: "tool-toml-formatter",
+    name: "TOML Formatter",
+    description: "Clean up TOML files for package configs, tooling settings, and manifests.",
+    category: "dev-tools",
+    tags: ["toml", "formatter", "config", "manifest"],
+    slug: "toml-formatter",
+    icon: "ScrollText"
+  },
+  {
+    id: "tool-csv-to-json",
+    name: "CSV to JSON",
+    description: "Convert CSV rows into structured JSON arrays for apps, scripts, and APIs.",
+    category: "dev-tools",
+    tags: ["csv", "json", "converter", "data"],
+    slug: "csv-to-json",
+    icon: "Table2"
+  },
+  {
+    id: "tool-json-to-csv",
+    name: "JSON to CSV",
+    description: "Flatten JSON arrays into CSV output for spreadsheets, exports, and reports.",
+    category: "dev-tools",
+    tags: ["json", "csv", "converter", "export"],
+    slug: "json-to-csv",
+    icon: "ArrowLeftRight"
+  },
+  {
+    id: "tool-html-beautifier-minifier",
+    name: "HTML Beautifier/Minifier",
+    description: "Beautify messy HTML or minify markup for production-ready output.",
+    category: "dev-tools",
+    tags: ["html", "beautifier", "minifier", "markup"],
+    slug: "html-beautifier-minifier",
+    icon: "Code2"
+  },
+  {
+    id: "tool-css-beautifier-minifier",
+    name: "CSS Beautifier/Minifier",
+    description: "Format or compress CSS stylesheets for debugging and deployment.",
+    category: "dev-tools",
+    tags: ["css", "beautifier", "minifier", "styles"],
+    slug: "css-beautifier-minifier",
+    icon: "Paintbrush2"
+  },
+  {
+    id: "tool-sql-formatter",
+    name: "SQL Formatter",
+    description: "Format SQL queries for readability with clearer clauses, joins, and indentation.",
+    category: "dev-tools",
+    tags: ["sql", "formatter", "queries", "database"],
+    slug: "sql-formatter",
+    icon: "Database"
+  },
+  {
+    id: "tool-markdown-html-preview",
+    name: "Markdown to HTML Preview",
+    description: "Preview rendered HTML output from Markdown while keeping the source nearby.",
+    category: "dev-tools",
+    tags: ["markdown", "html", "preview", "converter"],
+    slug: "markdown-html-preview",
+    icon: "NotebookPen"
+  },
+  {
+    id: "tool-query-string-parser-builder",
+    name: "Query String Parser/Builder",
+    description: "Parse URL parameters into key-value pairs and rebuild query strings quickly.",
+    category: "dev-tools",
+    tags: ["query-string", "url", "parser", "builder"],
+    slug: "query-string-parser-builder",
+    icon: "Link"
+  },
+  {
+    id: "tool-html-entity-encoder-decoder",
+    name: "HTML Entity Encoder/Decoder",
+    description: "Encode special characters into HTML entities and decode them back into readable text.",
+    category: "dev-tools",
+    tags: ["html", "entities", "encode", "decode"],
+    slug: "html-entity-encoder-decoder",
+    icon: "TextQuote"
+  },
+  {
+    id: "tool-jwt-generator",
+    name: "JWT Generator",
+    description: "Generate JWT header and payload structures for local testing and auth workflows.",
+    category: "dev-tools",
+    tags: ["jwt", "generator", "token", "auth"],
+    slug: "jwt-generator",
+    icon: "KeyRound"
+  },
+  {
+    id: "tool-url-parser",
+    name: "URL Parser",
+    description: "Break URLs into protocol, host, path, query, and fragment pieces instantly.",
+    category: "dev-tools",
+    tags: ["url", "parser", "query", "web"],
+    slug: "url-parser",
+    icon: "Globe2"
+  },
+  {
+    id: "tool-hex-encoder-decoder",
+    name: "Hex Encoder/Decoder",
+    description: "Convert plain text to hexadecimal output and decode hex strings back to text.",
+    category: "dev-tools",
+    tags: ["hex", "encode", "decode", "text"],
+    slug: "hex-encoder-decoder",
+    icon: "Binary"
+  },
+  {
+    id: "tool-binary-decimal-hex-converter",
+    name: "Binary/Decimal/Hex Converter",
+    description: "Convert numbers across binary, decimal, and hexadecimal representations.",
+    category: "dev-tools",
+    tags: ["binary", "decimal", "hex", "converter"],
+    slug: "binary-decimal-hex-converter",
+    icon: "Calculator"
+  },
+  {
+    id: "tool-unicode-escape-converter",
+    name: "Unicode Escape Converter",
+    description: "Translate readable characters into unicode escape sequences and back again.",
+    category: "dev-tools",
+    tags: ["unicode", "escape", "converter", "text"],
+    slug: "unicode-escape-converter",
+    icon: "Languages"
+  },
+  {
+    id: "tool-asn1-pem-viewer",
+    name: "ASN.1 / PEM Viewer",
+    description: "Inspect PEM blocks and ASN.1-like certificate data structures locally.",
+    category: "dev-tools",
+    tags: ["asn1", "pem", "certificate", "viewer"],
+    slug: "asn1-pem-viewer",
+    icon: "FileKey2"
+  },
+  {
+    id: "tool-qr-code-generator-reader",
+    name: "QR Code Generator/Reader",
+    description: "Generate QR content for links and text, and inspect encoded QR values.",
+    category: "dev-tools",
+    tags: ["qr", "generator", "reader", "encode"],
+    slug: "qr-code-generator-reader",
+    icon: "QrCode"
+  },
+  {
+    id: "tool-nano-id-generator",
+    name: "Nano ID Generator",
+    description: "Generate short collision-resistant IDs for apps, records, and UI fixtures.",
+    category: "dev-tools",
+    tags: ["nanoid", "id", "generator", "random"],
+    slug: "nano-id-generator",
+    icon: "Fingerprint"
+  },
+  {
+    id: "tool-password-generator",
+    name: "Password Generator",
+    description: "Generate secure random passwords with configurable length and character sets.",
+    category: "dev-tools",
+    tags: ["password", "generator", "security", "random"],
+    slug: "password-generator",
+    icon: "LockKeyhole"
+  },
+  {
+    id: "tool-slug-generator",
+    name: "Slug Generator",
+    description: "Turn titles and phrases into URL-safe slugs for routes, docs, and CMS entries.",
+    category: "dev-tools",
+    tags: ["slug", "generator", "url", "text"],
+    slug: "slug-generator",
+    icon: "WholeWord"
+  },
+  {
+    id: "tool-user-agent-generator",
+    name: "User Agent Generator",
+    description: "Generate sample browser and device user agent strings for testing flows.",
+    category: "dev-tools",
+    tags: ["user-agent", "generator", "browser", "testing"],
+    slug: "user-agent-generator",
+    icon: "MonitorSmartphone"
+  },
+  {
+    id: "tool-api-key-token-generator",
+    name: "API Key/Token Generator",
+    description: "Create random token-like strings for local development, demos, and placeholders.",
+    category: "dev-tools",
+    tags: ["api-key", "token", "generator", "auth"],
+    slug: "api-key-token-generator",
+    icon: "KeySquare"
+  },
+  {
+    id: "tool-lorem-code-snippet-generator",
+    name: "Lorem Code Snippet Generator",
+    description: "Generate fake code blocks for UI mocks, demos, and placeholder developer content.",
+    category: "dev-tools",
+    tags: ["code", "snippet", "generator", "placeholder"],
+    slug: "lorem-code-snippet-generator",
+    icon: "FileCode2"
+  },
+  {
+    id: "tool-mock-rest-response-generator",
+    name: "Mock REST Response Generator",
+    description: "Create fake REST-style payloads for demos, mocks, and frontend development.",
+    category: "dev-tools",
+    tags: ["rest", "mock", "response", "api"],
+    slug: "mock-rest-response-generator",
+    icon: "Waypoints"
+  },
+  {
+    id: "tool-openapi-example-generator",
+    name: "OpenAPI Example Generator",
+    description: "Generate example request and response structures inspired by OpenAPI schemas.",
+    category: "dev-tools",
+    tags: ["openapi", "swagger", "example", "api"],
+    slug: "openapi-example-generator",
+    icon: "FileJson2"
+  },
+  {
+    id: "tool-case-converter",
+    name: "Case Converter",
+    description: "Convert strings between camelCase, snake_case, kebab-case, and other common styles.",
+    category: "dev-tools",
+    tags: ["case", "converter", "text", "naming"],
+    slug: "case-converter",
+    icon: "CaseSensitive"
+  },
+  {
+    id: "tool-whitespace-indent-visualizer",
+    name: "Whitespace/Indent Visualizer",
+    description: "Reveal spaces, tabs, and indentation levels in text to debug formatting issues.",
+    category: "dev-tools",
+    tags: ["whitespace", "indentation", "visualizer", "text"],
+    slug: "whitespace-indent-visualizer",
+    icon: "Pilcrow"
+  },
+  {
+    id: "tool-line-sorter-deduper",
+    name: "Line Sorter/Deduper",
+    description: "Sort lines alphabetically and remove duplicates from pasted text blocks.",
+    category: "dev-tools",
+    tags: ["lines", "sort", "dedupe", "text"],
+    slug: "line-sorter-deduper",
+    icon: "ListOrdered"
+  },
+  {
+    id: "tool-json-diff-viewer",
+    name: "JSON Diff Viewer",
+    description: "Compare two JSON objects and inspect structural changes more clearly.",
+    category: "dev-tools",
+    tags: ["json", "diff", "compare", "viewer"],
+    slug: "json-diff-viewer",
+    icon: "GitCompareArrows"
+  },
+  {
+    id: "tool-text-statistics",
+    name: "Text Statistics",
+    description: "Measure characters, words, lines, reading estimates, and content density quickly.",
+    category: "dev-tools",
+    tags: ["text", "statistics", "words", "analysis"],
+    slug: "text-statistics",
+    icon: "ChartColumn"
+  },
+  {
+    id: "tool-find-replace-sandbox",
+    name: "Find/Replace Sandbox",
+    description: "Experiment with find and replace operations on text before applying them elsewhere.",
+    category: "dev-tools",
+    tags: ["find", "replace", "sandbox", "text"],
+    slug: "find-replace-sandbox",
+    icon: "Replace"
+  },
+  {
+    id: "tool-markdown-diff-checker",
+    name: "Markdown Diff Checker",
+    description: "Compare markdown content revisions while keeping structural syntax visible.",
+    category: "dev-tools",
+    tags: ["markdown", "diff", "compare", "docs"],
+    slug: "markdown-diff-checker",
+    icon: "NotebookTabs"
+  },
+  {
+    id: "tool-clipboard-inspector",
+    name: "Clipboard Inspector",
+    description: "Inspect and clean copied text content before pasting it into apps or editors.",
+    category: "dev-tools",
+    tags: ["clipboard", "inspector", "text", "cleanup"],
+    slug: "clipboard-inspector",
+    icon: "ClipboardSearch"
+  },
+  {
+    id: "tool-json-schema-validator",
+    name: "JSON Schema Validator",
+    description: "Validate JSON payloads against schema-like structures during development.",
+    category: "dev-tools",
+    tags: ["json-schema", "validator", "json", "api"],
+    slug: "json-schema-validator",
+    icon: "BadgeCheck"
+  },
+  {
+    id: "tool-email-validator",
+    name: "Email Validator",
+    description: "Check email formats quickly for forms, tests, and validation rules.",
+    category: "dev-tools",
+    tags: ["email", "validator", "forms", "input"],
+    slug: "email-validator",
+    icon: "MailCheck"
+  },
+  {
+    id: "tool-ip-domain-validator",
+    name: "IP/Domain Validator",
+    description: "Validate IP addresses and domain strings for networking and app workflows.",
+    category: "dev-tools",
+    tags: ["ip", "domain", "validator", "network"],
+    slug: "ip-domain-validator",
+    icon: "GlobeLock"
+  },
+  {
+    id: "tool-semver-parser-checker",
+    name: "SemVer Parser/Checker",
+    description: "Parse semantic versions and compare ranges for releases and package workflows.",
+    category: "dev-tools",
+    tags: ["semver", "version", "parser", "packages"],
+    slug: "semver-parser-checker",
+    icon: "GitCommitHorizontal"
+  },
+  {
+    id: "tool-http-header-inspector",
+    name: "HTTP Header Inspector",
+    description: "Inspect, parse, and organize raw HTTP headers into a readable structure.",
+    category: "dev-tools",
+    tags: ["http", "headers", "inspector", "web"],
+    slug: "http-header-inspector",
+    icon: "PanelTop"
+  },
+  {
+    id: "tool-jwt-signature-checker",
+    name: "JWT Signature Checker",
+    description: "Inspect JWT signature segments and validate signing assumptions locally.",
+    category: "dev-tools",
+    tags: ["jwt", "signature", "checker", "auth"],
+    slug: "jwt-signature-checker",
+    icon: "ShieldCheck"
+  },
+  {
+    id: "tool-regex-library-cookbook",
+    name: "Regex Library/Cookbook",
+    description: "Browse common regex patterns, snippets, and matching recipes in one place.",
+    category: "dev-tools",
+    tags: ["regex", "library", "cookbook", "patterns"],
+    slug: "regex-library-cookbook",
+    icon: "BookMarked"
+  },
+  {
+    id: "tool-mime-type-lookup",
+    name: "MIME Type Lookup",
+    description: "Look up common MIME types and file extension mappings for web development.",
+    category: "dev-tools",
+    tags: ["mime", "content-type", "lookup", "web"],
+    slug: "mime-type-lookup",
+    icon: "FileType2"
+  },
+  {
+    id: "tool-timezone-converter",
+    name: "Timezone Converter",
+    description: "Convert date and time values across timezones for teams and global workflows.",
+    category: "dev-tools",
+    tags: ["timezone", "time", "converter", "date"],
+    slug: "timezone-converter",
+    icon: "Globe"
+  },
+  {
+    id: "tool-cron-parser",
+    name: "Cron Parser",
+    description: "Translate cron expressions into readable schedule summaries and field breakdowns.",
+    category: "dev-tools",
+    tags: ["cron", "parser", "schedule", "automation"],
+    slug: "cron-parser",
+    icon: "CalendarClock"
+  },
+  {
+    id: "tool-http-request-tester-mock-builder",
+    name: "HTTP Request Tester Mock Builder",
+    description: "Mock HTTP requests and response setups for frontend demos and API planning.",
+    category: "dev-tools",
+    tags: ["http", "request", "mock", "api"],
+    slug: "http-request-tester-mock-builder",
+    icon: "SendHorizonal"
+  },
+  {
+    id: "tool-cookie-parser",
+    name: "Cookie Parser",
+    description: "Parse raw cookie strings into structured key-value fields for debugging.",
+    category: "dev-tools",
+    tags: ["cookie", "parser", "headers", "web"],
+    slug: "cookie-parser",
+    icon: "Cookie"
+  },
+  {
+    id: "tool-cache-header-calculator",
+    name: "Cache Header Calculator",
+    description: "Reason about cache-control values and expiry timing for HTTP responses.",
+    category: "dev-tools",
+    tags: ["cache", "headers", "http", "performance"],
+    slug: "cache-header-calculator",
+    icon: "Gauge"
+  },
+  {
+    id: "tool-cors-explainer-test-helper",
+    name: "CORS Explainer/Test Helper",
+    description: "Understand common CORS scenarios and inspect request/response header setups.",
+    category: "dev-tools",
+    tags: ["cors", "headers", "http", "debugging"],
+    slug: "cors-explainer-test-helper",
+    icon: "ShieldEllipsis"
+  },
+  {
+    id: "tool-http-methods-reference",
+    name: "HTTP Methods Reference",
+    description: "Review HTTP verbs, semantics, and common usage patterns in one quick reference.",
+    category: "dev-tools",
+    tags: ["http", "methods", "reference", "api"],
+    slug: "http-methods-reference",
+    icon: "BookOpenText"
+  },
+  {
+    id: "tool-status-header-comparison-tool",
+    name: "Status/Header Comparison Tool",
+    description: "Compare HTTP status and header combinations across response scenarios.",
+    category: "dev-tools",
+    tags: ["http", "status", "headers", "compare"],
+    slug: "status-header-comparison-tool",
+    icon: "SplitSquareVertical"
+  },
+  {
+    id: "tool-bcrypt-hash-verify",
+    name: "bcrypt Hash/Verify",
+    description: "Generate bcrypt hashes and verify password strings during local development.",
+    category: "dev-tools",
+    tags: ["bcrypt", "hash", "verify", "security"],
+    slug: "bcrypt-hash-verify",
+    icon: "ShieldEllipsis"
+  },
+  {
+    id: "tool-hmac-generator",
+    name: "HMAC Generator",
+    description: "Create keyed HMAC signatures for request signing and webhook validation flows.",
+    category: "dev-tools",
+    tags: ["hmac", "signature", "security", "hash"],
+    slug: "hmac-generator",
+    icon: "ShieldCheck"
+  },
+  {
+    id: "tool-csr-certificate-viewer",
+    name: "CSR / Certificate Viewer",
+    description: "Inspect certificate requests and certificate-like metadata for local debugging.",
+    category: "dev-tools",
+    tags: ["csr", "certificate", "viewer", "security"],
+    slug: "csr-certificate-viewer",
+    icon: "FileKey2"
+  },
+  {
+    id: "tool-csp-policy-builder",
+    name: "CSP Policy Builder",
+    description: "Draft content security policy directives for frontend and platform hardening.",
+    category: "dev-tools",
+    tags: ["csp", "security", "headers", "policy"],
+    slug: "csp-policy-builder",
+    icon: "Shield"
+  },
+  {
+    id: "tool-basic-auth-header-generator",
+    name: "Basic Auth Header Generator",
+    description: "Generate basic authorization headers from usernames and passwords for testing.",
+    category: "dev-tools",
+    tags: ["basic-auth", "headers", "auth", "http"],
+    slug: "basic-auth-header-generator",
+    icon: "UserRoundCog"
+  },
+  {
+    id: "tool-oauth-flow-cheat-helper",
+    name: "OAuth Flow Cheat Helper",
+    description: "Compare common OAuth flows and their token exchange steps in a compact helper.",
+    category: "dev-tools",
+    tags: ["oauth", "auth", "flow", "reference"],
+    slug: "oauth-flow-cheat-helper",
+    icon: "Workflow"
+  },
+  {
+    id: "tool-webhook-signature-tester",
+    name: "Webhook Signature Tester",
+    description: "Test webhook signing inputs and compare generated signatures during integrations.",
+    category: "dev-tools",
+    tags: ["webhook", "signature", "testing", "security"],
+    slug: "webhook-signature-tester",
+    icon: "Webhook"
+  },
 
   {
     id: "tool-cheatsheet-git",

@@ -1,31 +1,29 @@
-﻿"use client";
+"use client";
 
-import { Moon, Stars } from "lucide-react";
+import { Moon, Sun } from "lucide-react";
+import { useTheme } from "next-themes";
 import { useEffect, useState } from "react";
 
 export function ThemeToggle() {
-  const [glowMode, setGlowMode] = useState(false);
+  const { resolvedTheme, setTheme } = useTheme();
+  const [mounted, setMounted] = useState(false);
 
   useEffect(() => {
-    const stored = window.localStorage.getItem("ttw-glow-mode");
-    setGlowMode(stored === "on");
+    setMounted(true);
   }, []);
 
-  useEffect(() => {
-    document.documentElement.dataset.glow = glowMode ? "on" : "off";
-    window.localStorage.setItem("ttw-glow-mode", glowMode ? "on" : "off");
-  }, [glowMode]);
+  const isDark = !mounted || resolvedTheme !== "light";
 
   return (
     <button
       type="button"
-      onClick={() => setGlowMode((current) => !current)}
+      onClick={() => setTheme(isDark ? "light" : "dark")}
       className="inline-flex h-10 items-center gap-2 rounded-xl border border-[#27272a] bg-[#111113] px-3 text-sm text-[#a1a1aa] transition hover:border-[#3f3f46] hover:text-white"
-      aria-label="Toggle subtle glow mode"
-      aria-pressed={glowMode}
+      aria-label={isDark ? "Switch to light theme" : "Switch to dark theme"}
+      aria-pressed={!isDark}
     >
-      {glowMode ? <Stars className="h-4 w-4 text-[#22c55e]" /> : <Moon className="h-4 w-4" />}
-      <span className="hidden sm:inline">Glow</span>
+      {isDark ? <Sun className="h-4 w-4 text-[#facc15]" /> : <Moon className="h-4 w-4 text-[#6366f1]" />}
+      <span className="hidden sm:inline">{isDark ? "Light" : "Dark"}</span>
     </button>
   );
 }
