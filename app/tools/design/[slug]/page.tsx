@@ -9,45 +9,16 @@ import { BorderRadiusVisualizerTool } from "@/components/tools/BorderRadiusVisua
 import { BoxShadowBuilderTool } from "@/components/tools/BoxShadowBuilderTool";
 import { ColorPaletteGeneratorTool } from "@/components/tools/ColorPaletteGeneratorTool";
 import { GradientGeneratorTool } from "@/components/tools/GradientGeneratorTool";
+import { ToolShell } from "@/components/tools/ToolShell";
 import { TypographyScaleTool } from "@/components/tools/TypographyScaleTool";
+import { tools } from "@/lib/data/tools";
+import { designRoutes } from "@/lib/tool-routes";
+import type { Tool } from "@/types";
 
 const iconMap = LucideIcons as unknown as Record<string, LucideIcon>;
 const FALLBACK_ICON = LucideIcons.Palette;
 
-const designTools = [
-  {
-    slug: "gradient-generator",
-    name: "CSS Gradient Generator",
-    description: "Create linear or radial gradients with adjustable color stops, presets, and copy-ready CSS.",
-    icon: "Blend"
-  },
-  {
-    slug: "box-shadow",
-    name: "Box Shadow Builder",
-    description: "Tune offsets, blur, spread, opacity, and inset shadows with a live preview.",
-    icon: "SquareDashedBottomCode"
-  },
-  {
-    slug: "border-radius",
-    name: "Border Radius Visualizer",
-    description: "Adjust each corner independently and export clean border-radius CSS values.",
-    icon: "Radius"
-  },
-  {
-    slug: "color-palette",
-    name: "Color Palette Generator",
-    description: "Generate tints, shades, complementary, triadic, and analogous colors from a base hex value.",
-    icon: "Palette"
-  },
-  {
-    slug: "type-scale",
-    name: "Typography Scale",
-    description: "Build a type ramp from a base size and modular ratio with live heading previews.",
-    icon: "Type"
-  }
-] as const;
-
-const componentMap: Record<(typeof designTools)[number]["slug"], () => JSX.Element> = {
+const implementedToolComponentMap: Record<string, () => React.ReactElement> = {
   "gradient-generator": GradientGeneratorTool,
   "box-shadow": BoxShadowBuilderTool,
   "border-radius": BorderRadiusVisualizerTool,
@@ -55,28 +26,69 @@ const componentMap: Record<(typeof designTools)[number]["slug"], () => JSX.Eleme
   "type-scale": TypographyScaleTool
 };
 
+const designTools = Object.entries(designRoutes)
+  .map(([toolSlug, href]) => {
+    const tool = tools.find((entry) => entry.slug === toolSlug && entry.category === "design-utils");
+
+    if (!tool) {
+      return null;
+    }
+
+    return {
+      routeSlug: href.split("/").pop() ?? toolSlug,
+      tool
+    };
+  })
+  .filter((entry): entry is { routeSlug: string; tool: Tool } => entry !== null);
+
+function createFallbackTool(tool: Tool) {
+  return function FallbackTool() {
+    return (
+      <ToolShell
+        title={`${tool.name} coming soon`}
+        description="This design utility is listed in the catalog, but its interactive UI has not been implemented yet."
+      >
+        <div className="rounded-2xl border border-[#27272a] bg-[#0d0d0f] p-5 text-sm leading-6 text-[#8b8b93]">
+          The route is live and the page is correctly connected to the shared design catalog. We can build the full interactive tool here next without changing the URL structure.
+        </div>
+      </ToolShell>
+    );
+  };
+}
+
+const toolComponentMap: Record<string, () => React.ReactElement> = Object.fromEntries(
+  designTools.map(({ routeSlug, tool }) => [routeSlug, implementedToolComponentMap[routeSlug] ?? createFallbackTool(tool)])
+);
+
 export function generateStaticParams() {
-  return designTools.map((tool) => ({ slug: tool.slug }));
+  return designTools.map(({ routeSlug }) => ({ slug: routeSlug }));
 }
 
 export function generateMetadata({ params }: { params: { slug: string } }): Metadata {
-  const tool = designTools.find((entry) => entry.slug === params.slug);
+  const entry = designTools.find((item) => item.routeSlug === params.slug);
+
+  if (!entry) {
+    return {
+      title: "Design Tool Not Found"
+    };
+  }
 
   return {
-    title: tool ? tool.name : "Design Tool Not Found",
-    description: tool?.description
+    title: entry.tool.name,
+    description: entry.tool.description
   };
 }
 
 export default function DesignToolPage({ params }: { params: { slug: string } }) {
-  const tool = designTools.find((entry) => entry.slug === params.slug);
+  const entry = designTools.find((item) => item.routeSlug === params.slug);
 
-  if (!tool) {
+  if (!entry) {
     notFound();
   }
 
+  const { tool } = entry;
   const Icon = iconMap[tool.icon] ?? FALLBACK_ICON;
-  const ToolComponent = componentMap[tool.slug];
+  const ToolComponent = toolComponentMap[entry.routeSlug];
 
   return (
     <main className="min-h-screen bg-[#0a0a0a] px-4 py-8 text-[#e4e4e7] sm:px-6 lg:px-8">
@@ -113,3 +125,4 @@ export default function DesignToolPage({ params }: { params: { slug: string } })
     </main>
   );
 }
+

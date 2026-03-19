@@ -474,25 +474,127 @@ export const categoryLandingContent: Record<Category["slug"], CategoryLandingCon
   },
   "design-utils": {
     eyebrow: "Design Utilities",
-    title: "Visual generators for gradients, shadows, palettes, typography, and CSS experiments",
+    title: "Visual generators, accessibility helpers, layout tools, token systems, and presentation utilities for design work",
     description:
-      "Design tools live here as their own family, with direct access to the interactive generators plus adjacent utilities for accessibility and styling experiments.",
+      "Design tools live here as their own family, spanning color, typography, layout, effects, vector helpers, systems thinking, accessibility, and polished mockup workflows.",
     sections: [
       {
-        title: "Style Generators",
-        description: "Interactive CSS builders for visual treatments you want to preview before shipping.",
-        slugs: ["css-gradient-generator", "box-shadow-builder", "border-radius-visualizer", "glassmorphism-generator"]
+        title: "Color Tools",
+        description: "Generate, inspect, and evaluate palettes, ramps, and color behavior for interfaces and branding.",
+        slugs: [
+          "color-palette-generator",
+          "contrast-checker",
+          "accessible-palette-generator",
+          "gradient-mesh-generator",
+          "duotone-generator",
+          "brand-color-extractor",
+          "image-to-palette-picker",
+          "color-blindness-simulator",
+          "opacity-scale-generator"
+        ]
       },
       {
-        title: "Color & Type Systems",
-        description: "Build palettes, modular scales, and contrast-safe UI decisions.",
-        slugs: ["color-palette-generator", "typography-scale", "contrast-checker"]
+        title: "Typography Tools",
+        description: "Explore scale, spacing, pairing, specimen, and responsive type decisions.",
+        slugs: [
+          "typography-scale",
+          "font-pairing-explorer",
+          "line-height-calculator",
+          "letter-spacing-visualizer",
+          "type-specimen-builder",
+          "responsive-typography-clamp-generator",
+          "reading-width-calculator",
+          "variable-font-axis-tester",
+          "text-shadow-generator"
+        ]
       },
       {
-        title: "Experimental CSS",
-        description: "Shape- and layout-oriented helpers for less standard CSS work.",
-        slugs: ["css-clippath-maker"]
+        title: "Layout & Spacing",
+        description: "Build and preview layout systems across grid, flex, spacing, alignment, and breakpoints.",
+        slugs: [
+          "border-radius-visualizer",
+          "css-grid-builder",
+          "flexbox-playground",
+          "spacing-scale-generator",
+          "container-padding-calculator",
+          "aspect-ratio-helper",
+          "breakpoint-preview-tool",
+          "z-index-scale-planner",
+          "layout-alignment-visualizer"
+        ]
+      },
+      {
+        title: "Effects & CSS Visuals",
+        description: "Generate expressive shadows, overlays, patterns, shapes, and polished CSS effects.",
+        slugs: [
+          "css-gradient-generator",
+          "box-shadow-builder",
+          "glassmorphism-generator",
+          "css-clippath-maker",
+          "neumorphism-generator",
+          "skeleton-loader-generator",
+          "css-filter-playground",
+          "backdrop-blur-generator",
+          "noise-grain-background-generator",
+          "pattern-background-generator",
+          "blob-shape-generator",
+          "svg-wave-divider-generator",
+          "mask-image-overlay-generator"
+        ]
+      },
+      {
+        title: "Shape & Vector Utilities",
+        description: "Inspect and construct SVG, icons, paths, curves, masks, and export-friendly vectors.",
+        slugs: [
+          "svg-path-visualizer",
+          "svg-icon-wrapper-generator",
+          "polygon-shape-builder",
+          "bezier-curve-editor",
+          "border-image-mask-builder",
+          "favicon-app-icon-previewer",
+          "viewbox-helper",
+          "svg-optimizer-preview"
+        ]
+      },
+      {
+        title: "UI System Helpers",
+        description: "Build tokens, component states, variables, and reusable UI system foundations.",
+        slugs: [
+          "design-token-generator",
+          "css-variables-exporter",
+          "tailwind-theme-token-helper",
+          "component-state-previewer",
+          "button-style-generator",
+          "card-style-generator",
+          "form-theme-builder",
+          "dark-light-token-comparer"
+        ]
+      },
+      {
+        title: "Accessibility-Oriented Design",
+        description: "Check focus, motion, touch targets, forms, and accessible semantic color behavior.",
+        slugs: [
+          "focus-ring-generator",
+          "touch-target-checker",
+          "accessible-form-color-checker",
+          "motion-safe-animation-helper",
+          "contrast-pair-finder",
+          "semantic-color-ramp-builder"
+        ]
+      },
+      {
+        title: "Mockup & Preview Utilities",
+        description: "Frame screenshots, social assets, avatars, and product visuals for presentation.",
+        slugs: [
+          "browser-frame-preview",
+          "device-mock-frame-generator",
+          "open-graph-image-previewer",
+          "avatar-placeholder-generator",
+          "logo-spacing-clearspace-visualizer",
+          "app-screenshot-frame-tool"
+        ]
       }
     ]
   }
 };
+

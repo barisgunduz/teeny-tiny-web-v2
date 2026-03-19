@@ -2154,6 +2154,547 @@ export const tools: Tool[] = [
   },
 
   {
+    id: "tool-accessible-palette-generator",
+    name: "Accessible Palette Generator",
+    description: "Generate more accessible color palettes with stronger contrast-aware combinations.",
+    category: "design-utils",
+    tags: ["palette", "accessibility", "color", "generator"],
+    slug: "accessible-palette-generator",
+    icon: "Palette"
+  },
+  {
+    id: "tool-gradient-mesh-generator",
+    name: "Gradient Mesh Generator",
+    description: "Build soft multi-point gradient backgrounds for more expressive visual surfaces.",
+    category: "design-utils",
+    tags: ["gradient", "mesh", "background", "design"],
+    slug: "gradient-mesh-generator",
+    icon: "Blend"
+  },
+  {
+    id: "tool-duotone-generator",
+    name: "Duotone Generator",
+    description: "Create duotone color treatments for graphics, hero art, and visual experiments.",
+    category: "design-utils",
+    tags: ["duotone", "color", "effects", "design"],
+    slug: "duotone-generator",
+    icon: "SwatchBook"
+  },
+  {
+    id: "tool-brand-color-extractor",
+    name: "Brand Color Extractor",
+    description: "Pull out likely brand colors and swatches from a source palette or image input.",
+    category: "design-utils",
+    tags: ["brand", "color", "extractor", "palette"],
+    slug: "brand-color-extractor",
+    icon: "Pipette"
+  },
+  {
+    id: "tool-image-to-palette-picker",
+    name: "Image to Palette Picker",
+    description: "Extract a practical color palette from an uploaded visual reference.",
+    category: "design-utils",
+    tags: ["image", "palette", "picker", "colors"],
+    slug: "image-to-palette-picker",
+    icon: "Image"
+  },
+  {
+    id: "tool-color-blindness-simulator",
+    name: "Color Blindness Simulator",
+    description: "Preview how palettes and interfaces may look across common color-vision variations.",
+    category: "design-utils",
+    tags: ["accessibility", "color-blindness", "simulation", "preview"],
+    slug: "color-blindness-simulator",
+    icon: "Eye"
+  },
+  {
+    id: "tool-opacity-scale-generator",
+    name: "Opacity Scale Generator",
+    description: "Generate opacity ramps for overlays, borders, and interface layering systems.",
+    category: "design-utils",
+    tags: ["opacity", "scale", "ui", "generator"],
+    slug: "opacity-scale-generator",
+    icon: "Droplets"
+  },
+  {
+    id: "tool-font-pairing-explorer",
+    name: "Font Pairing Explorer",
+    description: "Explore headline and body font pairings for clearer visual hierarchy.",
+    category: "design-utils",
+    tags: ["fonts", "pairing", "typography", "design"],
+    slug: "font-pairing-explorer",
+    icon: "Type"
+  },
+  {
+    id: "tool-line-height-calculator",
+    name: "Line-height Calculator",
+    description: "Calculate readable line-height ratios for body copy and display text.",
+    category: "design-utils",
+    tags: ["line-height", "typography", "readability", "calculator"],
+    slug: "line-height-calculator",
+    icon: "BetweenHorizontalStart"
+  },
+  {
+    id: "tool-letter-spacing-visualizer",
+    name: "Letter-spacing Visualizer",
+    description: "Preview how tracking changes affect display text, labels, and dense UI copy.",
+    category: "design-utils",
+    tags: ["letter-spacing", "tracking", "typography", "visualizer"],
+    slug: "letter-spacing-visualizer",
+    icon: "TextCursorInput"
+  },
+  {
+    id: "tool-type-specimen-builder",
+    name: "Type Specimen Builder",
+    description: "Build a specimen sheet to preview headings, paragraphs, and UI text together.",
+    category: "design-utils",
+    tags: ["type", "specimen", "typography", "preview"],
+    slug: "type-specimen-builder",
+    icon: "FileType2"
+  },
+  {
+    id: "tool-responsive-typography-clamp-generator",
+    name: "Responsive Typography Clamp Generator",
+    description: "Generate fluid typography values using CSS clamp() for responsive type systems.",
+    category: "design-utils",
+    tags: ["typography", "clamp", "responsive", "css"],
+    slug: "responsive-typography-clamp-generator",
+    icon: "Scaling"
+  },
+  {
+    id: "tool-reading-width-calculator",
+    name: "Reading Width Calculator",
+    description: "Estimate comfortable text measure widths for article and documentation layouts.",
+    category: "design-utils",
+    tags: ["reading-width", "measure", "typography", "layout"],
+    slug: "reading-width-calculator",
+    icon: "Ruler"
+  },
+  {
+    id: "tool-variable-font-axis-tester",
+    name: "Variable Font Axis Tester",
+    description: "Preview weight, width, and optical size axis combinations for variable fonts.",
+    category: "design-utils",
+    tags: ["variable-font", "axis", "typography", "preview"],
+    slug: "variable-font-axis-tester",
+    icon: "SlidersHorizontal"
+  },
+  {
+    id: "tool-text-shadow-generator",
+    name: "Text Shadow Generator",
+    description: "Tune text-shadow treatments for hero headings, badges, and layered typography.",
+    category: "design-utils",
+    tags: ["text-shadow", "css", "typography", "generator"],
+    slug: "text-shadow-generator",
+    icon: "SunMedium"
+  },
+  {
+    id: "tool-css-grid-builder",
+    name: "CSS Grid Builder",
+    description: "Visually construct CSS Grid layouts and export practical template rules.",
+    category: "design-utils",
+    tags: ["grid", "css", "layout", "builder"],
+    slug: "css-grid-builder",
+    icon: "Grid2x2"
+  },
+  {
+    id: "tool-flexbox-playground",
+    name: "Flexbox Playground",
+    description: "Experiment with flex direction, wrapping, alignment, and spacing behaviors.",
+    category: "design-utils",
+    tags: ["flexbox", "css", "layout", "playground"],
+    slug: "flexbox-playground",
+    icon: "Rows3"
+  },
+  {
+    id: "tool-spacing-scale-generator",
+    name: "Spacing Scale Generator",
+    description: "Generate a consistent spacing scale for padding, gaps, and layout rhythm.",
+    category: "design-utils",
+    tags: ["spacing", "scale", "design-system", "layout"],
+    slug: "spacing-scale-generator",
+    icon: "Space"
+  },
+  {
+    id: "tool-container-padding-calculator",
+    name: "Container/Padding Calculator",
+    description: "Balance container widths and padding values for responsive page layouts.",
+    category: "design-utils",
+    tags: ["container", "padding", "layout", "calculator"],
+    slug: "container-padding-calculator",
+    icon: "SquareStack"
+  },
+  {
+    id: "tool-aspect-ratio-helper",
+    name: "Aspect Ratio Helper",
+    description: "Work out consistent aspect-ratio values for images, media, and cards.",
+    category: "design-utils",
+    tags: ["aspect-ratio", "media", "layout", "helper"],
+    slug: "aspect-ratio-helper",
+    icon: "Ratio"
+  },
+  {
+    id: "tool-breakpoint-preview-tool",
+    name: "Breakpoint Preview Tool",
+    description: "Preview layout decisions across common viewport breakpoint ranges.",
+    category: "design-utils",
+    tags: ["breakpoints", "responsive", "preview", "layout"],
+    slug: "breakpoint-preview-tool",
+    icon: "MonitorCog"
+  },
+  {
+    id: "tool-z-index-scale-planner",
+    name: "Z-index Scale Planner",
+    description: "Plan a clean z-index hierarchy for overlays, nav, modals, and popovers.",
+    category: "design-utils",
+    tags: ["z-index", "scale", "layers", "ui"],
+    slug: "z-index-scale-planner",
+    icon: "Layers3"
+  },
+  {
+    id: "tool-layout-alignment-visualizer",
+    name: "Layout Alignment Visualizer",
+    description: "Visualize alignment rules and element relationships across layout groups.",
+    category: "design-utils",
+    tags: ["alignment", "layout", "visualizer", "ui"],
+    slug: "layout-alignment-visualizer",
+    icon: "AlignCenter"
+  },
+  {
+    id: "tool-neumorphism-generator",
+    name: "Neumorphism Generator",
+    description: "Generate soft neumorphic shadows and highlights for raised or inset surfaces.",
+    category: "design-utils",
+    tags: ["neumorphism", "shadow", "css", "effects"],
+    slug: "neumorphism-generator",
+    icon: "CircleEllipsis"
+  },
+  {
+    id: "tool-skeleton-loader-generator",
+    name: "Skeleton Loader Generator",
+    description: "Build loading placeholders with shimmer styles for interface states.",
+    category: "design-utils",
+    tags: ["skeleton", "loader", "ui", "generator"],
+    slug: "skeleton-loader-generator",
+    icon: "LoaderCircle"
+  },
+  {
+    id: "tool-css-filter-playground",
+    name: "CSS Filter Playground",
+    description: "Preview CSS filter chains for blur, brightness, contrast, and image treatment.",
+    category: "design-utils",
+    tags: ["css-filter", "effects", "image", "playground"],
+    slug: "css-filter-playground",
+    icon: "Sliders"
+  },
+  {
+    id: "tool-backdrop-blur-generator",
+    name: "Backdrop Blur Generator",
+    description: "Generate backdrop-filter blur combinations for overlays and frosted UI layers.",
+    category: "design-utils",
+    tags: ["backdrop-blur", "css", "glass", "generator"],
+    slug: "backdrop-blur-generator",
+    icon: "PanelsTopLeft"
+  },
+  {
+    id: "tool-noise-grain-background-generator",
+    name: "Noise/Grain Background Generator",
+    description: "Create subtle grain and noise overlays for textured backgrounds.",
+    category: "design-utils",
+    tags: ["noise", "grain", "background", "texture"],
+    slug: "noise-grain-background-generator",
+    icon: "ScanLine"
+  },
+  {
+    id: "tool-pattern-background-generator",
+    name: "Pattern Background Generator",
+    description: "Generate repeatable pattern backgrounds for sections, cards, and landing pages.",
+    category: "design-utils",
+    tags: ["pattern", "background", "generator", "css"],
+    slug: "pattern-background-generator",
+    icon: "Wallpaper"
+  },
+  {
+    id: "tool-blob-shape-generator",
+    name: "Blob Shape Generator",
+    description: "Generate organic blob shapes for decorative graphics and layout accents.",
+    category: "design-utils",
+    tags: ["blob", "shape", "svg", "generator"],
+    slug: "blob-shape-generator",
+    icon: "Shapes"
+  },
+  {
+    id: "tool-svg-wave-divider-generator",
+    name: "SVG Wave Divider Generator",
+    description: "Create SVG wave separators for section transitions and hero layouts.",
+    category: "design-utils",
+    tags: ["svg", "wave", "divider", "generator"],
+    slug: "svg-wave-divider-generator",
+    icon: "Waves"
+  },
+  {
+    id: "tool-mask-image-overlay-generator",
+    name: "Mask/Image Overlay Generator",
+    description: "Build CSS mask and image-overlay treatments for richer visual layering.",
+    category: "design-utils",
+    tags: ["mask", "image", "overlay", "css"],
+    slug: "mask-image-overlay-generator",
+    icon: "ImagePlus"
+  },
+  {
+    id: "tool-svg-path-visualizer",
+    name: "SVG Path Visualizer",
+    description: "Inspect and preview SVG path commands with a clearer visual representation.",
+    category: "design-utils",
+    tags: ["svg", "path", "visualizer", "vector"],
+    slug: "svg-path-visualizer",
+    icon: "Route"
+  },
+  {
+    id: "tool-svg-icon-wrapper-generator",
+    name: "SVG Icon Wrapper Generator",
+    description: "Wrap SVG assets into reusable icon component patterns and containers.",
+    category: "design-utils",
+    tags: ["svg", "icon", "wrapper", "generator"],
+    slug: "svg-icon-wrapper-generator",
+    icon: "BadgePlus"
+  },
+  {
+    id: "tool-polygon-shape-builder",
+    name: "Polygon/Shape Builder",
+    description: "Create custom polygons and shapes for CSS, SVG, and decorative layouts.",
+    category: "design-utils",
+    tags: ["polygon", "shape", "builder", "vector"],
+    slug: "polygon-shape-builder",
+    icon: "Pentagon"
+  },
+  {
+    id: "tool-bezier-curve-editor",
+    name: "Bezier Curve Editor",
+    description: "Adjust cubic-bezier curves visually for motion and animation timing.",
+    category: "design-utils",
+    tags: ["bezier", "curve", "animation", "editor"],
+    slug: "bezier-curve-editor",
+    icon: "Spline"
+  },
+  {
+    id: "tool-border-image-mask-builder",
+    name: "Border/Image Mask Builder",
+    description: "Build border-image and mask combinations for unusual framed interface styles.",
+    category: "design-utils",
+    tags: ["border-image", "mask", "builder", "css"],
+    slug: "border-image-mask-builder",
+    icon: "Frame"
+  },
+  {
+    id: "tool-favicon-app-icon-previewer",
+    name: "Favicon/App Icon Previewer",
+    description: "Preview app icons, favicons, and small-brand assets across common use cases.",
+    category: "design-utils",
+    tags: ["favicon", "app-icon", "preview", "branding"],
+    slug: "favicon-app-icon-previewer",
+    icon: "AppWindow"
+  },
+  {
+    id: "tool-viewbox-helper",
+    name: "ViewBox Helper",
+    description: "Understand and generate SVG viewBox values for scalable graphic assets.",
+    category: "design-utils",
+    tags: ["viewbox", "svg", "helper", "vector"],
+    slug: "viewbox-helper",
+    icon: "Scan"
+  },
+  {
+    id: "tool-svg-optimizer-preview",
+    name: "SVG Optimizer Preview",
+    description: "Preview simplified SVG output and cleanup opportunities before export.",
+    category: "design-utils",
+    tags: ["svg", "optimize", "preview", "export"],
+    slug: "svg-optimizer-preview",
+    icon: "Shrink"
+  },
+  {
+    id: "tool-design-token-generator",
+    name: "Design Token Generator",
+    description: "Generate token sets for color, spacing, type, radius, and layered UI systems.",
+    category: "design-utils",
+    tags: ["design-tokens", "generator", "system", "ui"],
+    slug: "design-token-generator",
+    icon: "Blocks"
+  },
+  {
+    id: "tool-css-variables-exporter",
+    name: "CSS Variables Exporter",
+    description: "Export palette and sizing decisions as organized CSS custom properties.",
+    category: "design-utils",
+    tags: ["css-variables", "export", "tokens", "css"],
+    slug: "css-variables-exporter",
+    icon: "Variable"
+  },
+  {
+    id: "tool-tailwind-theme-token-helper",
+    name: "Tailwind Theme Token Helper",
+    description: "Translate visual decisions into a cleaner Tailwind theme token structure.",
+    category: "design-utils",
+    tags: ["tailwind", "tokens", "theme", "helper"],
+    slug: "tailwind-theme-token-helper",
+    icon: "Wind"
+  },
+  {
+    id: "tool-component-state-previewer",
+    name: "Component State Previewer",
+    description: "Preview hover, focus, disabled, active, and error states for UI components.",
+    category: "design-utils",
+    tags: ["components", "states", "preview", "ui"],
+    slug: "component-state-previewer",
+    icon: "Component"
+  },
+  {
+    id: "tool-button-style-generator",
+    name: "Button Style Generator",
+    description: "Generate button variants with readable hierarchy, spacing, and interaction states.",
+    category: "design-utils",
+    tags: ["button", "ui", "generator", "components"],
+    slug: "button-style-generator",
+    icon: "MousePointerSquare"
+  },
+  {
+    id: "tool-card-style-generator",
+    name: "Card Style Generator",
+    description: "Build card surfaces with border, padding, shadow, and layering decisions.",
+    category: "design-utils",
+    tags: ["card", "ui", "generator", "layout"],
+    slug: "card-style-generator",
+    icon: "PanelsTopLeft"
+  },
+  {
+    id: "tool-form-theme-builder",
+    name: "Form Theme Builder",
+    description: "Style inputs, labels, validation states, and helper text as a form system.",
+    category: "design-utils",
+    tags: ["form", "theme", "builder", "ui"],
+    slug: "form-theme-builder",
+    icon: "FormInput"
+  },
+  {
+    id: "tool-dark-light-token-comparer",
+    name: "Dark/Light Token Comparer",
+    description: "Compare parallel dark and light token sets for consistency and contrast.",
+    category: "design-utils",
+    tags: ["dark-mode", "light-mode", "tokens", "comparison"],
+    slug: "dark-light-token-comparer",
+    icon: "SunMoon"
+  },
+  {
+    id: "tool-focus-ring-generator",
+    name: "Focus Ring Generator",
+    description: "Generate focus ring treatments that stay visible and accessible across surfaces.",
+    category: "design-utils",
+    tags: ["focus-ring", "accessibility", "generator", "ui"],
+    slug: "focus-ring-generator",
+    icon: "Focus"
+  },
+  {
+    id: "tool-touch-target-checker",
+    name: "Touch Target Checker",
+    description: "Check whether buttons and controls meet comfortable touch target sizes.",
+    category: "design-utils",
+    tags: ["touch-target", "accessibility", "ui", "checker"],
+    slug: "touch-target-checker",
+    icon: "Hand"
+  },
+  {
+    id: "tool-accessible-form-color-checker",
+    name: "Accessible Form Color Checker",
+    description: "Check form state colors for readability, semantics, and accessible contrast.",
+    category: "design-utils",
+    tags: ["forms", "accessibility", "colors", "checker"],
+    slug: "accessible-form-color-checker",
+    icon: "CheckCheck"
+  },
+  {
+    id: "tool-motion-safe-animation-helper",
+    name: "Motion-safe Animation Helper",
+    description: "Preview motion-safe animation approaches that respect reduced-motion preferences.",
+    category: "design-utils",
+    tags: ["motion", "animation", "accessibility", "helper"],
+    slug: "motion-safe-animation-helper",
+    icon: "Move"
+  },
+  {
+    id: "tool-contrast-pair-finder",
+    name: "Contrast Pair Finder",
+    description: "Find usable foreground and background combinations with strong contrast ratios.",
+    category: "design-utils",
+    tags: ["contrast", "colors", "accessibility", "finder"],
+    slug: "contrast-pair-finder",
+    icon: "Contrast"
+  },
+  {
+    id: "tool-semantic-color-ramp-builder",
+    name: "Semantic Color Ramp Builder",
+    description: "Build semantic ramps for success, warning, error, info, and neutral states.",
+    category: "design-utils",
+    tags: ["semantic-colors", "ramp", "system", "ui"],
+    slug: "semantic-color-ramp-builder",
+    icon: "Palette"
+  },
+  {
+    id: "tool-browser-frame-preview",
+    name: "Browser Frame Preview",
+    description: "Preview interface shots inside a lightweight browser-frame presentation.",
+    category: "design-utils",
+    tags: ["browser-frame", "preview", "mockup", "presentation"],
+    slug: "browser-frame-preview",
+    icon: "AppWindow"
+  },
+  {
+    id: "tool-device-mock-frame-generator",
+    name: "Device Mock Frame Generator",
+    description: "Wrap screenshots in simple device frames for previews and landing pages.",
+    category: "design-utils",
+    tags: ["device-frame", "mockup", "preview", "screenshots"],
+    slug: "device-mock-frame-generator",
+    icon: "SmartphoneNfc"
+  },
+  {
+    id: "tool-open-graph-image-previewer",
+    name: "Open Graph Image Previewer",
+    description: "Preview social image layouts and content hierarchy for open graph assets.",
+    category: "design-utils",
+    tags: ["open-graph", "social", "preview", "image"],
+    slug: "open-graph-image-previewer",
+    icon: "ImageUp"
+  },
+  {
+    id: "tool-avatar-placeholder-generator",
+    name: "Avatar Placeholder Generator",
+    description: "Generate simple avatar placeholders for user states, profiles, and lists.",
+    category: "design-utils",
+    tags: ["avatar", "placeholder", "generator", "ui"],
+    slug: "avatar-placeholder-generator",
+    icon: "CircleUserRound"
+  },
+  {
+    id: "tool-logo-spacing-clearspace-visualizer",
+    name: "Logo Spacing/Clearspace Visualizer",
+    description: "Visualize logo clearspace and surrounding layout rules for branding systems.",
+    category: "design-utils",
+    tags: ["logo", "spacing", "branding", "visualizer"],
+    slug: "logo-spacing-clearspace-visualizer",
+    icon: "Badge"
+  },
+  {
+    id: "tool-app-screenshot-frame-tool",
+    name: "App Screenshot Frame Tool",
+    description: "Frame and present application screenshots in cleaner product marketing layouts.",
+    category: "design-utils",
+    tags: ["screenshots", "frame", "presentation", "marketing"],
+    slug: "app-screenshot-frame-tool",
+    icon: "MonitorDot"
+  },
+
+  {
     id: "tool-css-gradient-generator",
     name: "CSS Gradient Generator",
     description: "Create linear and radial gradients with live CSS output and preview.",

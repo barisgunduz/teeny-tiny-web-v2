@@ -1,4 +1,4 @@
-﻿import type { Tool } from "@/types";
+import type { Tool } from "@/types";
 
 const dummyDataRoutes: Record<string, string> = {
   "fake-user-generator": "/tools/dummy-data/users",
@@ -77,12 +77,72 @@ const roadmapRoutes: Record<string, string> = {
   "junior-to-senior-developer-roadmap": "/roadmaps/junior-to-senior-developer",
 };
 
-const designRoutes: Record<string, string> = {
+export const designRoutes: Record<string, string> = {
   "css-gradient-generator": "/tools/design/gradient-generator",
   "box-shadow-builder": "/tools/design/box-shadow",
   "border-radius-visualizer": "/tools/design/border-radius",
   "color-palette-generator": "/tools/design/color-palette",
-  "typography-scale": "/tools/design/type-scale"
+  "typography-scale": "/tools/design/type-scale",
+  "accessible-palette-generator": "/tools/design/accessible-palette-generator",
+  "gradient-mesh-generator": "/tools/design/gradient-mesh-generator",
+  "duotone-generator": "/tools/design/duotone-generator",
+  "brand-color-extractor": "/tools/design/brand-color-extractor",
+  "image-to-palette-picker": "/tools/design/image-to-palette-picker",
+  "color-blindness-simulator": "/tools/design/color-blindness-simulator",
+  "opacity-scale-generator": "/tools/design/opacity-scale-generator",
+  "font-pairing-explorer": "/tools/design/font-pairing-explorer",
+  "line-height-calculator": "/tools/design/line-height-calculator",
+  "letter-spacing-visualizer": "/tools/design/letter-spacing-visualizer",
+  "type-specimen-builder": "/tools/design/type-specimen-builder",
+  "responsive-typography-clamp-generator": "/tools/design/responsive-typography-clamp-generator",
+  "reading-width-calculator": "/tools/design/reading-width-calculator",
+  "variable-font-axis-tester": "/tools/design/variable-font-axis-tester",
+  "text-shadow-generator": "/tools/design/text-shadow-generator",
+  "css-grid-builder": "/tools/design/css-grid-builder",
+  "flexbox-playground": "/tools/design/flexbox-playground",
+  "spacing-scale-generator": "/tools/design/spacing-scale-generator",
+  "container-padding-calculator": "/tools/design/container-padding-calculator",
+  "aspect-ratio-helper": "/tools/design/aspect-ratio-helper",
+  "breakpoint-preview-tool": "/tools/design/breakpoint-preview-tool",
+  "z-index-scale-planner": "/tools/design/z-index-scale-planner",
+  "layout-alignment-visualizer": "/tools/design/layout-alignment-visualizer",
+  "neumorphism-generator": "/tools/design/neumorphism-generator",
+  "skeleton-loader-generator": "/tools/design/skeleton-loader-generator",
+  "css-filter-playground": "/tools/design/css-filter-playground",
+  "backdrop-blur-generator": "/tools/design/backdrop-blur-generator",
+  "noise-grain-background-generator": "/tools/design/noise-grain-background-generator",
+  "pattern-background-generator": "/tools/design/pattern-background-generator",
+  "blob-shape-generator": "/tools/design/blob-shape-generator",
+  "svg-wave-divider-generator": "/tools/design/svg-wave-divider-generator",
+  "mask-image-overlay-generator": "/tools/design/mask-image-overlay-generator",
+  "svg-path-visualizer": "/tools/design/svg-path-visualizer",
+  "svg-icon-wrapper-generator": "/tools/design/svg-icon-wrapper-generator",
+  "polygon-shape-builder": "/tools/design/polygon-shape-builder",
+  "bezier-curve-editor": "/tools/design/bezier-curve-editor",
+  "border-image-mask-builder": "/tools/design/border-image-mask-builder",
+  "favicon-app-icon-previewer": "/tools/design/favicon-app-icon-previewer",
+  "viewbox-helper": "/tools/design/viewbox-helper",
+  "svg-optimizer-preview": "/tools/design/svg-optimizer-preview",
+  "design-token-generator": "/tools/design/design-token-generator",
+  "css-variables-exporter": "/tools/design/css-variables-exporter",
+  "tailwind-theme-token-helper": "/tools/design/tailwind-theme-token-helper",
+  "component-state-previewer": "/tools/design/component-state-previewer",
+  "button-style-generator": "/tools/design/button-style-generator",
+  "card-style-generator": "/tools/design/card-style-generator",
+  "form-theme-builder": "/tools/design/form-theme-builder",
+  "dark-light-token-comparer": "/tools/design/dark-light-token-comparer",
+  "focus-ring-generator": "/tools/design/focus-ring-generator",
+  "touch-target-checker": "/tools/design/touch-target-checker",
+  "accessible-form-color-checker": "/tools/design/accessible-form-color-checker",
+  "motion-safe-animation-helper": "/tools/design/motion-safe-animation-helper",
+  "contrast-pair-finder": "/tools/design/contrast-pair-finder",
+  "semantic-color-ramp-builder": "/tools/design/semantic-color-ramp-builder",
+  "browser-frame-preview": "/tools/design/browser-frame-preview",
+  "device-mock-frame-generator": "/tools/design/device-mock-frame-generator",
+  "open-graph-image-previewer": "/tools/design/open-graph-image-previewer",
+  "avatar-placeholder-generator": "/tools/design/avatar-placeholder-generator",
+  "logo-spacing-clearspace-visualizer": "/tools/design/logo-spacing-clearspace-visualizer",
+  "app-screenshot-frame-tool": "/tools/design/app-screenshot-frame-tool",
 };
 
 export function getToolHref(tool: Tool): string {
@@ -108,3 +168,4 @@ export function getToolHref(tool: Tool): string {
 
   return `/tools/${tool.slug}`;
 }
+
