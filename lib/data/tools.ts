@@ -702,6 +702,565 @@ export const tools: Tool[] = [
   },
 
   {
+    id: "tool-http-methods-cheatsheet",
+    name: "HTTP Methods Cheatsheet",
+    description: "Quick reference for HTTP verbs, semantics, and common usage patterns.",
+    category: "cheatsheets",
+    tags: ["cheatsheet", "reference", "quick-ref"],
+    slug: "http-methods-cheatsheet",
+    icon: "BookOpenText"
+  },
+  {
+    id: "tool-http-status-codes-quick-ref",
+    name: "HTTP Status Codes Quick Ref",
+    description: "Fast lookup for common HTTP status codes and response meanings.",
+    category: "cheatsheets",
+    tags: ["cheatsheet", "reference", "quick-ref"],
+    slug: "http-status-codes-quick-ref",
+    icon: "BadgeInfo"
+  },
+  {
+    id: "tool-rest-api-design-cheatsheet",
+    name: "REST API Design Cheatsheet",
+    description: "Reference common REST naming, resource, and response design conventions.",
+    category: "cheatsheets",
+    tags: ["cheatsheet", "reference", "quick-ref"],
+    slug: "rest-api-design-cheatsheet",
+    icon: "Waypoints"
+  },
+  {
+    id: "tool-graphql-syntax-cheatsheet",
+    name: "GraphQL Syntax Cheatsheet",
+    description: "Quick syntax guide for GraphQL queries, mutations, fragments, and schemas.",
+    category: "cheatsheets",
+    tags: ["cheatsheet", "reference", "quick-ref"],
+    slug: "graphql-syntax-cheatsheet",
+    icon: "Orbit"
+  },
+  {
+    id: "tool-curl-cheatsheet",
+    name: "cURL Cheatsheet",
+    description: "Common cURL patterns for headers, auth, payloads, and request debugging.",
+    category: "cheatsheets",
+    tags: ["cheatsheet", "reference", "quick-ref"],
+    slug: "curl-cheatsheet",
+    icon: "ArrowLeftRight"
+  },
+  {
+    id: "tool-postman-shortcuts-reference",
+    name: "Postman Shortcuts/Reference",
+    description: "Useful Postman shortcuts, request tips, and workflow reminders.",
+    category: "cheatsheets",
+    tags: ["cheatsheet", "reference", "quick-ref"],
+    slug: "postman-shortcuts-reference",
+    icon: "Send"
+  },
+  {
+    id: "tool-websocket-events-cheatsheet",
+    name: "WebSocket Events Cheatsheet",
+    description: "Quick reference for WebSocket event flow and message handling basics.",
+    category: "cheatsheets",
+    tags: ["cheatsheet", "reference", "quick-ref"],
+    slug: "websocket-events-cheatsheet",
+    icon: "Radio"
+  },
+  {
+    id: "tool-json-schema-quick-ref",
+    name: "JSON Schema Quick Ref",
+    description: "Quick guide to common JSON Schema keywords and validation rules.",
+    category: "cheatsheets",
+    tags: ["cheatsheet", "reference", "quick-ref"],
+    slug: "json-schema-quick-ref",
+    icon: "FileJson2"
+  },
+  {
+    id: "tool-kubernetes-cheatsheet",
+    name: "Kubernetes Cheatsheet",
+    description: "High-frequency kubectl commands and Kubernetes object basics.",
+    category: "cheatsheets",
+    tags: ["cheatsheet", "reference", "quick-ref"],
+    slug: "kubernetes-cheatsheet",
+    icon: "Box"
+  },
+  {
+    id: "tool-nginx-cheatsheet",
+    name: "Nginx Cheatsheet",
+    description: "Reference common Nginx config directives, reload commands, and patterns.",
+    category: "cheatsheets",
+    tags: ["cheatsheet", "reference", "quick-ref"],
+    slug: "nginx-cheatsheet",
+    icon: "Server"
+  },
+  {
+    id: "tool-apache-config-cheatsheet",
+    name: "Apache Config Cheatsheet",
+    description: "Quick lookup for common Apache directives and server config tasks.",
+    category: "cheatsheets",
+    tags: ["cheatsheet", "reference", "quick-ref"],
+    slug: "apache-config-cheatsheet",
+    icon: "ServerCog"
+  },
+  {
+    id: "tool-terraform-cheatsheet",
+    name: "Terraform Cheatsheet",
+    description: "Reference core Terraform commands, state workflows, and IaC patterns.",
+    category: "cheatsheets",
+    tags: ["cheatsheet", "reference", "quick-ref"],
+    slug: "terraform-cheatsheet",
+    icon: "Blocks"
+  },
+  {
+    id: "tool-ansible-cheatsheet",
+    name: "Ansible Cheatsheet",
+    description: "Quick ref for Ansible playbooks, inventories, modules, and runs.",
+    category: "cheatsheets",
+    tags: ["cheatsheet", "reference", "quick-ref"],
+    slug: "ansible-cheatsheet",
+    icon: "Bot"
+  },
+  {
+    id: "tool-github-actions-cheatsheet",
+    name: "GitHub Actions Cheatsheet",
+    description: "Reference GitHub Actions workflow syntax, jobs, and CI patterns.",
+    category: "cheatsheets",
+    tags: ["cheatsheet", "reference", "quick-ref"],
+    slug: "github-actions-cheatsheet",
+    icon: "Workflow"
+  },
+  {
+    id: "tool-docker-compose-cheatsheet",
+    name: "Docker Compose Cheatsheet",
+    description: "Quick reference for Docker Compose services, commands, and files.",
+    category: "cheatsheets",
+    tags: ["cheatsheet", "reference", "quick-ref"],
+    slug: "docker-compose-cheatsheet",
+    icon: "Container"
+  },
+  {
+    id: "tool-linux-permissions-quick-ref",
+    name: "Linux Permissions Quick Ref",
+    description: "Fast guide to chmod, chown, permissions, and ownership patterns.",
+    category: "cheatsheets",
+    tags: ["cheatsheet", "reference", "quick-ref"],
+    slug: "linux-permissions-quick-ref",
+    icon: "Shield"
+  },
+  {
+    id: "tool-systemd-cheatsheet",
+    name: "Systemd Cheatsheet",
+    description: "Common systemctl and journalctl commands for service management.",
+    category: "cheatsheets",
+    tags: ["cheatsheet", "reference", "quick-ref"],
+    slug: "systemd-cheatsheet",
+    icon: "Power"
+  },
+  {
+    id: "tool-ssh-cheatsheet",
+    name: "SSH Cheatsheet",
+    description: "Reference SSH connections, config, forwarding, and key workflows.",
+    category: "cheatsheets",
+    tags: ["cheatsheet", "reference", "quick-ref"],
+    slug: "ssh-cheatsheet",
+    icon: "KeySquare"
+  },
+  {
+    id: "tool-postgresql-cheatsheet",
+    name: "PostgreSQL Cheatsheet",
+    description: "Quick PostgreSQL commands, psql usage, and common query helpers.",
+    category: "cheatsheets",
+    tags: ["cheatsheet", "reference", "quick-ref"],
+    slug: "postgresql-cheatsheet",
+    icon: "Database"
+  },
+  {
+    id: "tool-mysql-cheatsheet",
+    name: "MySQL Cheatsheet",
+    description: "Common MySQL commands, query snippets, and admin shortcuts.",
+    category: "cheatsheets",
+    tags: ["cheatsheet", "reference", "quick-ref"],
+    slug: "mysql-cheatsheet",
+    icon: "Database"
+  },
+  {
+    id: "tool-sqlite-cheatsheet",
+    name: "SQLite Cheatsheet",
+    description: "Reference SQLite commands, shell usage, and lightweight query patterns.",
+    category: "cheatsheets",
+    tags: ["cheatsheet", "reference", "quick-ref"],
+    slug: "sqlite-cheatsheet",
+    icon: "Database"
+  },
+  {
+    id: "tool-mongodb-cheatsheet",
+    name: "MongoDB Cheatsheet",
+    description: "Quick reference for MongoDB queries, updates, and shell basics.",
+    category: "cheatsheets",
+    tags: ["cheatsheet", "reference", "quick-ref"],
+    slug: "mongodb-cheatsheet",
+    icon: "Database"
+  },
+  {
+    id: "tool-redis-cheatsheet",
+    name: "Redis Cheatsheet",
+    description: "Useful Redis commands for strings, hashes, lists, sets, and expiry.",
+    category: "cheatsheets",
+    tags: ["cheatsheet", "reference", "quick-ref"],
+    slug: "redis-cheatsheet",
+    icon: "DatabaseBackup"
+  },
+  {
+    id: "tool-prisma-cheatsheet",
+    name: "Prisma Cheatsheet",
+    description: "Reference Prisma schema syntax, client queries, and migration tasks.",
+    category: "cheatsheets",
+    tags: ["cheatsheet", "reference", "quick-ref"],
+    slug: "prisma-cheatsheet",
+    icon: "FileCode2"
+  },
+  {
+    id: "tool-sql-joins-quick-ref",
+    name: "SQL Joins Quick Ref",
+    description: "Fast lookup for SQL join types, patterns, and matching behavior.",
+    category: "cheatsheets",
+    tags: ["cheatsheet", "reference", "quick-ref"],
+    slug: "sql-joins-quick-ref",
+    icon: "GitMerge"
+  },
+  {
+    id: "tool-indexing-performance-cheatsheet",
+    name: "Indexing/Performance Cheatsheet",
+    description: "Quick reminders for indexing basics and query performance tuning.",
+    category: "cheatsheets",
+    tags: ["cheatsheet", "reference", "quick-ref"],
+    slug: "indexing-performance-cheatsheet",
+    icon: "Gauge"
+  },
+  {
+    id: "tool-react-cheatsheet",
+    name: "React Cheatsheet",
+    description: "Everyday React syntax and patterns for components, props, state, and effects.",
+    category: "cheatsheets",
+    tags: ["cheatsheet", "reference", "quick-ref"],
+    slug: "react-cheatsheet",
+    icon: "Atom"
+  },
+  {
+    id: "tool-nextjs-cheatsheet",
+    name: "Next.js Cheatsheet",
+    description: "Quick ref for App Router, data fetching, layouts, and routing patterns.",
+    category: "cheatsheets",
+    tags: ["cheatsheet", "reference", "quick-ref"],
+    slug: "nextjs-cheatsheet",
+    icon: "Rocket"
+  },
+  {
+    id: "tool-tailwind-cheatsheet",
+    name: "Tailwind Cheatsheet",
+    description: "Reference Tailwind utility categories, layout helpers, and spacing patterns.",
+    category: "cheatsheets",
+    tags: ["cheatsheet", "reference", "quick-ref"],
+    slug: "tailwind-cheatsheet",
+    icon: "Wind"
+  },
+  {
+    id: "tool-html-semantics-cheatsheet",
+    name: "HTML Semantics Cheatsheet",
+    description: "Quick guide to semantic HTML elements and document structure choices.",
+    category: "cheatsheets",
+    tags: ["cheatsheet", "reference", "quick-ref"],
+    slug: "html-semantics-cheatsheet",
+    icon: "CodeXml"
+  },
+  {
+    id: "tool-css-flexbox-cheatsheet",
+    name: "CSS Flexbox Cheatsheet",
+    description: "Reference flex container and item properties with common layout combos.",
+    category: "cheatsheets",
+    tags: ["cheatsheet", "reference", "quick-ref"],
+    slug: "css-flexbox-cheatsheet",
+    icon: "Rows3"
+  },
+  {
+    id: "tool-css-grid-cheatsheet",
+    name: "CSS Grid Cheatsheet",
+    description: "Quick guide to grid layout properties, track sizing, and placement.",
+    category: "cheatsheets",
+    tags: ["cheatsheet", "reference", "quick-ref"],
+    slug: "css-grid-cheatsheet",
+    icon: "Grid2x2"
+  },
+  {
+    id: "tool-accessibility-quick-ref",
+    name: "Accessibility Quick Ref",
+    description: "Useful accessibility reminders for semantics, focus, labels, and contrast.",
+    category: "cheatsheets",
+    tags: ["cheatsheet", "reference", "quick-ref"],
+    slug: "accessibility-quick-ref",
+    icon: "Accessibility"
+  },
+  {
+    id: "tool-dom-events-cheatsheet",
+    name: "DOM Events Cheatsheet",
+    description: "Quick reference for common browser DOM events and event handling patterns.",
+    category: "cheatsheets",
+    tags: ["cheatsheet", "reference", "quick-ref"],
+    slug: "dom-events-cheatsheet",
+    icon: "MousePointerClick"
+  },
+  {
+    id: "tool-browser-storage-cheatsheet",
+    name: "Browser Storage Cheatsheet",
+    description: "Compare localStorage, sessionStorage, cookies, and browser storage options.",
+    category: "cheatsheets",
+    tags: ["cheatsheet", "reference", "quick-ref"],
+    slug: "browser-storage-cheatsheet",
+    icon: "HardDrive"
+  },
+  {
+    id: "tool-java-cheatsheet",
+    name: "Java Cheatsheet",
+    description: "Quick Java syntax reminders for classes, collections, methods, and basics.",
+    category: "cheatsheets",
+    tags: ["cheatsheet", "reference", "quick-ref"],
+    slug: "java-cheatsheet",
+    icon: "Coffee"
+  },
+  {
+    id: "tool-csharp-cheatsheet",
+    name: "C# Cheatsheet",
+    description: "Reference C# syntax, LINQ basics, types, and common patterns.",
+    category: "cheatsheets",
+    tags: ["cheatsheet", "reference", "quick-ref"],
+    slug: "csharp-cheatsheet",
+    icon: "Hash"
+  },
+  {
+    id: "tool-go-cheatsheet",
+    name: "Go Cheatsheet",
+    description: "Quick Go examples for structs, slices, interfaces, and concurrency basics.",
+    category: "cheatsheets",
+    tags: ["cheatsheet", "reference", "quick-ref"],
+    slug: "go-cheatsheet",
+    icon: "ArrowRight"
+  },
+  {
+    id: "tool-rust-cheatsheet",
+    name: "Rust Cheatsheet",
+    description: "Reference Rust ownership, borrowing, structs, enums, and pattern basics.",
+    category: "cheatsheets",
+    tags: ["cheatsheet", "reference", "quick-ref"],
+    slug: "rust-cheatsheet",
+    icon: "Cog"
+  },
+  {
+    id: "tool-php-cheatsheet",
+    name: "PHP Cheatsheet",
+    description: "Everyday PHP syntax reminders for arrays, functions, classes, and web basics.",
+    category: "cheatsheets",
+    tags: ["cheatsheet", "reference", "quick-ref"],
+    slug: "php-cheatsheet",
+    icon: "FileCode2"
+  },
+  {
+    id: "tool-ruby-cheatsheet",
+    name: "Ruby Cheatsheet",
+    description: "Quick Ruby examples for hashes, blocks, classes, and collection helpers.",
+    category: "cheatsheets",
+    tags: ["cheatsheet", "reference", "quick-ref"],
+    slug: "ruby-cheatsheet",
+    icon: "Gem"
+  },
+  {
+    id: "tool-shell-scripting-cheatsheet",
+    name: "Shell Scripting Cheatsheet",
+    description: "Reference shell scripting patterns for variables, loops, pipes, and guards.",
+    category: "cheatsheets",
+    tags: ["cheatsheet", "reference", "quick-ref"],
+    slug: "shell-scripting-cheatsheet",
+    icon: "Shell"
+  },
+  {
+    id: "tool-nodejs-quick-ref",
+    name: "Node.js Quick Ref",
+    description: "Quick reference for Node.js modules, scripts, env vars, and runtime basics.",
+    category: "cheatsheets",
+    tags: ["cheatsheet", "reference", "quick-ref"],
+    slug: "nodejs-quick-ref",
+    icon: "SquareTerminal"
+  },
+  {
+    id: "tool-jest-cheatsheet",
+    name: "Jest Cheatsheet",
+    description: "Fast reference for Jest assertions, mocks, setup, and common testing flows.",
+    category: "cheatsheets",
+    tags: ["cheatsheet", "reference", "quick-ref"],
+    slug: "jest-cheatsheet",
+    icon: "FlaskConical"
+  },
+  {
+    id: "tool-playwright-cheatsheet",
+    name: "Playwright Cheatsheet",
+    description: "Reference Playwright locators, assertions, and browser automation basics.",
+    category: "cheatsheets",
+    tags: ["cheatsheet", "reference", "quick-ref"],
+    slug: "playwright-cheatsheet",
+    icon: "MonitorPlay"
+  },
+  {
+    id: "tool-cypress-cheatsheet",
+    name: "Cypress Cheatsheet",
+    description: "Quick guide to Cypress commands, selectors, assertions, and test flow.",
+    category: "cheatsheets",
+    tags: ["cheatsheet", "reference", "quick-ref"],
+    slug: "cypress-cheatsheet",
+    icon: "MonitorCheck"
+  },
+  {
+    id: "tool-testing-library-cheatsheet",
+    name: "Testing Library Cheatsheet",
+    description: "Reference Testing Library queries, assertions, and testing patterns.",
+    category: "cheatsheets",
+    tags: ["cheatsheet", "reference", "quick-ref"],
+    slug: "testing-library-cheatsheet",
+    icon: "Search"
+  },
+  {
+    id: "tool-regex-quick-ref",
+    name: "Regex Quick Ref",
+    description: "Quick reference for common regex tokens, groups, assertions, and flags.",
+    category: "cheatsheets",
+    tags: ["cheatsheet", "reference", "quick-ref"],
+    slug: "regex-quick-ref",
+    icon: "ScanSearch"
+  },
+  {
+    id: "tool-debugging-workflow-cheatsheet",
+    name: "Debugging Workflow Cheatsheet",
+    description: "Useful debugging steps, inspection habits, and troubleshooting workflow reminders.",
+    category: "cheatsheets",
+    tags: ["cheatsheet", "reference", "quick-ref"],
+    slug: "debugging-workflow-cheatsheet",
+    icon: "Bug"
+  },
+  {
+    id: "tool-git-troubleshooting-cheatsheet",
+    name: "Git Troubleshooting Cheatsheet",
+    description: "Quick help for resolving common Git mistakes, conflicts, and sync issues.",
+    category: "cheatsheets",
+    tags: ["cheatsheet", "reference", "quick-ref"],
+    slug: "git-troubleshooting-cheatsheet",
+    icon: "GitBranchPlus"
+  },
+  {
+    id: "tool-owasp-top-10-quick-ref",
+    name: "OWASP Top 10 Quick Ref",
+    description: "Quick security reference for the OWASP Top 10 risk categories.",
+    category: "cheatsheets",
+    tags: ["cheatsheet", "reference", "quick-ref"],
+    slug: "owasp-top-10-quick-ref",
+    icon: "ShieldAlert"
+  },
+  {
+    id: "tool-jwt-cheatsheet",
+    name: "JWT Cheatsheet",
+    description: "Reference JWT structure, claims, signing basics, and auth considerations.",
+    category: "cheatsheets",
+    tags: ["cheatsheet", "reference", "quick-ref"],
+    slug: "jwt-cheatsheet",
+    icon: "KeyRound"
+  },
+  {
+    id: "tool-oauth-2-cheatsheet",
+    name: "OAuth 2.0 Cheatsheet",
+    description: "Quick guide to OAuth 2.0 concepts, tokens, and common grant flows.",
+    category: "cheatsheets",
+    tags: ["cheatsheet", "reference", "quick-ref"],
+    slug: "oauth-2-cheatsheet",
+    icon: "Workflow"
+  },
+  {
+    id: "tool-auth-flow-comparison-sheet",
+    name: "Auth Flow Comparison Sheet",
+    description: "Compare common authentication flows and their tradeoffs at a glance.",
+    category: "cheatsheets",
+    tags: ["cheatsheet", "reference", "quick-ref"],
+    slug: "auth-flow-comparison-sheet",
+    icon: "SplitSquareVertical"
+  },
+  {
+    id: "tool-csp-cheatsheet",
+    name: "CSP Cheatsheet",
+    description: "Reference content security policy directives and policy-building basics.",
+    category: "cheatsheets",
+    tags: ["cheatsheet", "reference", "quick-ref"],
+    slug: "csp-cheatsheet",
+    icon: "ShieldCheck"
+  },
+  {
+    id: "tool-common-security-headers-cheatsheet",
+    name: "Common Security Headers Cheatsheet",
+    description: "Quick reference for common security headers and their purpose.",
+    category: "cheatsheets",
+    tags: ["cheatsheet", "reference", "quick-ref"],
+    slug: "common-security-headers-cheatsheet",
+    icon: "PanelTop"
+  },
+  {
+    id: "tool-prompt-engineering-cheatsheet",
+    name: "Prompt Engineering Cheatsheet",
+    description: "Quick prompts guide covering structure, examples, constraints, and roles.",
+    category: "cheatsheets",
+    tags: ["cheatsheet", "reference", "quick-ref"],
+    slug: "prompt-engineering-cheatsheet",
+    icon: "Sparkles"
+  },
+  {
+    id: "tool-markdown-cheatsheet",
+    name: "Markdown Cheatsheet",
+    description: "Quick reference for Markdown syntax, formatting, links, lists, and code blocks.",
+    category: "cheatsheets",
+    tags: ["cheatsheet", "reference", "quick-ref"],
+    slug: "markdown-cheatsheet",
+    icon: "NotebookPen"
+  },
+  {
+    id: "tool-mermaid-cheatsheet",
+    name: "Mermaid Cheatsheet",
+    description: "Reference Mermaid diagram syntax for flowcharts, sequences, and graphs.",
+    category: "cheatsheets",
+    tags: ["cheatsheet", "reference", "quick-ref"],
+    slug: "mermaid-cheatsheet",
+    icon: "Share2"
+  },
+  {
+    id: "tool-cron-cheatsheet",
+    name: "Cron Cheatsheet",
+    description: "Fast lookup for cron fields, syntax patterns, and recurring schedules.",
+    category: "cheatsheets",
+    tags: ["cheatsheet", "reference", "quick-ref"],
+    slug: "cron-cheatsheet",
+    icon: "CalendarClock"
+  },
+  {
+    id: "tool-keyboard-shortcuts-sheet",
+    name: "Keyboard Shortcuts Sheet",
+    description: "Quick sheet of common editor, browser, and workflow keyboard shortcuts.",
+    category: "cheatsheets",
+    tags: ["cheatsheet", "reference", "quick-ref"],
+    slug: "keyboard-shortcuts-sheet",
+    icon: "Keyboard"
+  },
+  {
+    id: "tool-cli-productivity-cheatsheet",
+    name: "CLI Productivity Cheatsheet",
+    description: "Useful command-line productivity shortcuts, aliases, and terminal habits.",
+    category: "cheatsheets",
+    tags: ["cheatsheet", "reference", "quick-ref"],
+    slug: "cli-productivity-cheatsheet",
+    icon: "TerminalSquare"
+  },
+
+  {
     id: "tool-fake-user-generator",
     name: "Fake User Generator",
     description: "Generate realistic fake people with names, emails, addresses, and avatars.",

@@ -324,5 +324,997 @@ export const cheatsheets: Cheatsheet[] = [
         ]
       }
     ]
-  }
+  },
+  {
+    id: "cheatsheet-http-methods-cheatsheet",
+    title: "HTTP Methods Cheatsheet",
+    slug: "http-methods-cheatsheet",
+    category: "cheatsheets",
+    sections: [
+      {
+        title: "Overview",
+        items: [
+          { label: "Status", value: "Coming soon", description: "This cheatsheet has been added to the catalog and is waiting for full reference content." },
+          { label: "Planned scope", value: "Core commands, syntax, and shortcuts", description: "This placeholder keeps the route live until the full sheet is authored." },
+          { label: "Slug", value: "http-methods-cheatsheet", description: "Use this slug when wiring links, search, and category grouping." }
+        ]
+      }
+    ]
+  },
+  {
+    id: "cheatsheet-http-status-codes-quick-ref",
+    title: "HTTP Status Codes Quick Ref",
+    slug: "http-status-codes-quick-ref",
+    category: "cheatsheets",
+    sections: [
+      {
+        title: "Overview",
+        items: [
+          { label: "Status", value: "Coming soon", description: "This cheatsheet has been added to the catalog and is waiting for full reference content." },
+          { label: "Planned scope", value: "Core commands, syntax, and shortcuts", description: "This placeholder keeps the route live until the full sheet is authored." },
+          { label: "Slug", value: "http-status-codes-quick-ref", description: "Use this slug when wiring links, search, and category grouping." }
+        ]
+      }
+    ]
+  },
+  {
+    id: "cheatsheet-rest-api-design-cheatsheet",
+    title: "REST API Design Cheatsheet",
+    slug: "rest-api-design-cheatsheet",
+    category: "cheatsheets",
+    sections: [
+      {
+        title: "Overview",
+        items: [
+          { label: "Status", value: "Coming soon", description: "This cheatsheet has been added to the catalog and is waiting for full reference content." },
+          { label: "Planned scope", value: "Core commands, syntax, and shortcuts", description: "This placeholder keeps the route live until the full sheet is authored." },
+          { label: "Slug", value: "rest-api-design-cheatsheet", description: "Use this slug when wiring links, search, and category grouping." }
+        ]
+      }
+    ]
+  },
+  {
+    id: "cheatsheet-graphql-syntax-cheatsheet",
+    title: "GraphQL Syntax Cheatsheet",
+    slug: "graphql-syntax-cheatsheet",
+    category: "cheatsheets",
+    sections: [
+      {
+        title: "Overview",
+        items: [
+          { label: "Status", value: "Coming soon", description: "This cheatsheet has been added to the catalog and is waiting for full reference content." },
+          { label: "Planned scope", value: "Core commands, syntax, and shortcuts", description: "This placeholder keeps the route live until the full sheet is authored." },
+          { label: "Slug", value: "graphql-syntax-cheatsheet", description: "Use this slug when wiring links, search, and category grouping." }
+        ]
+      }
+    ]
+  },
+  {
+    id: "cheatsheet-curl-cheatsheet",
+    title: "cURL Cheatsheet",
+    slug: "curl-cheatsheet",
+    category: "cheatsheets",
+    sections: [
+      {
+        title: "Overview",
+        items: [
+          { label: "Status", value: "Coming soon", description: "This cheatsheet has been added to the catalog and is waiting for full reference content." },
+          { label: "Planned scope", value: "Core commands, syntax, and shortcuts", description: "This placeholder keeps the route live until the full sheet is authored." },
+          { label: "Slug", value: "curl-cheatsheet", description: "Use this slug when wiring links, search, and category grouping." }
+        ]
+      }
+    ]
+  },
+  {
+    id: "cheatsheet-postman-shortcuts-reference",
+    title: "Postman Shortcuts/Reference",
+    slug: "postman-shortcuts-reference",
+    category: "cheatsheets",
+    sections: [
+      {
+        title: "Overview",
+        items: [
+          { label: "Status", value: "Coming soon", description: "This cheatsheet has been added to the catalog and is waiting for full reference content." },
+          { label: "Planned scope", value: "Core commands, syntax, and shortcuts", description: "This placeholder keeps the route live until the full sheet is authored." },
+          { label: "Slug", value: "postman-shortcuts-reference", description: "Use this slug when wiring links, search, and category grouping." }
+        ]
+      }
+    ]
+  },
+  {
+    id: "cheatsheet-websocket-events-cheatsheet",
+    title: "WebSocket Events Cheatsheet",
+    slug: "websocket-events-cheatsheet",
+    category: "cheatsheets",
+    sections: [
+      {
+        title: "Overview",
+        items: [
+          { label: "Status", value: "Coming soon", description: "This cheatsheet has been added to the catalog and is waiting for full reference content." },
+          { label: "Planned scope", value: "Core commands, syntax, and shortcuts", description: "This placeholder keeps the route live until the full sheet is authored." },
+          { label: "Slug", value: "websocket-events-cheatsheet", description: "Use this slug when wiring links, search, and category grouping." }
+        ]
+      }
+    ]
+  },
+  {
+    id: "cheatsheet-json-schema-quick-ref",
+    title: "JSON Schema Quick Ref",
+    slug: "json-schema-quick-ref",
+    category: "cheatsheets",
+    sections: [
+      {
+        title: "Overview",
+        items: [
+          { label: "Status", value: "Coming soon", description: "This cheatsheet has been added to the catalog and is waiting for full reference content." },
+          { label: "Planned scope", value: "Core commands, syntax, and shortcuts", description: "This placeholder keeps the route live until the full sheet is authored." },
+          { label: "Slug", value: "json-schema-quick-ref", description: "Use this slug when wiring links, search, and category grouping." }
+        ]
+      }
+    ]
+  },
+  {
+    id: "cheatsheet-kubernetes-cheatsheet",
+    title: "Kubernetes Cheatsheet",
+    slug: "kubernetes-cheatsheet",
+    category: "cheatsheets",
+    sections: [
+      {
+        title: "Overview",
+        items: [
+          { label: "Status", value: "Coming soon", description: "This cheatsheet has been added to the catalog and is waiting for full reference content." },
+          { label: "Planned scope", value: "Core commands, syntax, and shortcuts", description: "This placeholder keeps the route live until the full sheet is authored." },
+          { label: "Slug", value: "kubernetes-cheatsheet", description: "Use this slug when wiring links, search, and category grouping." }
+        ]
+      }
+    ]
+  },
+  {
+    id: "cheatsheet-nginx-cheatsheet",
+    title: "Nginx Cheatsheet",
+    slug: "nginx-cheatsheet",
+    category: "cheatsheets",
+    sections: [
+      {
+        title: "Overview",
+        items: [
+          { label: "Status", value: "Coming soon", description: "This cheatsheet has been added to the catalog and is waiting for full reference content." },
+          { label: "Planned scope", value: "Core commands, syntax, and shortcuts", description: "This placeholder keeps the route live until the full sheet is authored." },
+          { label: "Slug", value: "nginx-cheatsheet", description: "Use this slug when wiring links, search, and category grouping." }
+        ]
+      }
+    ]
+  },
+  {
+    id: "cheatsheet-apache-config-cheatsheet",
+    title: "Apache Config Cheatsheet",
+    slug: "apache-config-cheatsheet",
+    category: "cheatsheets",
+    sections: [
+      {
+        title: "Overview",
+        items: [
+          { label: "Status", value: "Coming soon", description: "This cheatsheet has been added to the catalog and is waiting for full reference content." },
+          { label: "Planned scope", value: "Core commands, syntax, and shortcuts", description: "This placeholder keeps the route live until the full sheet is authored." },
+          { label: "Slug", value: "apache-config-cheatsheet", description: "Use this slug when wiring links, search, and category grouping." }
+        ]
+      }
+    ]
+  },
+  {
+    id: "cheatsheet-terraform-cheatsheet",
+    title: "Terraform Cheatsheet",
+    slug: "terraform-cheatsheet",
+    category: "cheatsheets",
+    sections: [
+      {
+        title: "Overview",
+        items: [
+          { label: "Status", value: "Coming soon", description: "This cheatsheet has been added to the catalog and is waiting for full reference content." },
+          { label: "Planned scope", value: "Core commands, syntax, and shortcuts", description: "This placeholder keeps the route live until the full sheet is authored." },
+          { label: "Slug", value: "terraform-cheatsheet", description: "Use this slug when wiring links, search, and category grouping." }
+        ]
+      }
+    ]
+  },
+  {
+    id: "cheatsheet-ansible-cheatsheet",
+    title: "Ansible Cheatsheet",
+    slug: "ansible-cheatsheet",
+    category: "cheatsheets",
+    sections: [
+      {
+        title: "Overview",
+        items: [
+          { label: "Status", value: "Coming soon", description: "This cheatsheet has been added to the catalog and is waiting for full reference content." },
+          { label: "Planned scope", value: "Core commands, syntax, and shortcuts", description: "This placeholder keeps the route live until the full sheet is authored." },
+          { label: "Slug", value: "ansible-cheatsheet", description: "Use this slug when wiring links, search, and category grouping." }
+        ]
+      }
+    ]
+  },
+  {
+    id: "cheatsheet-github-actions-cheatsheet",
+    title: "GitHub Actions Cheatsheet",
+    slug: "github-actions-cheatsheet",
+    category: "cheatsheets",
+    sections: [
+      {
+        title: "Overview",
+        items: [
+          { label: "Status", value: "Coming soon", description: "This cheatsheet has been added to the catalog and is waiting for full reference content." },
+          { label: "Planned scope", value: "Core commands, syntax, and shortcuts", description: "This placeholder keeps the route live until the full sheet is authored." },
+          { label: "Slug", value: "github-actions-cheatsheet", description: "Use this slug when wiring links, search, and category grouping." }
+        ]
+      }
+    ]
+  },
+  {
+    id: "cheatsheet-docker-compose-cheatsheet",
+    title: "Docker Compose Cheatsheet",
+    slug: "docker-compose-cheatsheet",
+    category: "cheatsheets",
+    sections: [
+      {
+        title: "Overview",
+        items: [
+          { label: "Status", value: "Coming soon", description: "This cheatsheet has been added to the catalog and is waiting for full reference content." },
+          { label: "Planned scope", value: "Core commands, syntax, and shortcuts", description: "This placeholder keeps the route live until the full sheet is authored." },
+          { label: "Slug", value: "docker-compose-cheatsheet", description: "Use this slug when wiring links, search, and category grouping." }
+        ]
+      }
+    ]
+  },
+  {
+    id: "cheatsheet-linux-permissions-quick-ref",
+    title: "Linux Permissions Quick Ref",
+    slug: "linux-permissions-quick-ref",
+    category: "cheatsheets",
+    sections: [
+      {
+        title: "Overview",
+        items: [
+          { label: "Status", value: "Coming soon", description: "This cheatsheet has been added to the catalog and is waiting for full reference content." },
+          { label: "Planned scope", value: "Core commands, syntax, and shortcuts", description: "This placeholder keeps the route live until the full sheet is authored." },
+          { label: "Slug", value: "linux-permissions-quick-ref", description: "Use this slug when wiring links, search, and category grouping." }
+        ]
+      }
+    ]
+  },
+  {
+    id: "cheatsheet-systemd-cheatsheet",
+    title: "Systemd Cheatsheet",
+    slug: "systemd-cheatsheet",
+    category: "cheatsheets",
+    sections: [
+      {
+        title: "Overview",
+        items: [
+          { label: "Status", value: "Coming soon", description: "This cheatsheet has been added to the catalog and is waiting for full reference content." },
+          { label: "Planned scope", value: "Core commands, syntax, and shortcuts", description: "This placeholder keeps the route live until the full sheet is authored." },
+          { label: "Slug", value: "systemd-cheatsheet", description: "Use this slug when wiring links, search, and category grouping." }
+        ]
+      }
+    ]
+  },
+  {
+    id: "cheatsheet-ssh-cheatsheet",
+    title: "SSH Cheatsheet",
+    slug: "ssh-cheatsheet",
+    category: "cheatsheets",
+    sections: [
+      {
+        title: "Overview",
+        items: [
+          { label: "Status", value: "Coming soon", description: "This cheatsheet has been added to the catalog and is waiting for full reference content." },
+          { label: "Planned scope", value: "Core commands, syntax, and shortcuts", description: "This placeholder keeps the route live until the full sheet is authored." },
+          { label: "Slug", value: "ssh-cheatsheet", description: "Use this slug when wiring links, search, and category grouping." }
+        ]
+      }
+    ]
+  },
+  {
+    id: "cheatsheet-postgresql-cheatsheet",
+    title: "PostgreSQL Cheatsheet",
+    slug: "postgresql-cheatsheet",
+    category: "cheatsheets",
+    sections: [
+      {
+        title: "Overview",
+        items: [
+          { label: "Status", value: "Coming soon", description: "This cheatsheet has been added to the catalog and is waiting for full reference content." },
+          { label: "Planned scope", value: "Core commands, syntax, and shortcuts", description: "This placeholder keeps the route live until the full sheet is authored." },
+          { label: "Slug", value: "postgresql-cheatsheet", description: "Use this slug when wiring links, search, and category grouping." }
+        ]
+      }
+    ]
+  },
+  {
+    id: "cheatsheet-mysql-cheatsheet",
+    title: "MySQL Cheatsheet",
+    slug: "mysql-cheatsheet",
+    category: "cheatsheets",
+    sections: [
+      {
+        title: "Overview",
+        items: [
+          { label: "Status", value: "Coming soon", description: "This cheatsheet has been added to the catalog and is waiting for full reference content." },
+          { label: "Planned scope", value: "Core commands, syntax, and shortcuts", description: "This placeholder keeps the route live until the full sheet is authored." },
+          { label: "Slug", value: "mysql-cheatsheet", description: "Use this slug when wiring links, search, and category grouping." }
+        ]
+      }
+    ]
+  },
+  {
+    id: "cheatsheet-sqlite-cheatsheet",
+    title: "SQLite Cheatsheet",
+    slug: "sqlite-cheatsheet",
+    category: "cheatsheets",
+    sections: [
+      {
+        title: "Overview",
+        items: [
+          { label: "Status", value: "Coming soon", description: "This cheatsheet has been added to the catalog and is waiting for full reference content." },
+          { label: "Planned scope", value: "Core commands, syntax, and shortcuts", description: "This placeholder keeps the route live until the full sheet is authored." },
+          { label: "Slug", value: "sqlite-cheatsheet", description: "Use this slug when wiring links, search, and category grouping." }
+        ]
+      }
+    ]
+  },
+  {
+    id: "cheatsheet-mongodb-cheatsheet",
+    title: "MongoDB Cheatsheet",
+    slug: "mongodb-cheatsheet",
+    category: "cheatsheets",
+    sections: [
+      {
+        title: "Overview",
+        items: [
+          { label: "Status", value: "Coming soon", description: "This cheatsheet has been added to the catalog and is waiting for full reference content." },
+          { label: "Planned scope", value: "Core commands, syntax, and shortcuts", description: "This placeholder keeps the route live until the full sheet is authored." },
+          { label: "Slug", value: "mongodb-cheatsheet", description: "Use this slug when wiring links, search, and category grouping." }
+        ]
+      }
+    ]
+  },
+  {
+    id: "cheatsheet-redis-cheatsheet",
+    title: "Redis Cheatsheet",
+    slug: "redis-cheatsheet",
+    category: "cheatsheets",
+    sections: [
+      {
+        title: "Overview",
+        items: [
+          { label: "Status", value: "Coming soon", description: "This cheatsheet has been added to the catalog and is waiting for full reference content." },
+          { label: "Planned scope", value: "Core commands, syntax, and shortcuts", description: "This placeholder keeps the route live until the full sheet is authored." },
+          { label: "Slug", value: "redis-cheatsheet", description: "Use this slug when wiring links, search, and category grouping." }
+        ]
+      }
+    ]
+  },
+  {
+    id: "cheatsheet-prisma-cheatsheet",
+    title: "Prisma Cheatsheet",
+    slug: "prisma-cheatsheet",
+    category: "cheatsheets",
+    sections: [
+      {
+        title: "Overview",
+        items: [
+          { label: "Status", value: "Coming soon", description: "This cheatsheet has been added to the catalog and is waiting for full reference content." },
+          { label: "Planned scope", value: "Core commands, syntax, and shortcuts", description: "This placeholder keeps the route live until the full sheet is authored." },
+          { label: "Slug", value: "prisma-cheatsheet", description: "Use this slug when wiring links, search, and category grouping." }
+        ]
+      }
+    ]
+  },
+  {
+    id: "cheatsheet-sql-joins-quick-ref",
+    title: "SQL Joins Quick Ref",
+    slug: "sql-joins-quick-ref",
+    category: "cheatsheets",
+    sections: [
+      {
+        title: "Overview",
+        items: [
+          { label: "Status", value: "Coming soon", description: "This cheatsheet has been added to the catalog and is waiting for full reference content." },
+          { label: "Planned scope", value: "Core commands, syntax, and shortcuts", description: "This placeholder keeps the route live until the full sheet is authored." },
+          { label: "Slug", value: "sql-joins-quick-ref", description: "Use this slug when wiring links, search, and category grouping." }
+        ]
+      }
+    ]
+  },
+  {
+    id: "cheatsheet-indexing-performance-cheatsheet",
+    title: "Indexing/Performance Cheatsheet",
+    slug: "indexing-performance-cheatsheet",
+    category: "cheatsheets",
+    sections: [
+      {
+        title: "Overview",
+        items: [
+          { label: "Status", value: "Coming soon", description: "This cheatsheet has been added to the catalog and is waiting for full reference content." },
+          { label: "Planned scope", value: "Core commands, syntax, and shortcuts", description: "This placeholder keeps the route live until the full sheet is authored." },
+          { label: "Slug", value: "indexing-performance-cheatsheet", description: "Use this slug when wiring links, search, and category grouping." }
+        ]
+      }
+    ]
+  },
+  {
+    id: "cheatsheet-react-cheatsheet",
+    title: "React Cheatsheet",
+    slug: "react-cheatsheet",
+    category: "cheatsheets",
+    sections: [
+      {
+        title: "Overview",
+        items: [
+          { label: "Status", value: "Coming soon", description: "This cheatsheet has been added to the catalog and is waiting for full reference content." },
+          { label: "Planned scope", value: "Core commands, syntax, and shortcuts", description: "This placeholder keeps the route live until the full sheet is authored." },
+          { label: "Slug", value: "react-cheatsheet", description: "Use this slug when wiring links, search, and category grouping." }
+        ]
+      }
+    ]
+  },
+  {
+    id: "cheatsheet-nextjs-cheatsheet",
+    title: "Next.js Cheatsheet",
+    slug: "nextjs-cheatsheet",
+    category: "cheatsheets",
+    sections: [
+      {
+        title: "Overview",
+        items: [
+          { label: "Status", value: "Coming soon", description: "This cheatsheet has been added to the catalog and is waiting for full reference content." },
+          { label: "Planned scope", value: "Core commands, syntax, and shortcuts", description: "This placeholder keeps the route live until the full sheet is authored." },
+          { label: "Slug", value: "nextjs-cheatsheet", description: "Use this slug when wiring links, search, and category grouping." }
+        ]
+      }
+    ]
+  },
+  {
+    id: "cheatsheet-tailwind-cheatsheet",
+    title: "Tailwind Cheatsheet",
+    slug: "tailwind-cheatsheet",
+    category: "cheatsheets",
+    sections: [
+      {
+        title: "Overview",
+        items: [
+          { label: "Status", value: "Coming soon", description: "This cheatsheet has been added to the catalog and is waiting for full reference content." },
+          { label: "Planned scope", value: "Core commands, syntax, and shortcuts", description: "This placeholder keeps the route live until the full sheet is authored." },
+          { label: "Slug", value: "tailwind-cheatsheet", description: "Use this slug when wiring links, search, and category grouping." }
+        ]
+      }
+    ]
+  },
+  {
+    id: "cheatsheet-html-semantics-cheatsheet",
+    title: "HTML Semantics Cheatsheet",
+    slug: "html-semantics-cheatsheet",
+    category: "cheatsheets",
+    sections: [
+      {
+        title: "Overview",
+        items: [
+          { label: "Status", value: "Coming soon", description: "This cheatsheet has been added to the catalog and is waiting for full reference content." },
+          { label: "Planned scope", value: "Core commands, syntax, and shortcuts", description: "This placeholder keeps the route live until the full sheet is authored." },
+          { label: "Slug", value: "html-semantics-cheatsheet", description: "Use this slug when wiring links, search, and category grouping." }
+        ]
+      }
+    ]
+  },
+  {
+    id: "cheatsheet-css-flexbox-cheatsheet",
+    title: "CSS Flexbox Cheatsheet",
+    slug: "css-flexbox-cheatsheet",
+    category: "cheatsheets",
+    sections: [
+      {
+        title: "Overview",
+        items: [
+          { label: "Status", value: "Coming soon", description: "This cheatsheet has been added to the catalog and is waiting for full reference content." },
+          { label: "Planned scope", value: "Core commands, syntax, and shortcuts", description: "This placeholder keeps the route live until the full sheet is authored." },
+          { label: "Slug", value: "css-flexbox-cheatsheet", description: "Use this slug when wiring links, search, and category grouping." }
+        ]
+      }
+    ]
+  },
+  {
+    id: "cheatsheet-css-grid-cheatsheet",
+    title: "CSS Grid Cheatsheet",
+    slug: "css-grid-cheatsheet",
+    category: "cheatsheets",
+    sections: [
+      {
+        title: "Overview",
+        items: [
+          { label: "Status", value: "Coming soon", description: "This cheatsheet has been added to the catalog and is waiting for full reference content." },
+          { label: "Planned scope", value: "Core commands, syntax, and shortcuts", description: "This placeholder keeps the route live until the full sheet is authored." },
+          { label: "Slug", value: "css-grid-cheatsheet", description: "Use this slug when wiring links, search, and category grouping." }
+        ]
+      }
+    ]
+  },
+  {
+    id: "cheatsheet-accessibility-quick-ref",
+    title: "Accessibility Quick Ref",
+    slug: "accessibility-quick-ref",
+    category: "cheatsheets",
+    sections: [
+      {
+        title: "Overview",
+        items: [
+          { label: "Status", value: "Coming soon", description: "This cheatsheet has been added to the catalog and is waiting for full reference content." },
+          { label: "Planned scope", value: "Core commands, syntax, and shortcuts", description: "This placeholder keeps the route live until the full sheet is authored." },
+          { label: "Slug", value: "accessibility-quick-ref", description: "Use this slug when wiring links, search, and category grouping." }
+        ]
+      }
+    ]
+  },
+  {
+    id: "cheatsheet-dom-events-cheatsheet",
+    title: "DOM Events Cheatsheet",
+    slug: "dom-events-cheatsheet",
+    category: "cheatsheets",
+    sections: [
+      {
+        title: "Overview",
+        items: [
+          { label: "Status", value: "Coming soon", description: "This cheatsheet has been added to the catalog and is waiting for full reference content." },
+          { label: "Planned scope", value: "Core commands, syntax, and shortcuts", description: "This placeholder keeps the route live until the full sheet is authored." },
+          { label: "Slug", value: "dom-events-cheatsheet", description: "Use this slug when wiring links, search, and category grouping." }
+        ]
+      }
+    ]
+  },
+  {
+    id: "cheatsheet-browser-storage-cheatsheet",
+    title: "Browser Storage Cheatsheet",
+    slug: "browser-storage-cheatsheet",
+    category: "cheatsheets",
+    sections: [
+      {
+        title: "Overview",
+        items: [
+          { label: "Status", value: "Coming soon", description: "This cheatsheet has been added to the catalog and is waiting for full reference content." },
+          { label: "Planned scope", value: "Core commands, syntax, and shortcuts", description: "This placeholder keeps the route live until the full sheet is authored." },
+          { label: "Slug", value: "browser-storage-cheatsheet", description: "Use this slug when wiring links, search, and category grouping." }
+        ]
+      }
+    ]
+  },
+  {
+    id: "cheatsheet-java-cheatsheet",
+    title: "Java Cheatsheet",
+    slug: "java-cheatsheet",
+    category: "cheatsheets",
+    sections: [
+      {
+        title: "Overview",
+        items: [
+          { label: "Status", value: "Coming soon", description: "This cheatsheet has been added to the catalog and is waiting for full reference content." },
+          { label: "Planned scope", value: "Core commands, syntax, and shortcuts", description: "This placeholder keeps the route live until the full sheet is authored." },
+          { label: "Slug", value: "java-cheatsheet", description: "Use this slug when wiring links, search, and category grouping." }
+        ]
+      }
+    ]
+  },
+  {
+    id: "cheatsheet-csharp-cheatsheet",
+    title: "C# Cheatsheet",
+    slug: "csharp-cheatsheet",
+    category: "cheatsheets",
+    sections: [
+      {
+        title: "Overview",
+        items: [
+          { label: "Status", value: "Coming soon", description: "This cheatsheet has been added to the catalog and is waiting for full reference content." },
+          { label: "Planned scope", value: "Core commands, syntax, and shortcuts", description: "This placeholder keeps the route live until the full sheet is authored." },
+          { label: "Slug", value: "csharp-cheatsheet", description: "Use this slug when wiring links, search, and category grouping." }
+        ]
+      }
+    ]
+  },
+  {
+    id: "cheatsheet-go-cheatsheet",
+    title: "Go Cheatsheet",
+    slug: "go-cheatsheet",
+    category: "cheatsheets",
+    sections: [
+      {
+        title: "Overview",
+        items: [
+          { label: "Status", value: "Coming soon", description: "This cheatsheet has been added to the catalog and is waiting for full reference content." },
+          { label: "Planned scope", value: "Core commands, syntax, and shortcuts", description: "This placeholder keeps the route live until the full sheet is authored." },
+          { label: "Slug", value: "go-cheatsheet", description: "Use this slug when wiring links, search, and category grouping." }
+        ]
+      }
+    ]
+  },
+  {
+    id: "cheatsheet-rust-cheatsheet",
+    title: "Rust Cheatsheet",
+    slug: "rust-cheatsheet",
+    category: "cheatsheets",
+    sections: [
+      {
+        title: "Overview",
+        items: [
+          { label: "Status", value: "Coming soon", description: "This cheatsheet has been added to the catalog and is waiting for full reference content." },
+          { label: "Planned scope", value: "Core commands, syntax, and shortcuts", description: "This placeholder keeps the route live until the full sheet is authored." },
+          { label: "Slug", value: "rust-cheatsheet", description: "Use this slug when wiring links, search, and category grouping." }
+        ]
+      }
+    ]
+  },
+  {
+    id: "cheatsheet-php-cheatsheet",
+    title: "PHP Cheatsheet",
+    slug: "php-cheatsheet",
+    category: "cheatsheets",
+    sections: [
+      {
+        title: "Overview",
+        items: [
+          { label: "Status", value: "Coming soon", description: "This cheatsheet has been added to the catalog and is waiting for full reference content." },
+          { label: "Planned scope", value: "Core commands, syntax, and shortcuts", description: "This placeholder keeps the route live until the full sheet is authored." },
+          { label: "Slug", value: "php-cheatsheet", description: "Use this slug when wiring links, search, and category grouping." }
+        ]
+      }
+    ]
+  },
+  {
+    id: "cheatsheet-ruby-cheatsheet",
+    title: "Ruby Cheatsheet",
+    slug: "ruby-cheatsheet",
+    category: "cheatsheets",
+    sections: [
+      {
+        title: "Overview",
+        items: [
+          { label: "Status", value: "Coming soon", description: "This cheatsheet has been added to the catalog and is waiting for full reference content." },
+          { label: "Planned scope", value: "Core commands, syntax, and shortcuts", description: "This placeholder keeps the route live until the full sheet is authored." },
+          { label: "Slug", value: "ruby-cheatsheet", description: "Use this slug when wiring links, search, and category grouping." }
+        ]
+      }
+    ]
+  },
+  {
+    id: "cheatsheet-shell-scripting-cheatsheet",
+    title: "Shell Scripting Cheatsheet",
+    slug: "shell-scripting-cheatsheet",
+    category: "cheatsheets",
+    sections: [
+      {
+        title: "Overview",
+        items: [
+          { label: "Status", value: "Coming soon", description: "This cheatsheet has been added to the catalog and is waiting for full reference content." },
+          { label: "Planned scope", value: "Core commands, syntax, and shortcuts", description: "This placeholder keeps the route live until the full sheet is authored." },
+          { label: "Slug", value: "shell-scripting-cheatsheet", description: "Use this slug when wiring links, search, and category grouping." }
+        ]
+      }
+    ]
+  },
+  {
+    id: "cheatsheet-nodejs-quick-ref",
+    title: "Node.js Quick Ref",
+    slug: "nodejs-quick-ref",
+    category: "cheatsheets",
+    sections: [
+      {
+        title: "Overview",
+        items: [
+          { label: "Status", value: "Coming soon", description: "This cheatsheet has been added to the catalog and is waiting for full reference content." },
+          { label: "Planned scope", value: "Core commands, syntax, and shortcuts", description: "This placeholder keeps the route live until the full sheet is authored." },
+          { label: "Slug", value: "nodejs-quick-ref", description: "Use this slug when wiring links, search, and category grouping." }
+        ]
+      }
+    ]
+  },
+  {
+    id: "cheatsheet-jest-cheatsheet",
+    title: "Jest Cheatsheet",
+    slug: "jest-cheatsheet",
+    category: "cheatsheets",
+    sections: [
+      {
+        title: "Overview",
+        items: [
+          { label: "Status", value: "Coming soon", description: "This cheatsheet has been added to the catalog and is waiting for full reference content." },
+          { label: "Planned scope", value: "Core commands, syntax, and shortcuts", description: "This placeholder keeps the route live until the full sheet is authored." },
+          { label: "Slug", value: "jest-cheatsheet", description: "Use this slug when wiring links, search, and category grouping." }
+        ]
+      }
+    ]
+  },
+  {
+    id: "cheatsheet-playwright-cheatsheet",
+    title: "Playwright Cheatsheet",
+    slug: "playwright-cheatsheet",
+    category: "cheatsheets",
+    sections: [
+      {
+        title: "Overview",
+        items: [
+          { label: "Status", value: "Coming soon", description: "This cheatsheet has been added to the catalog and is waiting for full reference content." },
+          { label: "Planned scope", value: "Core commands, syntax, and shortcuts", description: "This placeholder keeps the route live until the full sheet is authored." },
+          { label: "Slug", value: "playwright-cheatsheet", description: "Use this slug when wiring links, search, and category grouping." }
+        ]
+      }
+    ]
+  },
+  {
+    id: "cheatsheet-cypress-cheatsheet",
+    title: "Cypress Cheatsheet",
+    slug: "cypress-cheatsheet",
+    category: "cheatsheets",
+    sections: [
+      {
+        title: "Overview",
+        items: [
+          { label: "Status", value: "Coming soon", description: "This cheatsheet has been added to the catalog and is waiting for full reference content." },
+          { label: "Planned scope", value: "Core commands, syntax, and shortcuts", description: "This placeholder keeps the route live until the full sheet is authored." },
+          { label: "Slug", value: "cypress-cheatsheet", description: "Use this slug when wiring links, search, and category grouping." }
+        ]
+      }
+    ]
+  },
+  {
+    id: "cheatsheet-testing-library-cheatsheet",
+    title: "Testing Library Cheatsheet",
+    slug: "testing-library-cheatsheet",
+    category: "cheatsheets",
+    sections: [
+      {
+        title: "Overview",
+        items: [
+          { label: "Status", value: "Coming soon", description: "This cheatsheet has been added to the catalog and is waiting for full reference content." },
+          { label: "Planned scope", value: "Core commands, syntax, and shortcuts", description: "This placeholder keeps the route live until the full sheet is authored." },
+          { label: "Slug", value: "testing-library-cheatsheet", description: "Use this slug when wiring links, search, and category grouping." }
+        ]
+      }
+    ]
+  },
+  {
+    id: "cheatsheet-regex-quick-ref",
+    title: "Regex Quick Ref",
+    slug: "regex-quick-ref",
+    category: "cheatsheets",
+    sections: [
+      {
+        title: "Overview",
+        items: [
+          { label: "Status", value: "Coming soon", description: "This cheatsheet has been added to the catalog and is waiting for full reference content." },
+          { label: "Planned scope", value: "Core commands, syntax, and shortcuts", description: "This placeholder keeps the route live until the full sheet is authored." },
+          { label: "Slug", value: "regex-quick-ref", description: "Use this slug when wiring links, search, and category grouping." }
+        ]
+      }
+    ]
+  },
+  {
+    id: "cheatsheet-debugging-workflow-cheatsheet",
+    title: "Debugging Workflow Cheatsheet",
+    slug: "debugging-workflow-cheatsheet",
+    category: "cheatsheets",
+    sections: [
+      {
+        title: "Overview",
+        items: [
+          { label: "Status", value: "Coming soon", description: "This cheatsheet has been added to the catalog and is waiting for full reference content." },
+          { label: "Planned scope", value: "Core commands, syntax, and shortcuts", description: "This placeholder keeps the route live until the full sheet is authored." },
+          { label: "Slug", value: "debugging-workflow-cheatsheet", description: "Use this slug when wiring links, search, and category grouping." }
+        ]
+      }
+    ]
+  },
+  {
+    id: "cheatsheet-git-troubleshooting-cheatsheet",
+    title: "Git Troubleshooting Cheatsheet",
+    slug: "git-troubleshooting-cheatsheet",
+    category: "cheatsheets",
+    sections: [
+      {
+        title: "Overview",
+        items: [
+          { label: "Status", value: "Coming soon", description: "This cheatsheet has been added to the catalog and is waiting for full reference content." },
+          { label: "Planned scope", value: "Core commands, syntax, and shortcuts", description: "This placeholder keeps the route live until the full sheet is authored." },
+          { label: "Slug", value: "git-troubleshooting-cheatsheet", description: "Use this slug when wiring links, search, and category grouping." }
+        ]
+      }
+    ]
+  },
+  {
+    id: "cheatsheet-owasp-top-10-quick-ref",
+    title: "OWASP Top 10 Quick Ref",
+    slug: "owasp-top-10-quick-ref",
+    category: "cheatsheets",
+    sections: [
+      {
+        title: "Overview",
+        items: [
+          { label: "Status", value: "Coming soon", description: "This cheatsheet has been added to the catalog and is waiting for full reference content." },
+          { label: "Planned scope", value: "Core commands, syntax, and shortcuts", description: "This placeholder keeps the route live until the full sheet is authored." },
+          { label: "Slug", value: "owasp-top-10-quick-ref", description: "Use this slug when wiring links, search, and category grouping." }
+        ]
+      }
+    ]
+  },
+  {
+    id: "cheatsheet-jwt-cheatsheet",
+    title: "JWT Cheatsheet",
+    slug: "jwt-cheatsheet",
+    category: "cheatsheets",
+    sections: [
+      {
+        title: "Overview",
+        items: [
+          { label: "Status", value: "Coming soon", description: "This cheatsheet has been added to the catalog and is waiting for full reference content." },
+          { label: "Planned scope", value: "Core commands, syntax, and shortcuts", description: "This placeholder keeps the route live until the full sheet is authored." },
+          { label: "Slug", value: "jwt-cheatsheet", description: "Use this slug when wiring links, search, and category grouping." }
+        ]
+      }
+    ]
+  },
+  {
+    id: "cheatsheet-oauth-2-cheatsheet",
+    title: "OAuth 2.0 Cheatsheet",
+    slug: "oauth-2-cheatsheet",
+    category: "cheatsheets",
+    sections: [
+      {
+        title: "Overview",
+        items: [
+          { label: "Status", value: "Coming soon", description: "This cheatsheet has been added to the catalog and is waiting for full reference content." },
+          { label: "Planned scope", value: "Core commands, syntax, and shortcuts", description: "This placeholder keeps the route live until the full sheet is authored." },
+          { label: "Slug", value: "oauth-2-cheatsheet", description: "Use this slug when wiring links, search, and category grouping." }
+        ]
+      }
+    ]
+  },
+  {
+    id: "cheatsheet-auth-flow-comparison-sheet",
+    title: "Auth Flow Comparison Sheet",
+    slug: "auth-flow-comparison-sheet",
+    category: "cheatsheets",
+    sections: [
+      {
+        title: "Overview",
+        items: [
+          { label: "Status", value: "Coming soon", description: "This cheatsheet has been added to the catalog and is waiting for full reference content." },
+          { label: "Planned scope", value: "Core commands, syntax, and shortcuts", description: "This placeholder keeps the route live until the full sheet is authored." },
+          { label: "Slug", value: "auth-flow-comparison-sheet", description: "Use this slug when wiring links, search, and category grouping." }
+        ]
+      }
+    ]
+  },
+  {
+    id: "cheatsheet-csp-cheatsheet",
+    title: "CSP Cheatsheet",
+    slug: "csp-cheatsheet",
+    category: "cheatsheets",
+    sections: [
+      {
+        title: "Overview",
+        items: [
+          { label: "Status", value: "Coming soon", description: "This cheatsheet has been added to the catalog and is waiting for full reference content." },
+          { label: "Planned scope", value: "Core commands, syntax, and shortcuts", description: "This placeholder keeps the route live until the full sheet is authored." },
+          { label: "Slug", value: "csp-cheatsheet", description: "Use this slug when wiring links, search, and category grouping." }
+        ]
+      }
+    ]
+  },
+  {
+    id: "cheatsheet-common-security-headers-cheatsheet",
+    title: "Common Security Headers Cheatsheet",
+    slug: "common-security-headers-cheatsheet",
+    category: "cheatsheets",
+    sections: [
+      {
+        title: "Overview",
+        items: [
+          { label: "Status", value: "Coming soon", description: "This cheatsheet has been added to the catalog and is waiting for full reference content." },
+          { label: "Planned scope", value: "Core commands, syntax, and shortcuts", description: "This placeholder keeps the route live until the full sheet is authored." },
+          { label: "Slug", value: "common-security-headers-cheatsheet", description: "Use this slug when wiring links, search, and category grouping." }
+        ]
+      }
+    ]
+  },
+  {
+    id: "cheatsheet-prompt-engineering-cheatsheet",
+    title: "Prompt Engineering Cheatsheet",
+    slug: "prompt-engineering-cheatsheet",
+    category: "cheatsheets",
+    sections: [
+      {
+        title: "Overview",
+        items: [
+          { label: "Status", value: "Coming soon", description: "This cheatsheet has been added to the catalog and is waiting for full reference content." },
+          { label: "Planned scope", value: "Core commands, syntax, and shortcuts", description: "This placeholder keeps the route live until the full sheet is authored." },
+          { label: "Slug", value: "prompt-engineering-cheatsheet", description: "Use this slug when wiring links, search, and category grouping." }
+        ]
+      }
+    ]
+  },
+  {
+    id: "cheatsheet-markdown-cheatsheet",
+    title: "Markdown Cheatsheet",
+    slug: "markdown-cheatsheet",
+    category: "cheatsheets",
+    sections: [
+      {
+        title: "Overview",
+        items: [
+          { label: "Status", value: "Coming soon", description: "This cheatsheet has been added to the catalog and is waiting for full reference content." },
+          { label: "Planned scope", value: "Core commands, syntax, and shortcuts", description: "This placeholder keeps the route live until the full sheet is authored." },
+          { label: "Slug", value: "markdown-cheatsheet", description: "Use this slug when wiring links, search, and category grouping." }
+        ]
+      }
+    ]
+  },
+  {
+    id: "cheatsheet-mermaid-cheatsheet",
+    title: "Mermaid Cheatsheet",
+    slug: "mermaid-cheatsheet",
+    category: "cheatsheets",
+    sections: [
+      {
+        title: "Overview",
+        items: [
+          { label: "Status", value: "Coming soon", description: "This cheatsheet has been added to the catalog and is waiting for full reference content." },
+          { label: "Planned scope", value: "Core commands, syntax, and shortcuts", description: "This placeholder keeps the route live until the full sheet is authored." },
+          { label: "Slug", value: "mermaid-cheatsheet", description: "Use this slug when wiring links, search, and category grouping." }
+        ]
+      }
+    ]
+  },
+  {
+    id: "cheatsheet-cron-cheatsheet",
+    title: "Cron Cheatsheet",
+    slug: "cron-cheatsheet",
+    category: "cheatsheets",
+    sections: [
+      {
+        title: "Overview",
+        items: [
+          { label: "Status", value: "Coming soon", description: "This cheatsheet has been added to the catalog and is waiting for full reference content." },
+          { label: "Planned scope", value: "Core commands, syntax, and shortcuts", description: "This placeholder keeps the route live until the full sheet is authored." },
+          { label: "Slug", value: "cron-cheatsheet", description: "Use this slug when wiring links, search, and category grouping." }
+        ]
+      }
+    ]
+  },
+  {
+    id: "cheatsheet-keyboard-shortcuts-sheet",
+    title: "Keyboard Shortcuts Sheet",
+    slug: "keyboard-shortcuts-sheet",
+    category: "cheatsheets",
+    sections: [
+      {
+        title: "Overview",
+        items: [
+          { label: "Status", value: "Coming soon", description: "This cheatsheet has been added to the catalog and is waiting for full reference content." },
+          { label: "Planned scope", value: "Core commands, syntax, and shortcuts", description: "This placeholder keeps the route live until the full sheet is authored." },
+          { label: "Slug", value: "keyboard-shortcuts-sheet", description: "Use this slug when wiring links, search, and category grouping." }
+        ]
+      }
+    ]
+  },
+  {
+    id: "cheatsheet-cli-productivity-cheatsheet",
+    title: "CLI Productivity Cheatsheet",
+    slug: "cli-productivity-cheatsheet",
+    category: "cheatsheets",
+    sections: [
+      {
+        title: "Overview",
+        items: [
+          { label: "Status", value: "Coming soon", description: "This cheatsheet has been added to the catalog and is waiting for full reference content." },
+          { label: "Planned scope", value: "Core commands, syntax, and shortcuts", description: "This placeholder keeps the route live until the full sheet is authored." },
+          { label: "Slug", value: "cli-productivity-cheatsheet", description: "Use this slug when wiring links, search, and category grouping." }
+        ]
+      }
+    ]
+  },
 ];

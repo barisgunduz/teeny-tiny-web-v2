@@ -133,24 +133,129 @@ export const categoryLandingContent: Record<Category["slug"], CategoryLandingCon
   },
   cheatsheets: {
     eyebrow: "Quick Reference Sheets",
-    title: "Guides, commands, and syntax tables for the stuff you forget once a week",
+    title: "Guides, commands, syntax tables, and workflow notes for the things you should not have to re-google",
     description:
-      "Browse terse reference pages for shell commands, language syntax, editor motions, container workflows, and common query patterns.",
+      "Browse terse reference pages for languages, APIs, infrastructure, frontend stacks, testing workflows, security basics, and high-frequency developer shortcuts.",
     sections: [
       {
-        title: "Terminal & Ops",
-        description: "The reference sheets you keep open while navigating, scripting, or working in containers.",
-        slugs: ["linux-cli-cheatsheet", "bash-cheatsheet", "docker-cheatsheet", "vim-cheatsheet"]
+        title: "Backend & APIs",
+        description: "HTTP, REST, GraphQL, request tools, and schema-oriented references.",
+        slugs: [
+          "http-methods-cheatsheet",
+          "http-status-codes-quick-ref",
+          "rest-api-design-cheatsheet",
+          "graphql-syntax-cheatsheet",
+          "curl-cheatsheet",
+          "postman-shortcuts-reference",
+          "websocket-events-cheatsheet",
+          "json-schema-quick-ref"
+        ]
       },
       {
-        title: "Languages & Queries",
-        description: "High-frequency syntax refreshers for writing code and querying data.",
-        slugs: ["javascript-cheatsheet", "typescript-cheatsheet", "python-cheatsheet", "sql-cheatsheet"]
+        title: "DevOps & Infra",
+        description: "Containers, infrastructure, servers, permissions, and terminal-side ops references.",
+        slugs: [
+          "linux-cli-cheatsheet",
+          "bash-cheatsheet",
+          "docker-cheatsheet",
+          "docker-compose-cheatsheet",
+          "kubernetes-cheatsheet",
+          "nginx-cheatsheet",
+          "apache-config-cheatsheet",
+          "terraform-cheatsheet",
+          "ansible-cheatsheet",
+          "github-actions-cheatsheet",
+          "linux-permissions-quick-ref",
+          "systemd-cheatsheet",
+          "ssh-cheatsheet"
+        ]
       },
       {
-        title: "Frontend & Workflow",
-        description: "Styling and version-control references for everyday shipping work.",
-        slugs: ["css-cheatsheet", "git-cheatsheet"]
+        title: "Databases",
+        description: "Query helpers, engines, indexing notes, and ORM quick references.",
+        slugs: [
+          "sql-cheatsheet",
+          "postgresql-cheatsheet",
+          "mysql-cheatsheet",
+          "sqlite-cheatsheet",
+          "mongodb-cheatsheet",
+          "redis-cheatsheet",
+          "prisma-cheatsheet",
+          "sql-joins-quick-ref",
+          "indexing-performance-cheatsheet"
+        ]
+      },
+      {
+        title: "Frontend",
+        description: "Frontend frameworks, layout systems, browser APIs, and accessibility reminders.",
+        slugs: [
+          "javascript-cheatsheet",
+          "typescript-cheatsheet",
+          "css-cheatsheet",
+          "react-cheatsheet",
+          "nextjs-cheatsheet",
+          "tailwind-cheatsheet",
+          "html-semantics-cheatsheet",
+          "css-flexbox-cheatsheet",
+          "css-grid-cheatsheet",
+          "accessibility-quick-ref",
+          "dom-events-cheatsheet",
+          "browser-storage-cheatsheet"
+        ]
+      },
+      {
+        title: "Languages",
+        description: "General-purpose language quick refs for syntax, structure, and common workflows.",
+        slugs: [
+          "python-cheatsheet",
+          "java-cheatsheet",
+          "csharp-cheatsheet",
+          "go-cheatsheet",
+          "rust-cheatsheet",
+          "php-cheatsheet",
+          "ruby-cheatsheet",
+          "shell-scripting-cheatsheet",
+          "nodejs-quick-ref"
+        ]
+      },
+      {
+        title: "Testing & Quality",
+        description: "Testing frameworks, debugging habits, regex help, and troubleshooting references.",
+        slugs: [
+          "git-cheatsheet",
+          "vim-cheatsheet",
+          "jest-cheatsheet",
+          "playwright-cheatsheet",
+          "cypress-cheatsheet",
+          "testing-library-cheatsheet",
+          "regex-quick-ref",
+          "debugging-workflow-cheatsheet",
+          "git-troubleshooting-cheatsheet"
+        ]
+      },
+      {
+        title: "Security",
+        description: "Auth and app-security quick references for common web and API concerns.",
+        slugs: [
+          "owasp-top-10-quick-ref",
+          "jwt-cheatsheet",
+          "oauth-2-cheatsheet",
+          "auth-flow-comparison-sheet",
+          "csp-cheatsheet",
+          "common-security-headers-cheatsheet"
+        ]
+      },
+      {
+        title: "AI & Productivity",
+        description: "Prompting, markup, diagrams, schedules, keyboarding, and workflow helpers.",
+        slugs: [
+          "prompt-engineering-cheatsheet",
+          "markdown-cheatsheet",
+          "mermaid-cheatsheet",
+          "cron-cheatsheet",
+          "keyboard-shortcuts-sheet",
+          "cli-productivity-cheatsheet"
+        ]
       }
     ]
   },
