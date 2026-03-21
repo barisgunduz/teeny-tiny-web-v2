@@ -437,12 +437,12 @@ export const tools: Tool[] = [
     icon: "GitCommitHorizontal"
   },
   {
-    id: "tool-http-header-inspector",
-    name: "HTTP Header Inspector",
+    id: "tool-raw-http-header-parser",
+    name: "Raw HTTP Header Parser",
     description: "Inspect, parse, and organize raw HTTP headers into a readable structure.",
     category: "dev-tools",
     tags: ["http", "headers", "inspector", "web"],
-    slug: "http-header-inspector",
+    slug: "raw-http-header-parser",
     icon: "PanelTop"
   },
   {
@@ -1271,6 +1271,43 @@ export const tools: Tool[] = [
     isFeatured: true
   },
   {
+    id: "tool-fake-company-generator",
+    name: "Fake Company Generator",
+    description: "Generate company names, domains, industries, and simple business profile fields.",
+    category: "dummy-data",
+    tags: ["company", "business", "seed", "mock-data"],
+    slug: "fake-company-generator",
+    icon: "Building2",
+    isFeatured: true
+  },
+  {
+    id: "tool-address-list-generator",
+    name: "Address List Generator",
+    description: "Create realistic address entries with street, city, region, postal code, and country fields.",
+    category: "dummy-data",
+    tags: ["address", "location", "forms", "fixtures"],
+    slug: "address-list-generator",
+    icon: "MapPinHouse"
+  },
+  {
+    id: "tool-phone-number-generator",
+    name: "Phone Number Generator",
+    description: "Generate formatted sample phone numbers for signup forms, CRM records, and demos.",
+    category: "dummy-data",
+    tags: ["phone", "contacts", "forms", "mock-data"],
+    slug: "phone-number-generator",
+    icon: "Phone"
+  },
+  {
+    id: "tool-job-title-generator",
+    name: "Job Title Generator",
+    description: "Build realistic job titles, departments, seniority levels, and role labels for people data.",
+    category: "dummy-data",
+    tags: ["jobs", "roles", "people", "hr"],
+    slug: "job-title-generator",
+    icon: "BriefcaseBusiness"
+  },
+  {
     id: "tool-lorem-ipsum",
     name: "Lorem Ipsum Generator",
     description: "Create placeholder paragraphs, sentences, or words for designs and tests.",
@@ -1278,6 +1315,60 @@ export const tools: Tool[] = [
     tags: ["lorem", "placeholder", "text", "copy"],
     slug: "lorem-ipsum-generator",
     icon: "Text"
+  },
+  {
+    id: "tool-blog-post-generator",
+    name: "Blog Post Generator",
+    description: "Generate sample blog posts with titles, excerpts, categories, tags, and author metadata.",
+    category: "dummy-data",
+    tags: ["blog", "cms", "content", "fixtures"],
+    slug: "blog-post-generator",
+    icon: "NotebookText"
+  },
+  {
+    id: "tool-comment-thread-generator",
+    name: "Comment Thread Generator",
+    description: "Create nested comments with authors, timestamps, reactions, and moderation-friendly fields.",
+    category: "dummy-data",
+    tags: ["comments", "social", "threads", "content"],
+    slug: "comment-thread-generator",
+    icon: "MessagesSquare"
+  },
+  {
+    id: "tool-faq-generator",
+    name: "FAQ Generator",
+    description: "Generate question-and-answer pairs for help centers, onboarding, and support content mocks.",
+    category: "dummy-data",
+    tags: ["faq", "support", "content", "help-center"],
+    slug: "faq-generator",
+    icon: "MessageCircleQuestion"
+  },
+  {
+    id: "tool-support-ticket-generator",
+    name: "Support Ticket Generator",
+    description: "Create realistic support tickets with status, priority, requester, and issue fields.",
+    category: "dummy-data",
+    tags: ["support", "tickets", "crm", "helpdesk"],
+    slug: "support-ticket-generator",
+    icon: "Ticket"
+  },
+  {
+    id: "tool-email-thread-generator",
+    name: "Email Thread Generator",
+    description: "Generate sample email conversations with subjects, senders, replies, and timestamps.",
+    category: "dummy-data",
+    tags: ["email", "messages", "threads", "fixtures"],
+    slug: "email-thread-generator",
+    icon: "Mail"
+  },
+  {
+    id: "tool-event-list-generator",
+    name: "Event List Generator",
+    description: "Create event records with dates, venues, speakers, statuses, and registration-style fields.",
+    category: "dummy-data",
+    tags: ["events", "calendar", "schedules", "mock-data"],
+    slug: "event-list-generator",
+    icon: "CalendarRange"
   },
   {
     id: "tool-random-json",
@@ -1296,6 +1387,43 @@ export const tools: Tool[] = [
     tags: ["csv", "generator", "tables", "export"],
     slug: "csv-generator",
     icon: "Sheet"
+  },
+  {
+    id: "tool-order-data-generator",
+    name: "Order Data Generator",
+    description: "Generate ecommerce-style orders with customers, items, totals, and fulfillment statuses.",
+    category: "dummy-data",
+    tags: ["orders", "commerce", "payments", "fixtures"],
+    slug: "order-data-generator",
+    icon: "PackageOpen"
+  },
+  {
+    id: "tool-invoice-generator",
+    name: "Invoice Generator",
+    description: "Create invoice records with line items, tax, due dates, and payment status fields.",
+    category: "dummy-data",
+    tags: ["invoice", "billing", "finance", "documents"],
+    slug: "invoice-generator",
+    icon: "ReceiptText",
+    isFeatured: true
+  },
+  {
+    id: "tool-transaction-generator",
+    name: "Transaction Generator",
+    description: "Generate payment and ledger-like transaction rows with amounts, methods, and outcomes.",
+    category: "dummy-data",
+    tags: ["transactions", "payments", "finance", "seed"],
+    slug: "transaction-generator",
+    icon: "WalletCards"
+  },
+  {
+    id: "tool-inventory-generator",
+    name: "Inventory Generator",
+    description: "Create stock records with SKUs, quantities, warehouses, reorder flags, and availability.",
+    category: "dummy-data",
+    tags: ["inventory", "warehouse", "products", "operations"],
+    slug: "inventory-generator",
+    icon: "Boxes"
   },
   {
     id: "tool-credit-card-numbers",
@@ -1332,6 +1460,42 @@ export const tools: Tool[] = [
     tags: ["countries", "iso", "dropdown", "fixtures"],
     slug: "country-list-generator",
     icon: "MapPinned"
+  },
+  {
+    id: "tool-device-list-generator",
+    name: "Device List Generator",
+    description: "Generate device catalogs with model names, platforms, screen sizes, and ownership states.",
+    category: "dummy-data",
+    tags: ["devices", "hardware", "inventory", "fixtures"],
+    slug: "device-list-generator",
+    icon: "LaptopMinimal"
+  },
+  {
+    id: "tool-sql-seed-generator",
+    name: "SQL Seed Generator",
+    description: "Generate starter SQL insert statements from realistic-looking fixture records.",
+    category: "dummy-data",
+    tags: ["sql", "seed", "database", "fixtures"],
+    slug: "sql-seed-generator",
+    icon: "DatabaseZap"
+  },
+  {
+    id: "tool-api-payload-generator",
+    name: "API Payload Generator",
+    description: "Create sample request and response payloads for CRUD-style API demos and testing.",
+    category: "dummy-data",
+    tags: ["api", "payload", "json", "mock-data"],
+    slug: "api-payload-generator",
+    icon: "Waypoints"
+  },
+  {
+    id: "tool-env-file-generator",
+    name: "ENV File Generator",
+    description: "Generate realistic-looking .env examples with app, database, and service config keys.",
+    category: "dummy-data",
+    tags: ["env", "config", "secrets", "examples"],
+    slug: "env-file-generator",
+    icon: "FileCog"
   },
 
   {
@@ -2016,31 +2180,50 @@ export const tools: Tool[] = [
     isFeatured: true
   },
   {
-    id: "tool-markdown-table-generator",
-    name: "Markdown Table Generator",
-    description: "Convert rows and columns into clean markdown tables instantly.",
+    id: "tool-focus-list",
+    name: "Focus List",
+    description: "Keep a tiny prioritized task list with must-do, should-do, and could-do buckets.",
     category: "productivity",
-    tags: ["markdown", "table", "docs", "generator"],
-    slug: "markdown-table-generator",
-    icon: "Table2"
+    tags: ["tasks", "focus", "priorities", "planning"],
+    slug: "focus-list",
+    icon: "ListTodo"
   },
   {
-    id: "tool-cron-expression-builder",
-    name: "Cron Expression Builder",
-    description: "Create and validate cron schedules with human-readable explanations.",
+    id: "tool-priority-matrix-tool",
+    name: "Priority Matrix Tool",
+    description: "Sort work into urgent-important quadrants to decide what to do, defer, delegate, or drop.",
     category: "productivity",
-    tags: ["cron", "scheduler", "automation", "time"],
-    slug: "cron-expression-builder",
-    icon: "CalendarClock"
+    tags: ["priorities", "matrix", "planning", "tasks"],
+    slug: "priority-matrix-tool",
+    icon: "Grid2x2",
+    isFeatured: true
   },
   {
-    id: "tool-regex-cheatsheet-quick-ref",
-    name: "Regex Cheatsheet Quick-ref",
-    description: "Browse common regex tokens, groups, assertions, and replacement patterns.",
+    id: "tool-task-batching-planner",
+    name: "Task Batching Planner",
+    description: "Group similar tasks into focused batches to reduce context switching across the day.",
     category: "productivity",
-    tags: ["regex", "reference", "quick-ref", "patterns"],
-    slug: "regex-cheatsheet-quick-ref",
-    icon: "NotebookTabs"
+    tags: ["task-batching", "focus", "planning", "workflow"],
+    slug: "task-batching-planner",
+    icon: "Layers3"
+  },
+  {
+    id: "tool-daily-standup-planner",
+    name: "Daily Standup Planner",
+    description: "Prepare concise standup updates around yesterday, today, blockers, and follow-ups.",
+    category: "productivity",
+    tags: ["standup", "team", "updates", "planning"],
+    slug: "daily-standup-planner",
+    icon: "MessagesSquare"
+  },
+  {
+    id: "tool-goal-breakdown-planner",
+    name: "Goal Breakdown Planner",
+    description: "Break a bigger goal into milestones, tasks, dependencies, and manageable next steps.",
+    category: "productivity",
+    tags: ["goals", "planning", "milestones", "execution"],
+    slug: "goal-breakdown-planner",
+    icon: "Route"
   },
   {
     id: "tool-meeting-cost-calculator",
@@ -2052,6 +2235,51 @@ export const tools: Tool[] = [
     icon: "BadgeDollarSign"
   },
   {
+    id: "tool-meeting-agenda-builder",
+    name: "Meeting Agenda Builder",
+    description: "Build focused meeting agendas with goals, discussion blocks, owners, and timeboxes.",
+    category: "productivity",
+    tags: ["meeting", "agenda", "planning", "collaboration"],
+    slug: "meeting-agenda-builder",
+    icon: "ClipboardList"
+  },
+  {
+    id: "tool-one-on-one-template-builder",
+    name: "One-on-One Template Builder",
+    description: "Create reusable one-on-one agendas with topics, follow-ups, wins, and blockers.",
+    category: "productivity",
+    tags: ["1:1", "meetings", "management", "templates"],
+    slug: "one-on-one-template-builder",
+    icon: "UsersRound"
+  },
+  {
+    id: "tool-retrospective-notes-builder",
+    name: "Retrospective Notes Builder",
+    description: "Structure retro notes around wins, friction, experiments, and action items.",
+    category: "productivity",
+    tags: ["retro", "team", "notes", "improvement"],
+    slug: "retrospective-notes-builder",
+    icon: "RefreshCcw"
+  },
+  {
+    id: "tool-decision-log-template-generator",
+    name: "Decision Log Template Generator",
+    description: "Capture decisions with context, options considered, owners, and follow-up notes.",
+    category: "productivity",
+    tags: ["decision-log", "documentation", "templates", "team"],
+    slug: "decision-log-template-generator",
+    icon: "FileCheck"
+  },
+  {
+    id: "tool-cron-schedule-builder",
+    name: "Cron Schedule Builder",
+    description: "Create and validate cron schedules with human-readable explanations.",
+    category: "productivity",
+    tags: ["cron", "scheduler", "automation", "time"],
+    slug: "cron-schedule-builder",
+    icon: "CalendarClock"
+  },
+  {
     id: "tool-reading-time-estimator",
     name: "Reading Time Estimator",
     description: "Calculate reading time for articles, docs, and newsletters from word count.",
@@ -2061,21 +2289,130 @@ export const tools: Tool[] = [
     icon: "BookMarked"
   },
   {
-    id: "tool-focus-list",
-    name: "Focus List",
-    description: "Keep a tiny prioritized task list with must-do, should-do, and could-do buckets.",
+    id: "tool-time-block-planner",
+    name: "Time Block Planner",
+    description: "Lay out focused work, admin, meetings, and breaks across a more realistic day plan.",
     category: "productivity",
-    tags: ["tasks", "focus", "priorities", "planning"],
-    slug: "focus-list",
-    icon: "ListTodo"
+    tags: ["time-blocking", "schedule", "planning", "calendar"],
+    slug: "time-block-planner",
+    icon: "CalendarRange",
+    isFeatured: true
+  },
+  {
+    id: "tool-deadline-countdown-calculator",
+    name: "Deadline Countdown Calculator",
+    description: "See how much time remains until a deadline in days, hours, and workable time chunks.",
+    category: "productivity",
+    tags: ["deadline", "countdown", "time", "planning"],
+    slug: "deadline-countdown-calculator",
+    icon: "Hourglass"
+  },
+  {
+    id: "tool-task-time-estimator",
+    name: "Task Time Estimator",
+    description: "Estimate task duration using optimistic, likely, and pessimistic time ranges.",
+    category: "productivity",
+    tags: ["estimation", "tasks", "planning", "time"],
+    slug: "task-time-estimator",
+    icon: "Clock3"
+  },
+  {
+    id: "tool-capacity-planning-calculator",
+    name: "Capacity Planning Calculator",
+    description: "Estimate available team capacity from headcount, time off, and non-project overhead.",
+    category: "productivity",
+    tags: ["capacity", "planning", "team", "estimation"],
+    slug: "capacity-planning-calculator",
+    icon: "Users"
+  },
+  {
+    id: "tool-markdown-table-generator",
+    name: "Markdown Table Generator",
+    description: "Convert rows and columns into clean markdown tables instantly.",
+    category: "productivity",
+    tags: ["markdown", "table", "docs", "generator"],
+    slug: "markdown-table-generator",
+    icon: "Table2"
   },
   {
     id: "tool-note-cleanup",
     name: "Note Cleanup Tool",
     description: "Turn messy meeting notes into structured action items and follow-ups.",
     category: "productivity",
-    tags: ["notes", "cleanup", "meetings", "organization"],
+    tags: ["notes", "cleanup", "meetings", "writing"],
     slug: "note-cleanup-tool",
+    icon: "FileStack"
+  },
+  {
+    id: "tool-bullet-list-cleaner",
+    name: "Bullet List Cleaner",
+    description: "Normalize messy bullet lists into cleaner spacing, casing, and readable structure.",
+    category: "productivity",
+    tags: ["lists", "cleanup", "notes", "writing"],
+    slug: "bullet-list-cleaner",
+    icon: "List"
+  },
+  {
+    id: "tool-meeting-minutes-generator",
+    name: "Meeting Minutes Generator",
+    description: "Turn rough meeting notes into a cleaner minutes-style summary with actions and owners.",
+    category: "productivity",
+    tags: ["meeting-minutes", "notes", "docs", "writing"],
+    slug: "meeting-minutes-generator",
+    icon: "FileText"
+  },
+  {
+    id: "tool-status-update-generator",
+    name: "Status Update Generator",
+    description: "Draft concise status updates with progress, risks, wins, and next steps.",
+    category: "productivity",
+    tags: ["status", "updates", "communication", "writing"],
+    slug: "status-update-generator",
+    icon: "Send"
+  },
+  {
+    id: "tool-change-log-entry-builder",
+    name: "Change Log Entry Builder",
+    description: "Create cleaner changelog entries with grouped changes, fixes, and upgrade notes.",
+    category: "productivity",
+    tags: ["changelog", "release-notes", "docs", "writing"],
+    slug: "change-log-entry-builder",
+    icon: "FileDiff"
+  },
+  {
+    id: "tool-regex-cheatsheet-quick-ref",
+    name: "Regex Cheatsheet Quick-ref",
+    description: "Browse common regex tokens, groups, assertions, and replacement patterns.",
+    category: "productivity",
+    tags: ["regex", "reference", "quick-ref", "patterns"],
+    slug: "regex-cheatsheet-quick-ref",
+    icon: "NotebookTabs"
+  },
+  {
+    id: "tool-habit-streak-tracker",
+    name: "Habit Streak Tracker",
+    description: "Track lightweight daily habits and visualize simple consistency streaks.",
+    category: "productivity",
+    tags: ["habits", "tracker", "streaks", "personal"],
+    slug: "habit-streak-tracker",
+    icon: "Flame"
+  },
+  {
+    id: "tool-clipboard-note-organizer",
+    name: "Clipboard Note Organizer",
+    description: "Paste rough text snippets and reorganize them into grouped notes or action buckets.",
+    category: "productivity",
+    tags: ["clipboard", "notes", "organizer", "cleanup"],
+    slug: "clipboard-note-organizer",
+    icon: "ClipboardPen"
+  },
+  {
+    id: "tool-simple-decision-journal",
+    name: "Simple Decision Journal",
+    description: "Record small decisions with date, context, options, and a brief outcome note.",
+    category: "productivity",
+    tags: ["journal", "decisions", "reflection", "notes"],
+    slug: "simple-decision-journal",
     icon: "NotebookPen"
   },
 
@@ -2090,15 +2427,6 @@ export const tools: Tool[] = [
     isFeatured: true
   },
   {
-    id: "tool-port-reference-list",
-    name: "Port Reference List",
-    description: "Look up common network ports, services, and transport protocols quickly.",
-    category: "it-sysadmin",
-    tags: ["ports", "tcp", "udp", "reference"],
-    slug: "port-reference-list",
-    icon: "Cable"
-  },
-  {
     id: "tool-cidr-notation-guide",
     name: "CIDR Notation Guide",
     description: "Understand CIDR blocks, prefixes, address counts, and subnet sizing.",
@@ -2108,31 +2436,49 @@ export const tools: Tool[] = [
     icon: "Route"
   },
   {
-    id: "tool-curl-command-builder",
-    name: "cURL Command Builder",
-    description: "Build cURL requests with headers, auth, methods, and JSON payloads.",
+    id: "tool-cidr-ip-range-converter",
+    name: "CIDR / IP Range Converter",
+    description: "Convert between CIDR blocks, subnet masks, and start-end IP ranges.",
     category: "it-sysadmin",
-    tags: ["curl", "http", "api", "requests"],
-    slug: "curl-command-builder",
+    tags: ["cidr", "ip-range", "converter", "networking"],
+    slug: "cidr-ip-range-converter",
     icon: "ArrowLeftRight"
   },
   {
-    id: "tool-ssh-key-format-reference",
-    name: "SSH Key Format Reference",
-    description: "Compare RSA, ED25519, PEM, OpenSSH, and public key formats.",
+    id: "tool-ipv6-expand-compress",
+    name: "IPv6 Expand / Compress",
+    description: "Expand shorthand IPv6 addresses and compress full notation safely.",
     category: "it-sysadmin",
-    tags: ["ssh", "keys", "security", "reference"],
-    slug: "ssh-key-format-reference",
-    icon: "KeySquare"
+    tags: ["ipv6", "address", "converter", "networking"],
+    slug: "ipv6-expand-compress",
+    icon: "Globe"
   },
   {
-    id: "tool-http-status-codes",
-    name: "HTTP Status Codes",
-    description: "Browse HTTP status codes with categories, meanings, and typical use cases.",
+    id: "tool-wildcard-mask-calculator",
+    name: "Wildcard Mask Calculator",
+    description: "Calculate wildcard masks alongside subnet masks for ACL and routing workflows.",
     category: "it-sysadmin",
-    tags: ["http", "status-codes", "web", "reference"],
-    slug: "http-status-codes",
-    icon: "BadgeInfo"
+    tags: ["wildcard-mask", "subnet", "acl", "calculator"],
+    slug: "wildcard-mask-calculator",
+    icon: "Calculator"
+  },
+  {
+    id: "tool-vlsm-subnet-splitter",
+    name: "VLSM Subnet Splitter",
+    description: "Split larger networks into practical smaller subnets using VLSM planning.",
+    category: "it-sysadmin",
+    tags: ["vlsm", "subnetting", "cidr", "planning"],
+    slug: "vlsm-subnet-splitter",
+    icon: "Split"
+  },
+  {
+    id: "tool-private-public-ip-classifier",
+    name: "Private / Public IP Classifier",
+    description: "Classify IPv4 and IPv6 addresses against private, loopback, link-local, and reserved ranges.",
+    category: "it-sysadmin",
+    tags: ["ip", "private", "public", "validation"],
+    slug: "private-public-ip-classifier",
+    icon: "ShieldCheck"
   },
   {
     id: "tool-dns-record-types",
@@ -2144,6 +2490,179 @@ export const tools: Tool[] = [
     icon: "GlobeLock"
   },
   {
+    id: "tool-dns-record-builder",
+    name: "DNS Record Builder",
+    description: "Build common DNS records with value hints, examples, and copy-ready output.",
+    category: "it-sysadmin",
+    tags: ["dns", "records", "builder", "zones"],
+    slug: "dns-record-builder",
+    icon: "FilePen",
+    isFeatured: true
+  },
+  {
+    id: "tool-dns-zone-file-generator",
+    name: "DNS Zone File Generator",
+    description: "Generate basic zone file entries with SOA, NS, and common host records.",
+    category: "it-sysadmin",
+    tags: ["dns", "zone-file", "bind", "generator"],
+    slug: "dns-zone-file-generator",
+    icon: "FileCode2"
+  },
+  {
+    id: "tool-reverse-dns-ptr-helper",
+    name: "Reverse DNS / PTR Helper",
+    description: "Turn IP addresses into PTR lookup names and explain reverse DNS structure.",
+    category: "it-sysadmin",
+    tags: ["dns", "ptr", "reverse-dns", "ip"],
+    slug: "reverse-dns-ptr-helper",
+    icon: "Waypoints"
+  },
+  {
+    id: "tool-spf-record-builder",
+    name: "SPF Record Builder",
+    description: "Compose SPF TXT records with include, ip4, ip6, a, mx, and all mechanisms.",
+    category: "it-sysadmin",
+    tags: ["spf", "dns", "email", "security"],
+    slug: "spf-record-builder",
+    icon: "MailCheck"
+  },
+  {
+    id: "tool-dkim-record-formatter",
+    name: "DKIM Record Formatter",
+    description: "Format DKIM selector records into readable TXT values for DNS publishing.",
+    category: "it-sysadmin",
+    tags: ["dkim", "dns", "email", "formatter"],
+    slug: "dkim-record-formatter",
+    icon: "FileKey2"
+  },
+  {
+    id: "tool-dmarc-record-builder",
+    name: "DMARC Record Builder",
+    description: "Generate DMARC records with policy, rua, ruf, alignment, and reporting options.",
+    category: "it-sysadmin",
+    tags: ["dmarc", "dns", "email", "policy"],
+    slug: "dmarc-record-builder",
+    icon: "ShieldCheck"
+  },
+  {
+    id: "tool-curl-command-builder",
+    name: "cURL Command Builder",
+    description: "Build cURL requests with headers, auth, methods, and JSON payloads.",
+    category: "it-sysadmin",
+    tags: ["curl", "http", "api", "requests"],
+    slug: "curl-command-builder",
+    icon: "ArrowLeftRight"
+  },
+  {
+    id: "tool-http-status-codes",
+    name: "HTTP Status Codes",
+    description: "Browse HTTP status codes with categories, meanings, and typical use cases.",
+    category: "it-sysadmin",
+    tags: ["http", "status-codes", "web", "reference"],
+    slug: "http-status-codes",
+    icon: "BadgeInfo"
+  },
+  {
+    id: "tool-http-header-inspector",
+    name: "HTTP Header Inspector",
+    description: "Parse raw HTTP headers into structured fields for faster troubleshooting.",
+    category: "it-sysadmin",
+    tags: ["http", "headers", "inspector", "debugging"],
+    slug: "http-header-inspector",
+    icon: "PanelTop",
+    isFeatured: true
+  },
+  {
+    id: "tool-security-headers-checker",
+    name: "Security Headers Checker",
+    description: "Review common response security headers and understand what each one protects.",
+    category: "it-sysadmin",
+    tags: ["security", "headers", "http", "reference"],
+    slug: "security-headers-checker",
+    icon: "Shield"
+  },
+  {
+    id: "tool-cache-control-builder",
+    name: "Cache-Control Builder",
+    description: "Compose Cache-Control directives and preview the behavior they imply.",
+    category: "it-sysadmin",
+    tags: ["cache-control", "http", "headers", "builder"],
+    slug: "cache-control-builder",
+    icon: "Gauge"
+  },
+  {
+    id: "tool-cors-header-builder",
+    name: "CORS Header Builder",
+    description: "Generate CORS response headers for common API and browser scenarios.",
+    category: "it-sysadmin",
+    tags: ["cors", "http", "headers", "api"],
+    slug: "cors-header-builder",
+    icon: "ShieldEllipsis"
+  },
+  {
+    id: "tool-cookie-inspector",
+    name: "Cookie Inspector",
+    description: "Inspect Set-Cookie and Cookie header values with attribute-by-attribute breakdowns.",
+    category: "it-sysadmin",
+    tags: ["cookies", "http", "headers", "debugging"],
+    slug: "cookie-inspector",
+    icon: "Cookie"
+  },
+  {
+    id: "tool-ssh-key-format-reference",
+    name: "SSH Key Format Reference",
+    description: "Compare RSA, ED25519, PEM, OpenSSH, and public key formats.",
+    category: "it-sysadmin",
+    tags: ["ssh", "keys", "security", "reference"],
+    slug: "ssh-key-format-reference",
+    icon: "KeySquare"
+  },
+  {
+    id: "tool-ssh-config-builder",
+    name: "SSH Config Builder",
+    description: "Build reusable SSH config blocks with host aliases, ports, users, and identity files.",
+    category: "it-sysadmin",
+    tags: ["ssh", "config", "builder", "access"],
+    slug: "ssh-config-builder",
+    icon: "TerminalSquare"
+  },
+  {
+    id: "tool-ssh-known-hosts-parser",
+    name: "SSH Known Hosts Parser",
+    description: "Parse known_hosts lines to explain host patterns, key types, and hashed entries.",
+    category: "it-sysadmin",
+    tags: ["ssh", "known-hosts", "parser", "security"],
+    slug: "ssh-known-hosts-parser",
+    icon: "ScanSearch"
+  },
+  {
+    id: "tool-pem-crt-csr-inspector",
+    name: "PEM / CRT / CSR Inspector",
+    description: "Inspect PEM certificates, chains, and CSRs without sending them anywhere.",
+    category: "it-sysadmin",
+    tags: ["pem", "certificate", "csr", "tls"],
+    slug: "pem-crt-csr-inspector",
+    icon: "FileKey2"
+  },
+  {
+    id: "tool-certificate-chain-explainer",
+    name: "Certificate Chain Explainer",
+    description: "Understand leaf, intermediate, and root certificate chain relationships clearly.",
+    category: "it-sysadmin",
+    tags: ["certificates", "chain", "tls", "security"],
+    slug: "certificate-chain-explainer",
+    icon: "ShieldCheck"
+  },
+  {
+    id: "tool-openssl-command-builder",
+    name: "OpenSSL Command Builder",
+    description: "Assemble common OpenSSL commands for inspecting keys, certs, CSRs, and fingerprints.",
+    category: "it-sysadmin",
+    tags: ["openssl", "tls", "certificates", "commands"],
+    slug: "openssl-command-builder",
+    icon: "Command"
+  },
+  {
     id: "tool-log-parser",
     name: "Log Parser Helper",
     description: "Extract common fields from syslog, nginx, and JSON log lines.",
@@ -2151,6 +2670,69 @@ export const tools: Tool[] = [
     tags: ["logs", "parser", "observability", "troubleshooting"],
     slug: "log-parser-helper",
     icon: "Logs"
+  },
+  {
+    id: "tool-nginx-log-parser",
+    name: "Nginx Log Parser",
+    description: "Parse nginx access logs into readable request, status, timing, and client fields.",
+    category: "it-sysadmin",
+    tags: ["nginx", "logs", "parser", "http"],
+    slug: "nginx-log-parser",
+    icon: "Logs"
+  },
+  {
+    id: "tool-syslog-parser",
+    name: "Syslog Parser",
+    description: "Parse syslog-style lines into timestamps, hosts, facilities, severities, and messages.",
+    category: "it-sysadmin",
+    tags: ["syslog", "logs", "parser", "linux"],
+    slug: "syslog-parser",
+    icon: "Logs"
+  },
+  {
+    id: "tool-linux-cron-builder",
+    name: "Linux Cron Builder",
+    description: "Build cron schedules with presets, field explanations, and human-readable summaries.",
+    category: "it-sysadmin",
+    tags: ["cron", "scheduler", "linux", "automation"],
+    slug: "linux-cron-builder",
+    icon: "CalendarClock"
+  },
+  {
+    id: "tool-port-reference-list",
+    name: "Port Reference List",
+    description: "Look up common network ports, services, and transport protocols quickly.",
+    category: "it-sysadmin",
+    tags: ["ports", "tcp", "udp", "reference"],
+    slug: "port-reference-list",
+    icon: "Cable"
+  },
+  {
+    id: "tool-file-permission-calculator",
+    name: "File Permission Calculator",
+    description: "Calculate Linux file permissions across owner, group, and others with instant octal output.",
+    category: "it-sysadmin",
+    tags: ["permissions", "linux", "chmod", "calculator"],
+    slug: "file-permission-calculator",
+    icon: "Lock"
+  },
+  {
+    id: "tool-chmod-symbolic-numeric-converter",
+    name: "chmod Symbolic / Numeric Converter",
+    description: "Convert chmod symbolic permission strings into octal values and back again.",
+    category: "it-sysadmin",
+    tags: ["chmod", "permissions", "linux", "converter"],
+    slug: "chmod-symbolic-numeric-converter",
+    icon: "RefreshCw"
+  },
+  {
+    id: "tool-systemd-unit-file-builder",
+    name: "systemd Unit File Builder",
+    description: "Generate starter systemd service unit files with common directives and defaults.",
+    category: "it-sysadmin",
+    tags: ["systemd", "linux", "services", "builder"],
+    slug: "systemd-unit-file-builder",
+    icon: "ServerCog"
   },
 
   {

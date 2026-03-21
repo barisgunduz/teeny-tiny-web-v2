@@ -94,7 +94,7 @@ export const categoryLandingContent: Record<Category["slug"], CategoryLandingCon
           "email-validator",
           "ip-domain-validator",
           "semver-parser-checker",
-          "http-header-inspector",
+          "raw-http-header-parser",
           "jwt-signature-checker",
           "regex-library-cookbook",
           "mime-type-lookup"
@@ -266,19 +266,54 @@ export const categoryLandingContent: Record<Category["slug"], CategoryLandingCon
       "Everything here runs locally in the browser so you can mock interfaces, download payloads, and populate examples without hitting an API.",
     sections: [
       {
-        title: "People & Commerce",
-        description: "Structured data sets for forms, products, payments, and list-heavy interfaces.",
-        slugs: ["fake-user-generator", "random-json-generator", "csv-generator", "test-credit-card-numbers"]
+        title: "People, Accounts & Commerce",
+        description: "Structured data sets for users, companies, addresses, payments, products, and transactional workflows.",
+        slugs: [
+          "fake-user-generator",
+          "fake-company-generator",
+          "address-list-generator",
+          "phone-number-generator",
+          "job-title-generator",
+          "random-json-generator",
+          "csv-generator",
+          "order-data-generator",
+          "invoice-generator",
+          "transaction-generator",
+          "inventory-generator",
+          "test-credit-card-numbers"
+        ]
       },
       {
-        title: "Text & Collections",
-        description: "Placeholder text and organized lists for content states and dropdowns.",
-        slugs: ["lorem-ipsum-generator", "country-list-generator", "color-list-generator"]
+        title: "Content & Messaging",
+        description: "Placeholder copy, publishing fixtures, conversations, tickets, and support-oriented sample data.",
+        slugs: [
+          "lorem-ipsum-generator",
+          "blog-post-generator",
+          "comment-thread-generator",
+          "faq-generator",
+          "support-ticket-generator",
+          "email-thread-generator",
+          "event-list-generator"
+        ]
       },
       {
-        title: "Network & IDs",
-        description: "Generate values commonly needed for logs, fixtures, and system demos.",
-        slugs: ["ip-address-generator"]
+        title: "Reference Lists & UI Fixtures",
+        description: "Ready-made lists and small structured data sets for dropdowns, filters, and interface states.",
+        slugs: [
+          "country-list-generator",
+          "color-list-generator",
+          "device-list-generator"
+        ]
+      },
+      {
+        title: "Technical & System Data",
+        description: "Generate developer-facing payloads, network values, seed inserts, and environment-style sample data.",
+        slugs: [
+          "ip-address-generator",
+          "sql-seed-generator",
+          "api-payload-generator",
+          "env-file-generator"
+        ]
       }
     ]
   },
@@ -428,47 +463,145 @@ export const categoryLandingContent: Record<Category["slug"], CategoryLandingCon
   },
   productivity: {
     eyebrow: "Personal Workflow Tools",
-    title: "Focus timers, estimators, planners, and tiny helpers for getting work unstuck",
+    title: "Focus timers, planners, estimators, writing helpers, and lightweight systems for getting work unstuck",
     description:
-      "These tools lean toward planning and execution: build tables, estimate time, reason about schedules, and keep momentum on small tasks.",
+      "These tools lean toward planning and execution: structure priorities, estimate work, run better meetings, clean up notes, and keep momentum on small tasks.",
     sections: [
       {
         title: "Focus & Planning",
-        description: "Lightweight helpers for prioritizing time, meetings, and day-to-day attention.",
-        slugs: ["pomodoro-timer", "meeting-cost-calculator", "focus-list"]
+        description: "Lightweight helpers for prioritizing attention, structuring tasks, and moving through the day with less friction.",
+        slugs: [
+          "pomodoro-timer",
+          "focus-list",
+          "priority-matrix-tool",
+          "task-batching-planner",
+          "daily-standup-planner",
+          "goal-breakdown-planner"
+        ]
       },
       {
-        title: "Schedules & Documentation",
-        description: "Generate docs-friendly output and clarify recurring schedules.",
-        slugs: ["markdown-table-generator", "cron-expression-builder", "reading-time-estimator"]
+        title: "Meetings & Team Coordination",
+        description: "Prepare agendas, estimate meeting impact, and turn conversations into clearer next steps.",
+        slugs: [
+          "meeting-cost-calculator",
+          "meeting-agenda-builder",
+          "one-on-one-template-builder",
+          "retrospective-notes-builder",
+          "decision-log-template-generator"
+        ]
       },
       {
-        title: "Cleanup & Reference",
-        description: "Quick support tools for regex reminders and turning notes into action items.",
-        slugs: ["regex-cheatsheet-quick-ref", "note-cleanup-tool"]
+        title: "Schedules & Time Estimation",
+        description: "Estimate effort, reason about recurring schedules, and turn rough plans into time-aware output.",
+        slugs: [
+          "cron-schedule-builder",
+          "reading-time-estimator",
+          "time-block-planner",
+          "deadline-countdown-calculator",
+          "task-time-estimator",
+          "capacity-planning-calculator"
+        ]
+      },
+      {
+        title: "Notes, Writing & Documentation",
+        description: "Generate cleaner docs output, organize rough notes, and turn messy text into usable work artifacts.",
+        slugs: [
+          "markdown-table-generator",
+          "note-cleanup-tool",
+          "bullet-list-cleaner",
+          "meeting-minutes-generator",
+          "status-update-generator",
+          "change-log-entry-builder"
+        ]
+      },
+      {
+        title: "Reference & Tiny Helpers",
+        description: "Quick support tools for regex reminders, naming, and compact text cleanup tasks.",
+        slugs: [
+          "regex-cheatsheet-quick-ref",
+          "habit-streak-tracker",
+          "clipboard-note-organizer",
+          "simple-decision-journal"
+        ]
       }
     ]
   },
   "it-sysadmin": {
     eyebrow: "Infrastructure & Networking",
-    title: "Utilities and references for networking, transport, protocols, and operational debugging",
+    title: "Utilities and references for networking, DNS, servers, security, and day-to-day operational debugging",
     description:
-      "This section groups the infrastructure-facing tools together so subnet math, HTTP references, request building, and systems references live in one place.",
+      "This section groups together practical infrastructure tools for address planning, DNS work, request debugging, certificates, logs, permissions, and server operations.",
     sections: [
       {
         title: "Addressing & Network Math",
-        description: "Core helpers for IP planning, ranges, and subnet understanding.",
-        slugs: ["subnet-calculator", "cidr-notation-guide"]
+        description: "Core helpers for IP planning, subnet sizing, IPv6 handling, and network boundary math.",
+        slugs: [
+          "subnet-calculator",
+          "cidr-notation-guide",
+          "cidr-ip-range-converter",
+          "ipv6-expand-compress",
+          "wildcard-mask-calculator",
+          "vlsm-subnet-splitter",
+          "private-public-ip-classifier"
+        ]
       },
       {
-        title: "Requests & Protocols",
-        description: "HTTP-oriented tools for request building and response interpretation.",
-        slugs: ["curl-command-builder", "http-status-codes", "port-reference-list"]
+        title: "DNS & Domain Records",
+        description: "Build, validate, and understand practical DNS records used in production environments.",
+        slugs: [
+          "dns-record-types",
+          "dns-record-builder",
+          "dns-zone-file-generator",
+          "reverse-dns-ptr-helper",
+          "spf-record-builder",
+          "dkim-record-formatter",
+          "dmarc-record-builder"
+        ]
       },
       {
-        title: "Infra References",
-        description: "Reference material for DNS, SSH keys, and operational log workflows.",
-        slugs: ["ssh-key-format-reference", "dns-record-types", "log-parser-helper"]
+        title: "HTTP & Web Infrastructure",
+        description: "Inspect requests, headers, caching, cookies, and common web infrastructure behavior.",
+        slugs: [
+          "curl-command-builder",
+          "http-status-codes",
+          "raw-http-header-parser",
+          "security-headers-checker",
+          "cache-control-builder",
+          "cors-header-builder",
+          "cookie-inspector"
+        ]
+      },
+      {
+        title: "SSH, TLS & Certificates",
+        description: "Work through SSH setup, PEM and CSR inspection, chains, and OpenSSL helper workflows.",
+        slugs: [
+          "ssh-key-format-reference",
+          "ssh-config-builder",
+          "ssh-known-hosts-parser",
+          "pem-crt-csr-inspector",
+          "certificate-chain-explainer",
+          "openssl-command-builder"
+        ]
+      },
+      {
+        title: "Logs & Monitoring",
+        description: "Parse common operational logs and make recurring troubleshooting inputs easier to inspect.",
+        slugs: [
+          "log-parser-helper",
+          "nginx-log-parser",
+          "syslog-parser",
+          "linux-cron-builder"
+        ]
+      },
+      {
+        title: "Permissions, Services & Server Ops",
+        description: "Cover ports, file permissions, unit files, and common Linux administration tasks.",
+        slugs: [
+          "port-reference-list",
+          "file-permission-calculator",
+          "chmod-symbolic-numeric-converter",
+          "systemd-unit-file-builder"
+        ]
       }
     ]
   },

@@ -159,7 +159,7 @@ export function getToolHref(tool: Tool): string {
   }
 
   if (tool.category === "dummy-data") {
-    return dummyDataRoutes[tool.slug] ?? "/tools/dummy-data/users";
+    return dummyDataRoutes[tool.slug] ?? `/tools/${tool.slug}`;
   }
 
   if (tool.category === "design-utils") {
