@@ -5,18 +5,24 @@ import type { Metadata } from "next";
 import type { LucideIcon } from "lucide-react";
 
 import { Breadcrumbs } from "@/components/Breadcrumbs";
+import { ASN1PEMViewerTool } from "@/components/tools/ASN1PEMViewerTool";
 import { Base64EncoderDecoderTool } from "@/components/tools/Base64EncoderDecoderTool";
+import { BinaryDecimalHexConverterTool } from "@/components/tools/BinaryDecimalHexConverterTool";
 import { CurlBuilderTool } from "@/components/tools/CurlBuilderTool";
 import { CSSBeautifierMinifierTool } from "@/components/tools/CSSBeautifierMinifierTool";
 import { ColorConverterTool } from "@/components/tools/ColorConverterTool";
 import { CSVToJSONTool } from "@/components/tools/CSVToJSONTool";
 import { HashGeneratorTool } from "@/components/tools/HashGeneratorTool";
+import { HexEncoderDecoderTool } from "@/components/tools/HexEncoderDecoderTool";
 import { HTMLBeautifierMinifierTool } from "@/components/tools/HTMLBeautifierMinifierTool";
 import { HTTPStatusCodesTool } from "@/components/tools/HTTPStatusCodesTool";
+import { HTMLEntityEncoderDecoderTool } from "@/components/tools/HTMLEntityEncoderDecoderTool";
 import { JSONFormatterTool } from "@/components/tools/JSONFormatterTool";
 import { JSONToCSVTool } from "@/components/tools/JSONToCSVTool";
 import { MarkdownHTMLPreviewTool } from "@/components/tools/MarkdownHTMLPreviewTool";
 import { JWTDecoderTool } from "@/components/tools/JWTDecoderTool";
+import { JWTGeneratorTool } from "@/components/tools/JWTGeneratorTool";
+import { QRCodeGeneratorReaderTool } from "@/components/tools/QRCodeGeneratorReaderTool";
 import { PortReferenceTool } from "@/components/tools/PortReferenceTool";
 import { QueryStringParserBuilderTool } from "@/components/tools/QueryStringParserBuilderTool";
 import { RegexTesterTool } from "@/components/tools/RegexTesterTool";
@@ -26,6 +32,7 @@ import { TimestampConverterTool } from "@/components/tools/TimestampConverterToo
 import { TOMLFormatterTool } from "@/components/tools/TOMLFormatterTool";
 import { ToolShell } from "@/components/tools/ToolShell";
 import { URLEncoderDecoderTool } from "@/components/tools/URLEncoderDecoderTool";
+import { URLParserTool } from "@/components/tools/URLParserTool";
 import { UUIDGeneratorTool } from "@/components/tools/UUIDGeneratorTool";
 import { XMLFormatterTool } from "@/components/tools/XMLFormatterTool";
 import { YAMLFormatterTool } from "@/components/tools/YAMLFormatterTool";
@@ -49,10 +56,17 @@ const implementedToolComponentMap: Record<string, () => JSX.Element> = {
   "sql-formatter": SQLFormatterTool,
   "markdown-html-preview": MarkdownHTMLPreviewTool,
   "query-string-parser-builder": QueryStringParserBuilderTool,
+  "qr-code-generator-reader": QRCodeGeneratorReaderTool,
   "color-converter": ColorConverterTool,
+  "html-entity-encoder-decoder": HTMLEntityEncoderDecoderTool,
+  "hex-encoder-decoder": HexEncoderDecoderTool,
+  "binary-decimal-hex-converter": BinaryDecimalHexConverterTool,
+  "asn1-pem-viewer": ASN1PEMViewerTool,
   "base64-encoder-decoder": Base64EncoderDecoderTool,
   "url-encoder": URLEncoderDecoderTool,
+  "url-parser": URLParserTool,
   "jwt-decoder": JWTDecoderTool,
+  "jwt-generator": JWTGeneratorTool,
   "uuid-generator": UUIDGeneratorTool,
   "timestamp-converter": TimestampConverterTool,
   "regex-tester": RegexTesterTool,
