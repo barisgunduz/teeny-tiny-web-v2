@@ -2,6 +2,7 @@
 
 import { useMemo, useState } from "react";
 
+import { CodeEditorTextarea } from "@/components/tools/CodeEditorTextarea";
 import { CopyButton } from "@/components/tools/CopyButton";
 import { ToolPanel, ToolShell } from "@/components/tools/ToolShell";
 
@@ -49,21 +50,18 @@ export function JSONFormatterTool() {
 
       <div className="grid gap-4 lg:grid-cols-2">
         <ToolPanel title="Input JSON">
-          <textarea
+          <CodeEditorTextarea
             value={input}
             onChange={(event) => setInput(event.target.value)}
-            className={`min-h-[320px] w-full rounded-2xl border bg-black/20 p-4 font-mono text-sm outline-none transition ${result.error ? "border-[#ef4444] text-[#fecaca]" : "border-[#27272a] text-[#e4e4e7] focus:border-[#22c55e]"}`}
-            spellCheck={false}
+            error={Boolean(result.error)}
           />
           {result.error ? <p className="mt-3 text-sm text-[#fca5a5]">{result.error}</p> : null}
         </ToolPanel>
 
         <ToolPanel title="Output" tone={result.error ? "rose" : "green"}>
-          <textarea
+          <CodeEditorTextarea
             readOnly
             value={result.output}
-            className="min-h-[320px] w-full rounded-2xl border border-[#27272a] bg-black/20 p-4 font-mono text-sm text-[#d4d4d8] outline-none"
-            spellCheck={false}
           />
         </ToolPanel>
       </div>

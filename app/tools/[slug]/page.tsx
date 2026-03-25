@@ -15,9 +15,12 @@ import { PortReferenceTool } from "@/components/tools/PortReferenceTool";
 import { RegexTesterTool } from "@/components/tools/RegexTesterTool";
 import { SubnetCalculatorTool } from "@/components/tools/SubnetCalculatorTool";
 import { TimestampConverterTool } from "@/components/tools/TimestampConverterTool";
+import { TOMLFormatterTool } from "@/components/tools/TOMLFormatterTool";
 import { ToolShell } from "@/components/tools/ToolShell";
 import { URLEncoderDecoderTool } from "@/components/tools/URLEncoderDecoderTool";
 import { UUIDGeneratorTool } from "@/components/tools/UUIDGeneratorTool";
+import { XMLFormatterTool } from "@/components/tools/XMLFormatterTool";
+import { YAMLFormatterTool } from "@/components/tools/YAMLFormatterTool";
 import { getCategoryHref } from "@/lib/category-routes";
 import { categoriesBySlug } from "@/lib/data/categories";
 import { tools } from "@/lib/data/tools";
@@ -28,6 +31,9 @@ const FALLBACK_ICON = LucideIcons.SquareTerminal;
 
 const implementedToolComponentMap: Record<string, () => JSX.Element> = {
   "json-formatter": JSONFormatterTool,
+  "xml-formatter": XMLFormatterTool,
+  "yaml-formatter": YAMLFormatterTool,
+  "toml-formatter": TOMLFormatterTool,
   "base64-encoder-decoder": Base64EncoderDecoderTool,
   "url-encoder": URLEncoderDecoderTool,
   "jwt-decoder": JWTDecoderTool,

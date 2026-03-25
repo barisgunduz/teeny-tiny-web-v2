@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@iarna/toml": "^2.2.5",
     "@uiw/react-codemirror": "^4.24.1",
     "cmdk": "^1.1.1",
     "fuse.js": "^7.0.0",
