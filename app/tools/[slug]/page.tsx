@@ -8,14 +8,17 @@ import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { Base64EncoderDecoderTool } from "@/components/tools/Base64EncoderDecoderTool";
 import { CurlBuilderTool } from "@/components/tools/CurlBuilderTool";
 import { CSSBeautifierMinifierTool } from "@/components/tools/CSSBeautifierMinifierTool";
+import { ColorConverterTool } from "@/components/tools/ColorConverterTool";
 import { CSVToJSONTool } from "@/components/tools/CSVToJSONTool";
 import { HashGeneratorTool } from "@/components/tools/HashGeneratorTool";
 import { HTMLBeautifierMinifierTool } from "@/components/tools/HTMLBeautifierMinifierTool";
 import { HTTPStatusCodesTool } from "@/components/tools/HTTPStatusCodesTool";
 import { JSONFormatterTool } from "@/components/tools/JSONFormatterTool";
 import { JSONToCSVTool } from "@/components/tools/JSONToCSVTool";
+import { MarkdownHTMLPreviewTool } from "@/components/tools/MarkdownHTMLPreviewTool";
 import { JWTDecoderTool } from "@/components/tools/JWTDecoderTool";
 import { PortReferenceTool } from "@/components/tools/PortReferenceTool";
+import { QueryStringParserBuilderTool } from "@/components/tools/QueryStringParserBuilderTool";
 import { RegexTesterTool } from "@/components/tools/RegexTesterTool";
 import { SQLFormatterTool } from "@/components/tools/SQLFormatterTool";
 import { SubnetCalculatorTool } from "@/components/tools/SubnetCalculatorTool";
@@ -44,6 +47,9 @@ const implementedToolComponentMap: Record<string, () => JSX.Element> = {
   "html-beautifier-minifier": HTMLBeautifierMinifierTool,
   "css-beautifier-minifier": CSSBeautifierMinifierTool,
   "sql-formatter": SQLFormatterTool,
+  "markdown-html-preview": MarkdownHTMLPreviewTool,
+  "query-string-parser-builder": QueryStringParserBuilderTool,
+  "color-converter": ColorConverterTool,
   "base64-encoder-decoder": Base64EncoderDecoderTool,
   "url-encoder": URLEncoderDecoderTool,
   "jwt-decoder": JWTDecoderTool,
