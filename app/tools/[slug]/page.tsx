@@ -17,6 +17,7 @@ import { JSONToCSVTool } from "@/components/tools/JSONToCSVTool";
 import { JWTDecoderTool } from "@/components/tools/JWTDecoderTool";
 import { PortReferenceTool } from "@/components/tools/PortReferenceTool";
 import { RegexTesterTool } from "@/components/tools/RegexTesterTool";
+import { SQLFormatterTool } from "@/components/tools/SQLFormatterTool";
 import { SubnetCalculatorTool } from "@/components/tools/SubnetCalculatorTool";
 import { TimestampConverterTool } from "@/components/tools/TimestampConverterTool";
 import { TOMLFormatterTool } from "@/components/tools/TOMLFormatterTool";
@@ -42,6 +43,7 @@ const implementedToolComponentMap: Record<string, () => JSX.Element> = {
   "json-to-csv": JSONToCSVTool,
   "html-beautifier-minifier": HTMLBeautifierMinifierTool,
   "css-beautifier-minifier": CSSBeautifierMinifierTool,
+  "sql-formatter": SQLFormatterTool,
   "base64-encoder-decoder": Base64EncoderDecoderTool,
   "url-encoder": URLEncoderDecoderTool,
   "jwt-decoder": JWTDecoderTool,
