@@ -7,8 +7,10 @@ import type { LucideIcon } from "lucide-react";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { Base64EncoderDecoderTool } from "@/components/tools/Base64EncoderDecoderTool";
 import { CurlBuilderTool } from "@/components/tools/CurlBuilderTool";
+import { CSSBeautifierMinifierTool } from "@/components/tools/CSSBeautifierMinifierTool";
 import { CSVToJSONTool } from "@/components/tools/CSVToJSONTool";
 import { HashGeneratorTool } from "@/components/tools/HashGeneratorTool";
+import { HTMLBeautifierMinifierTool } from "@/components/tools/HTMLBeautifierMinifierTool";
 import { HTTPStatusCodesTool } from "@/components/tools/HTTPStatusCodesTool";
 import { JSONFormatterTool } from "@/components/tools/JSONFormatterTool";
 import { JSONToCSVTool } from "@/components/tools/JSONToCSVTool";
@@ -38,6 +40,8 @@ const implementedToolComponentMap: Record<string, () => JSX.Element> = {
   "toml-formatter": TOMLFormatterTool,
   "csv-to-json": CSVToJSONTool,
   "json-to-csv": JSONToCSVTool,
+  "html-beautifier-minifier": HTMLBeautifierMinifierTool,
+  "css-beautifier-minifier": CSSBeautifierMinifierTool,
   "base64-encoder-decoder": Base64EncoderDecoderTool,
   "url-encoder": URLEncoderDecoderTool,
   "jwt-decoder": JWTDecoderTool,
