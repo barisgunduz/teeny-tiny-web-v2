@@ -7,9 +7,11 @@ import type { LucideIcon } from "lucide-react";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { Base64EncoderDecoderTool } from "@/components/tools/Base64EncoderDecoderTool";
 import { CurlBuilderTool } from "@/components/tools/CurlBuilderTool";
+import { CSVToJSONTool } from "@/components/tools/CSVToJSONTool";
 import { HashGeneratorTool } from "@/components/tools/HashGeneratorTool";
 import { HTTPStatusCodesTool } from "@/components/tools/HTTPStatusCodesTool";
 import { JSONFormatterTool } from "@/components/tools/JSONFormatterTool";
+import { JSONToCSVTool } from "@/components/tools/JSONToCSVTool";
 import { JWTDecoderTool } from "@/components/tools/JWTDecoderTool";
 import { PortReferenceTool } from "@/components/tools/PortReferenceTool";
 import { RegexTesterTool } from "@/components/tools/RegexTesterTool";
@@ -34,6 +36,8 @@ const implementedToolComponentMap: Record<string, () => JSX.Element> = {
   "xml-formatter": XMLFormatterTool,
   "yaml-formatter": YAMLFormatterTool,
   "toml-formatter": TOMLFormatterTool,
+  "csv-to-json": CSVToJSONTool,
+  "json-to-csv": JSONToCSVTool,
   "base64-encoder-decoder": Base64EncoderDecoderTool,
   "url-encoder": URLEncoderDecoderTool,
   "jwt-decoder": JWTDecoderTool,
